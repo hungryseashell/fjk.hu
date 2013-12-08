@@ -1,49 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }}</title>
 
-    {% stylesheet site %}
-  </head>
-  <body>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <header>
-      <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="/">{{ site.name }}</a></h1>
-          </li>
-        </ul>
-        <section class="top-bar-section">
-          <ul class="left">
-            <li><a href="/">home</a></li>
-          </ul>
-        </section>
-      </nav>
-    </header>
+<meta property="og:site_name" content="FJK">
+<meta property="og:title" content="Fiatalok Jézusért Konferencia">
+<meta property="og:description" content="Az FJK egy fiatalok által fiataloknak szervezett adventista konferencia. Az évente megrendezésre kerülő eseményen az előadások, szemináriumok és a találkozási lehetőségek a résztvevő ifjakat hitük megújítására, életük megreformálására és a H.N. Adventista Egyház tevékeny támogatására buzdítják, hogy a Hármas Angyali Üzenet ennek a generációnak a segítségével eljuthasson az egész világra.">
+<meta property="og:image" content="http://fjk.hu/assets/images/fjk_logo.png">
 
-    <main>
-      {{ content }}
-    </main>
+<title>{% if page.title %}FJK ✢ {{ page.title }}{% else %}Fiatalok Jézusért Konferencia{% endif %}</title>
+<meta name="description" content="Az FJK egy fiatalok által fiataloknak szervezett adventista konferencia. Az évente megrendezésre kerülő eseményen az előadások, szemináriumok és a találkozási lehetőségek a résztvevő ifjakat hitük megújítására, életük megreformálására és a H.N. Adventista Egyház tevékeny támogatására buzdítják, hogy a Hármas Angyali Üzenet ennek a generációnak a segítségével eljuthasson az egész világra.">
+<meta name="keywords" content="Fiatalok, Jézus, Konferencia, Ifjúság, Keresztény, Biblia, Adventista">
 
-    <footer>
-      <section class="contact">
-        <p>
-          Your Name<br />
-          What You Are<br />
-          you@example.com
-        </p>
-      </section>
-      <section class="contact">
-        <p>
-          <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-          <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-        </p>
-      </section>
-    </footer>
+<link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
 
-    {% javascript site %}
-  </body>
+{% stylesheet site %}
+</head>
+
+<body>
+
+{{ content }}
+
+{% javascript site %}
+</body>
+
 </html>
