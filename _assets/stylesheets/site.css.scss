@@ -4,32 +4,26 @@
 @import "foundation";
 
 
-header {
-  @include grid-row;
-  padding-bottom: em-calc(10px);
-}
+#slide-fjk2014 {
+  padding: 25% 0 15%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 
-main {
-  @include grid-row;
+  @media #{$small-up}  { background-image: image-url("2014/bg-s.jpg"); }
+  @media #{$medium-up} { background-image: image-url("2014/bg-m.jpg"); }
+  @media #{$large-up}  { background-image: image-url("2014/bg-l.jpg"); }
+  @media #{$xlarge-up} { background-image: image-url("2014/bg-xl.jpg"); }
 
-  aside  {
-    @include grid-column($columns:6);
-    // @media #{$medium-up} {
-    //   @include grid-column($columns:3);
-    // }
+  > div {
+    text-align: center;
   }
 
-  article  {
-    @include grid-column($columns:6);
-    // @media #{$medium-up} {
-    //   @include grid-column($columns:8, $offset: 1);
-    // }
+  * {
+    color: #eee;
   }
-}
 
-footer {
-  @include grid-row;
-  section {
-    @include grid-column(6);
+  blockquote {
+    border-width: 0;
   }
 }
