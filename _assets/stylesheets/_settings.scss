@@ -3,7 +3,7 @@
 //
 
 // Uncomment to use rem-calc() in your settings
-// @import "foundation/functions";
+@import "foundation/functions";
 
 // $experimental: true;
 
@@ -19,7 +19,7 @@
 // $base-line-height: 150%;
 
 // This is the default html and body font-size for the base rem value.
-// $rem-base: 16px;
+$rem-base: 16px;
 
 // We use this to control whether or not CSS classes come through in the gem files.
 // $include-html-classes: true;
@@ -52,12 +52,12 @@ $include-open-sans: false;
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
+$primary-color: #f6aa00;
+$secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+$info-color: #abc4f5;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -479,7 +479,7 @@ $include-open-sans: false;
 // $include-html-magellan-classes: $include-html-classes;
 
 // $magellan-bg: #fff;
-// $magellan-padding: 10px;
+$magellan-padding: 0;
 
 // Off-canvas
 
@@ -932,11 +932,11 @@ $include-open-sans: false;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
+$topbar-bg-color: #eee;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-// $topbar-height: 45px;
+$topbar-height: 50px;
 // $topbar-margin-bottom: 0;
 
 // Control Input height for top bar
@@ -945,42 +945,42 @@ $include-open-sans: false;
 // $topbar-title-weight: normal;
 // $topbar-title-font-size: rem-calc(17);
 
-// Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
-// $topbar-dropdown-link-bg: #333;
-// $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
-// $topbar-dropdown-toggle-alpha: 0.4;
-
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
-// $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
+$topbar-link-color: #333;
+$topbar-link-color-hover: $topbar-link-color;
+$topbar-link-color-active: $primary-color;
 // $topbar-link-weight: normal;
-// $topbar-link-font-size: rem-calc(13);
+$topbar-link-font-size: rem-calc(17);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
-// $topbar-link-bg-hover: #272727  ;
-// $topbar-link-bg-active: $primary-color;
-// $topbar-link-bg-active-hover: darken($primary-color, 5%);
+$topbar-link-bg-hover: darken($topbar-bg-color, 5%);
+$topbar-link-bg-active: $topbar-bg-color;
+$topbar-link-bg-active-hover: darken($topbar-link-bg-active, 5%);
 // $topbar-link-font-family: $body-font-family;
 
-// $topbar-button-font-size: 0.75rem;
+// Style the top bar dropdown elements
+$topbar-dropdown-bg: $topbar-bg-color;
+$topbar-dropdown-link-color: $topbar-link-color;
+$topbar-dropdown-link-bg: $topbar-dropdown-bg;
+// $topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: $topbar-dropdown-link-color;
+// $topbar-dropdown-toggle-alpha: 0.4;
 
-// $topbar-dropdown-label-color: #777;
+$topbar-dropdown-label-color: darken($topbar-dropdown-link-color, 20%);
 // $topbar-dropdown-label-text-transform: uppercase;
 // $topbar-dropdown-label-font-weight: bold;
 // $topbar-dropdown-label-font-size: rem-calc(10);
-// $topbar-dropdown-label-bg: #333;
+$topbar-dropdown-label-bg: $topbar-dropdown-bg;
+
+// $topbar-button-font-size: 0.75rem;
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
-// $topbar-menu-icon-color-toggled: #888;
+$topbar-menu-link-color: $topbar-link-color;
+$topbar-menu-icon-color: $topbar-link-color;
+$topbar-menu-link-color-toggled: darken($topbar-menu-link-color, 20%);
+$topbar-menu-icon-color-toggled: darken($topbar-menu-icon-color, 20%);
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;

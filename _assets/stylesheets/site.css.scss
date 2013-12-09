@@ -3,8 +3,9 @@
 @import "settings";
 @import "foundation";
 
+body > section { min-height: 500px; }
 
-#slide-fjk2014 {
+#cover-fjk2014 {
   padding: 25% 0 15%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -26,4 +27,18 @@
   blockquote {
     border-width: 0;
   }
+}
+
+#konferencia {
+  background-color: #fff;
+}
+
+#alapelvek {
+  background-color: #3c3a47;
+  h1 { color: #eee; }
+}
+
+#vezetoseg {
+  background-color: #a1b59a;
+  color: #ff9d00;
 }
