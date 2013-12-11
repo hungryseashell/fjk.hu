@@ -30,7 +30,13 @@ body > section { min-height: 500px; }
 }
 
 #konferencia {
+  padding-top: 2em;
   background-color: #fff;
+
+  h1 {
+    font-weight: bold;
+    color: $primary-color;
+  }
 }
 
 #alapelvek {
