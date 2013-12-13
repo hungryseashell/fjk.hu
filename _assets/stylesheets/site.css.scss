@@ -42,3 +42,13 @@ section.content {
 #alapelvek, #vezetoseg {
   border-top: 1px solid black;
 }
+
+footer {
+  padding-top: 50px;
+  background-color: #222;
+  color: #aaa;
+
+  .copyright {
+    margin-top: 2em;
+  }
+}
