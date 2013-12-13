@@ -30,7 +30,7 @@ body > section { min-height: 500px; }
 }
 
 #konferencia {
-  padding-top: 2em;
+  padding-top: $topbar-height;
   background-color: #fff;
 
   h1 {
