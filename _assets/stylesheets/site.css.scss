@@ -29,7 +29,7 @@ body > section { min-height: 500px; }
   }
 }
 
-#konferencia {
+section.content {
   padding-top: $topbar-height;
   background-color: #fff;
 
@@ -39,12 +39,6 @@ body > section { min-height: 500px; }
   }
 }
 
-#alapelvek {
-  background-color: #3c3a47;
-  h1 { color: #eee; }
-}
-
-#vezetoseg {
-  background-color: #a1b59a;
-  color: #ff9d00;
+#alapelvek, #vezetoseg {
+  border-top: 1px solid black;
 }
