@@ -1,8 +1,18 @@
 #= require modernizr
 #= require jquery
 #= require foundation
+#= require jquery.stellar
+
+#= require parallax-slides
 
 $(document).foundation()
+
+$(window).stellar
+  horizontalScrolling: false
+  positionProperty: 'transform'
+  hideDistantElements: false
+
+new ParallaxSlides()
 
 do ->
   anchorsWrapper = $('[data-anchors]')

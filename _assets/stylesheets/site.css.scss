@@ -3,18 +3,46 @@
 @import "settings";
 @import "foundation";
 
-body > section { min-height: 500px; }
+.slide {
+  position: fixed;
 
-#cover-fjk2014 {
+  img {
+    position: absolute;
+  }
+}
+
+@mixin responsive-bg($path-prefix) {
+  @media #{$small-up}  {
+    background-image: image-url("#{$path-prefix}-s.jpg");
+  }
+  @media #{$medium-up} {
+    background-image: image-url("#{$path-prefix}-m.jpg");
+  }
+  @media #{$large-up}  {
+    background-image: image-url("#{$path-prefix}-l.jpg");
+  }
+  @media #{$xlarge-up} {
+    background-image: image-url("#{$path-prefix}-xl.jpg");
+  }
+}
+
+@mixin responsive-height($path-prefix) {
+  @media #{$small-up}  {
+    height: image-height("_assets/images/#{$path-prefix}-s.jpg");
+  }
+  @media #{$medium-up} {
+    height: image-height("_assets/images/#{$path-prefix}-m.jpg");
+  }
+  @media #{$large-up}  {
+    height: image-height("_assets/images/#{$path-prefix}-l.jpg");
+  }
+  @media #{$xlarge-up} {
+    height: image-height("_assets/images/#{$path-prefix}-xl.jpg");
+  }
+}
+
+#fjk2014 {
   padding: 25% 0 15%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-
-  @media #{$small-up}  { background-image: image-url("2014/bg-s.jpg"); }
-  @media #{$medium-up} { background-image: image-url("2014/bg-m.jpg"); }
-  @media #{$large-up}  { background-image: image-url("2014/bg-l.jpg"); }
-  @media #{$xlarge-up} { background-image: image-url("2014/bg-xl.jpg"); }
 
   > div {
     text-align: center;
@@ -30,6 +58,7 @@ body > section { min-height: 500px; }
 }
 
 section.content {
+  position: relative;
   padding-top: $topbar-height;
   background-color: #fff;
 

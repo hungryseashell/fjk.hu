@@ -5,6 +5,7 @@
   "dependencies": {
     "foundation": "zurb/bower-foundation",
     "jquery": "~2.0.3",
-    "modernizr": "*"
+    "modernizr": "*",
+    "jquery.stellar": "*"
   }
 }
