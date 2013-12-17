@@ -68,8 +68,14 @@ section.content {
   }
 }
 
-#alapelvek, #vezetoseg {
-  border-top: 1px solid black;
+.photo-insert {
+  position: relative;
+  top: -1px;
+  left: 0;
+  right: 0;
+
+  @include responsive-bg("wheat");
+  @include responsive-height("wheat");
 }
 
 footer {
