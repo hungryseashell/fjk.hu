@@ -3,16 +3,22 @@
 #= require foundation
 #= require jquery.stellar
 
-#= require parallax-slides
-
 $(document).foundation()
 
-$(window).stellar
-  horizontalScrolling: false
-  positionProperty: 'transform'
-  hideDistantElements: false
+unless Modernizr.touch
+  setStellarOffset = ->
+    $('#fjk2014').each ->
+      $section = $(this)
+      diff = $section.outerHeight() - $section.outerWidth()
+      offset = diff < 0 ? diff : 0
+      $section.data('stellar-vertical-offset', diff/2 + 50)
 
-new ParallaxSlides()
+  setStellarOffset()
+  $(window).on 'resize', setStellarOffset
+
+  $(window).stellar
+    horizontalScrolling: false
+    responsive: true
 
 do ->
   anchorsWrapper = $('[data-anchors]')

@@ -1,48 +1,14 @@
 @import url(//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,latin-ext);
 
 @import "settings";
+@import "mixins";
 @import "foundation";
-
-.slide {
-  position: fixed;
-
-  img {
-    position: absolute;
-  }
-}
-
-@mixin responsive-bg($path-prefix) {
-  @media #{$small-up}  {
-    background-image: image-url("#{$path-prefix}-s.jpg");
-  }
-  @media #{$medium-up} {
-    background-image: image-url("#{$path-prefix}-m.jpg");
-  }
-  @media #{$large-up}  {
-    background-image: image-url("#{$path-prefix}-l.jpg");
-  }
-  @media #{$xlarge-up} {
-    background-image: image-url("#{$path-prefix}-xl.jpg");
-  }
-}
-
-@mixin responsive-height($path-prefix) {
-  @media #{$small-up}  {
-    height: image-height("_assets/images/#{$path-prefix}-s.jpg");
-  }
-  @media #{$medium-up} {
-    height: image-height("_assets/images/#{$path-prefix}-m.jpg");
-  }
-  @media #{$large-up}  {
-    height: image-height("_assets/images/#{$path-prefix}-l.jpg");
-  }
-  @media #{$xlarge-up} {
-    height: image-height("_assets/images/#{$path-prefix}-xl.jpg");
-  }
-}
 
 #fjk2014 {
   padding: 25% 0 15%;
+
+  @include bg-cover;
+  @include responsive-bg("2014/bg");
 
   > div {
     text-align: center;
