@@ -4,6 +4,8 @@
 #= require jquery.stellar
 #= require audio
 
+#= require ./media
+
 $(document).foundation()
 
 unless Modernizr.touch
@@ -51,7 +53,3 @@ do ->
     anchorsWrapper.find('li').removeClass 'active'
     if active
       anchorsWrapper.find("li:has(a[href$='##{active.attr('id')}'])").addClass('active')
-
-audiojs.createAll
-  imageLocation: "/vnd/player-graphics.gif"
-  swfLocation: "/vnd/audiojs.swf"
