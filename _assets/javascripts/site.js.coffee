@@ -33,13 +33,13 @@ do ->
     scrolltopPlusHeight = windowScrollTop + $(window).height()
     lastDestinationTop = Math.ceil(targets.last().offset().top)
 
-    threshold = -Math.floor($(window).height() / 3)
+    threshold = Math.floor($(window).height() / 3)
     active = null
 
     targets.each ->
       target = $(this)
       id = target.attr('id')
-      topOffset = target.offset().top - target.outerHeight(true) - windowScrollTop
+      topOffset = target.offset().top - windowScrollTop
 
       if topOffset <= threshold
         active = target
