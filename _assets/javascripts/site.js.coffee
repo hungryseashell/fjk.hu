@@ -24,7 +24,7 @@ do ->
   anchorsWrapper = $('[data-anchors]')
   return if anchorsWrapper.length == 0
 
-  anchors = anchorsWrapper.find('a')
+  anchors = anchorsWrapper.find('a[href!=#]')
   selectors = $.makeArray(anchors.map(-> $(this).attr('href').match(/#.*/)[0]))
   targets = $(selectors.join(', '))
 
