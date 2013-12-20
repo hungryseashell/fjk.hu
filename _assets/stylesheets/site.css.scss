@@ -21,6 +21,14 @@
   blockquote {
     border-width: 0;
   }
+
+  .button {
+    background-color: rgba($primary-color, 0.9);
+
+    &.secondary {
+      background-color: rgba($secondary-color, 0.9);
+    }
+  }
 }
 
 section.content {
