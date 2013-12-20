@@ -1,0 +1,11 @@
+{% assign base_url = "http://fjk-audio.s3-eu-west-1.amazonaws.com" %}
+<dt>{{ include.title }}</dt>
+<dd>
+{% if include.file %}
+{% capture audio_url %}{{ base_url }}{{ include.file }}{% endcapture %}
+  <audio src="{{ audio_url }}" preload="none"></audio>
+  <p><a href="{{ audio_url }}">Letöltés</a></p>
+{% else %}
+  <p>a felvétel nem elérhető</p>
+{% endif %}
+</dd>

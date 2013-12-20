@@ -2,6 +2,7 @@
 #= require jquery
 #= require foundation
 #= require jquery.stellar
+#= require audio
 
 $(document).foundation()
 
@@ -50,3 +51,7 @@ do ->
     anchorsWrapper.find('li').removeClass 'active'
     if active
       anchorsWrapper.find("li:has(a[href$='##{active.attr('id')}'])").addClass('active')
+
+audiojs.createAll
+  imageLocation: "/vnd/player-graphics.gif"
+  swfLocation: "/vnd/audiojs.swf"
