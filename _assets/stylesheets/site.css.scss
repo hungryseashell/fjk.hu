@@ -31,6 +31,14 @@
   }
 }
 
+#eloadok {
+  .th {
+    float: left;
+    width: 30%;
+    margin: 0 0.5em 0 0;
+  }
+}
+
 section.content {
   position: relative;
   padding-top: $topbar-height;

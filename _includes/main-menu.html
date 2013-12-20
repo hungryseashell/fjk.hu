@@ -1,3 +1,10 @@
+{% unless page.url == "/index.html" %}
+    <li><a href="/">Főoldal</a></li>
+{% endunless %}
+{% unless page.url == "/fjk-2014-emberek-es-angyalok-elott.html" %}
     <li><a href="/fjk-2014-emberek-es-angyalok-elott.html">{% unless include.simple %}Emberek és angyalok előtt – {% endunless %}FJK 2014</a></li>
+{% endunless %}
+{% unless page.url == "/media.html" %}
     <li><a href="/media.html">Felvételek</a></li>
+{% endunless %}
     <li><a href="https://www.facebook.com/FiatalokJezusertKonferencia">{% if include.simple %}Facebook{% else %}{% image facebook.png %}{% endif %}</a></li>
