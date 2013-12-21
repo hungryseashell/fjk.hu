@@ -9,13 +9,13 @@
 <meta property="og:site_name" content="FJK">
 <meta property="og:title" content="Fiatalok Jézusért Konferencia">
 <meta property="og:description" content="Az FJK egy fiatalok által fiataloknak szervezett adventista konferencia. Az évente megrendezésre kerülő eseményen az előadások, szemináriumok és a találkozási lehetőségek a résztvevő ifjakat hitük megújítására, életük megreformálására és a H.N. Adventista Egyház tevékeny támogatására buzdítják, hogy a Hármas Angyali Üzenet ennek a generációnak a segítségével eljuthasson az egész világra.">
-<meta property="og:image" content="http://fjk.hu/assets/images/fjk_logo.png">
+<meta property="og:image" content="http://fjk.hu{% asset_path logo.png %}">
 
 <title>{% if page.title %}FJK ✢ {{ page.title }}{% else %}Fiatalok Jézusért Konferencia{% endif %}</title>
 <meta name="description" content="Az FJK egy fiatalok által fiataloknak szervezett adventista konferencia. Az évente megrendezésre kerülő eseményen az előadások, szemináriumok és a találkozási lehetőségek a résztvevő ifjakat hitük megújítására, életük megreformálására és a H.N. Adventista Egyház tevékeny támogatására buzdítják, hogy a Hármas Angyali Üzenet ennek a generációnak a segítségével eljuthasson az egész világra.">
 <meta name="keywords" content="Fiatalok, Jézus, Konferencia, Ifjúság, Keresztény, Biblia, Adventista">
 
-<link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+<link rel="shortcut icon" type="image/ico" href="{% asset_path favicon.ico %}">
 
 {% stylesheet site %}
 </head>
