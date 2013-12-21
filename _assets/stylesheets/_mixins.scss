@@ -10,7 +10,6 @@
     #{$extra-query} and (   min--moz-device-pixel-ratio: 2),
     #{$extra-query} and (     -o-min-device-pixel-ratio: 2/1),
     #{$extra-query} and (        min-device-pixel-ratio: 2),
-    #{$extra-query} and (                min-resolution: 192dpi),
     #{$extra-query} and (                min-resolution: 2dppx) {
     background-image: $image-url;
   }
