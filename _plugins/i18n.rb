@@ -2,18 +2,17 @@ require 'i18n'
 
 I18n.enforce_available_locales = true
 I18n.load_path += Dir['_i18n/*.yml']
+I18n.default_locale = :hu
 
 module JekyllI18n
   module TranslateFilter
     def translate(input, context=nil)
       return unless input
-      context ||= @context
-      if lang = context.registers[:page]['lang']
-        I18n.locale = lang.to_sym
-        I18n.t(input.strip)
-      else
-        input.strip
-      end
+
+      text = input.strip
+
+      I18n.locale = (context || @context).registers[:page]['lang'].to_sym
+      I18n.t text, default: text
     end
 
     alias_method :t, :translate
@@ -36,7 +35,7 @@ module JekyllI18n
     def url
       super
       lang = data['lang']
-      return @url if lang.nil? or @url =~ %r{^/#{lang}/}
+      return @url if lang.nil? or lang == I18n.default_locale.to_s or @url =~ %r{^/#{lang}/}
       @url = "/#{lang}" + @url.sub(/\.#{lang}(\.[^.]*)$/, '\1')
     end
   end
@@ -48,12 +47,13 @@ module Jekyll
     alias_method :read_yaml_without_lang, :read_yaml
     def read_yaml(base, name, opts = {})
       read_yaml_without_lang(base, name, opts)
+
       lang = name.split('.')[-2]
-      if I18n.locale_available?(lang)
-        data['lang'] = lang
-        data['tags'] ||= []
-        data['tags'] << lang
-      end
+      lang = I18n.default_locale.to_s unless I18n.locale_available?(lang)
+
+      data['lang'] = lang
+      data['tags'] ||= []
+      data['tags'] << lang
       data
     end
 
