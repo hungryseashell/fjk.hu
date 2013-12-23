@@ -4,8 +4,8 @@
 {% if include.file %}
 {% capture audio_url %}{{ base_url }}{{ include.file }}{% endcapture %}
   <audio src="{{ audio_url }}" preload="none"></audio>
-  <p><a href="{{ audio_url }}">Letöltés</a></p>
+  <p><a href="{{ audio_url }}">{%t Letöltés %}</a></p>
 {% else %}
-  <p>a felvétel nem elérhető</p>
+  <p>{%t a felvétel nem elérhető %}</p>
 {% endif %}
 </dd>

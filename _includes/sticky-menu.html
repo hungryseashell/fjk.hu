@@ -2,7 +2,7 @@
   <nav class="top-bar" data-topbar>
     <ul class="title-area">
       <li class="name">
-        <h1><a href="#">{% image logo.png %}</a></h1>
+        <h1><a href="/{% unless page.lang == 'hu' %}{{ page.lang }}/{% endunless %}">{% image logo.png %}</a></h1>
       </li>
     </ul>
 
@@ -12,7 +12,12 @@
       </ul>
 
       <ul class="right">
-        {% include main-menu.html %}
+        {% if page.lang == 'hu' %}
+          {% include main-menu.html %}
+        {% else %}
+          {% capture main_menu_include %}main-menu.{{page.lang}}.html{% endcapture %}
+          {% include {{main_menu_include}} %}
+        {% endif %}
       </ul>
     </section>
   </nav>
