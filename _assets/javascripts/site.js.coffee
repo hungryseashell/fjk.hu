@@ -3,6 +3,7 @@
 #= require foundation
 #= require jquery.stellar
 #= require audio
+#= require moment
 
 #= require_self
 
