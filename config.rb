@@ -76,6 +76,33 @@ activate :directory_indexes
 # Reload the browser automatically whenever files change
 activate :livereload, host: 'fjk.dev'
 
+# Gzip text content
+activate :gzip
+
+# Deploy to S3
+activate :s3_sync do |c|
+  c.bucket = 'fjk.hu'
+  c.region = ENV['AWS_DEFAULT_REGION'] || 'us-west-1'
+  c.reduced_redundancy_storage = true
+end
+
+default_caching_policy max_age: 365*24*60*60
+caching_policy 'text/html', max_age: 300
+caching_policy 'image/x-icon', max_age: 24*60*60 # favicon doesn't have asset hash
+
+# Configure redirects on S3
+activate :s3_redirect do |c|
+  c.aws_access_key_id = ENV['AWS_ACCESS_KEY_ID']
+  c.aws_secret_access_key = ENV['AWS_SECRET_ACCESS_KEY']
+  c.bucket = 'fjk.hu'
+  c.region = ENV['AWS_DEFAULT_REGION'] || 'us-west-1'
+end
+
+redirect "/2014-emberek-es-angyalok-elott.html", "/2014-emberek-es-angyalok-elott/"
+redirect "/media.html", "/felvetelek/"
+redirect "/en/2014-before-men-and-angels.html", "/en/2014-before-men-and-angels/"
+redirect "/en/media.html", "/en/media/"
+
 ###
 # Paths
 ###
@@ -84,11 +111,14 @@ set :css_dir,    'stylesheets'
 set :js_dir,     'javascripts'
 set :images_dir, 'images'
 
-ready do
+after_configuration do
   %w[ modernizr jquery foundation/js jquery.stellar audiojs/audiojs momentjs ].each do |path|
     sprockets.append_path "#{root}/bower_components/#{path}"
   end
 end
+
+# Prevent building js templates into html
+ignore "/javascripts/**/*.erb"
 
 # Build-specific configuration
 configure :build do

@@ -21,7 +21,7 @@
         <% else %>
         <li><a href="#<%= id %>"><%= title %></a></li>
         <% end %>
-      <% end %>
+      <% end if current_page.data.anchors %>
       </ul>
 
       <ul class="right">
