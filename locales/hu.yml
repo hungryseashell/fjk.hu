@@ -1,0 +1,40 @@
+hu:
+  name: Fiatalok Jézusért Konferencia
+  short_name: FJK
+
+  paths:
+    index: index
+    conf_2014: 2014-emberek-es-angyalok-elott
+    media: felvetelek
+
+  menu:
+    lang: Magyar
+    menu: Menü
+    home: Főoldal
+    conf_2014: Emberek és angyalok előtt – FJK 2014
+    conf_2014_short: FJK 2014
+    media: Felvételek
+
+  description: |
+    Az FJK egy fiatalok által fiataloknak szervezett adventista
+    konferencia. Az évente megrendezésre kerülő eseményen az
+    előadások, szemináriumok és a találkozási lehetőségek a résztvevő
+    ifjakat hitük megújítására, életük megreformálására és a H.N.
+    Adventista Egyház tevékeny támogatására buzdítják, hogy a Hármas
+    Angyali Üzenet ennek a generációnak a segítségével eljuthasson az
+    egész világra.
+
+  home: Főoldal
+  contact: Kapcsolat
+
+  media:
+    download: Letöltés
+
+  conf_2014:
+    title: Emberek és angyalok előtt
+    dates: 2014. feb. 5-9.
+    location: Budapest
+    motto: „látványossága lettünk a világnak, úgy angyaloknak, mint embereknek” – 1Kor 4:9
+    register: Regisztrálj még ma!
+    register_url: http://reg.fjk.hu
+    more_info: Bővebb információ

@@ -1,0 +1,40 @@
+en:
+  name: Youth for Jesus Conference
+  short_name: FJK
+
+  paths:
+    index: index
+    conf_2014: 2014-before-men-and-angels
+    media: media
+
+  menu:
+    lang: English
+    menu: Menu
+    home: Homepage
+    conf_2014: Before Men and Angels – FJK 2014
+    conf_2014_short: FJK 2014
+    media: Media
+
+  description: |
+    FJK is an Adventist conference organized by young people for young
+    people. On this yearly occasion the attendees are encouraged by
+    sermons, seminars and meeting opportunities to renew their faith,
+    to reform their lives, and to actively support the Seventh-day
+    Adventist Church, so the Three Angel's Message can reach to the
+    whole world during this generation.
+
+  home: Home
+  contact: Contact
+
+  media:
+    download: Download
+    not_available: the recording is not available
+
+  conf_2014:
+    title: Before Men and Angels
+    dates: Feb 5-9, 2014
+    location: Budapest, Hungary
+    motto: “for we have been made a spectacle to the world, both to angels and to men” – 1Cor 4:9
+    register: Register today!
+    register_url: http://reg.fjk.hu/lang=eng
+    more_info: More Information

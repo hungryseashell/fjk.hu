@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:site_name" content="<%= t :short_name %>">
+<meta property="og:title" content="<%= t :name %>">
+<meta property="og:description" content="<%= t(:description).tr("\n", ' ') %>">
+<meta property="og:image" content="http://fjk.hu<%= image_path 'logo.png' %>">
+
+<title><%= current_page.data.title ? "#{t(:short_name)} ✢ #{current_page.data.title}" : t(:name) %></title>
+<meta name="description" content="<%= t(:description).tr("\n", ' ') %>">
+<meta name="keywords" content="Fiatalok, Jézus, Konferencia, Ifjúság, Keresztény, Biblia, Adventista, Youth, Jesus, Conference, Young People, Christian, Bible, Adventist">
+
+<%= favicon_tag 'images/favicon.ico' %>
+<%= stylesheet_link_tag :site %>
+<%= javascript_include_tag :mdrnzr %>
+</head>
+
+<body class="<%= page_classes %>">
+
+<div class="off-canvas-wrap"><div class="inner-wrap">
+
+<%= partial 'off_canvas_menu' %>
+
+<%= yield %>
+
+<%= partial 'footer' %>
+
+</div></div>
+
+<%= javascript_include_tag :site %>
+<%= partial 'google_analytics' %>
+</body>
+
+</html>

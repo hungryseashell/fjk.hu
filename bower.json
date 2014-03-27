@@ -5,9 +5,11 @@
   "dependencies": {
     "foundation": "zurb/bower-foundation",
     "jquery": "~2.0.3",
-    "modernizr": "*",
     "jquery.stellar": "*",
     "audiojs": "*",
     "momentjs": "~2.5.1"
+  },
+  "resolutions": {
+    "jquery": "~2.0.3"
   }
 }

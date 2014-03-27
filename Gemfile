@@ -1,8 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'jekyll-assets'
-gem 'compass'
-gem 'coffee-script'
-gem 'uglifier'
-gem 'i18n'
+gem "middleman", '~> 3.2.2'
+gem "middleman-livereload", '~> 3.1.0'

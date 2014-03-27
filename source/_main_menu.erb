@@ -1,0 +1,13 @@
+<% simple ||= false %>
+
+<%= menu_link 'home', '/' %>
+<%= menu_link "conf_2014#{'_short' if simple}", 'conf_2014' %>
+<%= menu_link 'media', 'media' %>
+
+<% (langs - [I18n.locale]).each do |lang| %>
+<%= menu_link 'lang', current_page_id, lang %>
+<% end %>
+
+<li>
+  <a href="https://www.facebook.com/FiatalokJezusertKonferencia"><%= simple ? 'Facebook' : image_tag('facebook.png') %></a>
+</li>

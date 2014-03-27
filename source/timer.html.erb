@@ -1,0 +1,43 @@
+---
+layout: false
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Stage Timer</title>
+
+<%= favicon_tag 'images/favicon.ico' %>
+<%= stylesheet_link_tag :site %>
+<%= javascript_include_tag :mdrnzr %>
+</head>
+
+<body class="timer">
+
+<section id="timers">
+  <div class="row">
+    <div class="medium-12 columns text-center">
+      <h1 class="section-countdown countdown">00:00:00</h1>
+      <h2 class="section-title">this is a title</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-6 columns text-center">
+      <h3 class="total-countdown countdown">00:00:00</h3>
+      <h4>total remaining</h4>
+    </div>
+    <div class="medium-6 columns text-center">
+      <h3 class="current-time">00:00:00</h3>
+      <h4>time</h4>
+    </div>
+  </div>
+</section>
+
+<%= javascript_include_tag :site %>
+</body>
+
+</html>
