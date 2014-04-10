@@ -33,6 +33,14 @@
   }
 }
 
+@mixin bg-ratio($path-prefix) {
+  line-height: image-width("#{$path-prefix}-xl.jpg") / image-height("#{$path-prefix}-xl.jpg");
+  
+  > .content {
+    line-height: 1;
+  }
+}
+
 @mixin responsive-height($path-prefix) {
   @media #{$small-up}  {
     height: image-height("#{$path-prefix}-s.jpg");

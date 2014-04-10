@@ -32,8 +32,14 @@
   }
 }
 
-#fjk2014 { @include responsive-bg("2014/bg"); }
-#fjk2015 { @include responsive-bg("2015/bg"); }
+#fjk2014 {
+  @include responsive-bg("2014/bg");
+  @include bg-ratio("2014/bg");
+}
+#fjk2015 {
+  @include responsive-bg("2015/bg");
+  @include bg-ratio("2015/bg");
+}
 
 section.speakers {
   .th {
