@@ -7,9 +7,23 @@
 @import "timer";
 
 .conf-intro {
-  padding: 25% 0 15%;
-
   @include bg-cover;
+
+  font-size: 0;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .content {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    font-size: rem-calc(16);
+  }
 
   > div {
     text-align: center;

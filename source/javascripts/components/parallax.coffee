@@ -2,6 +2,10 @@ return if Modernizr.touch
 
 confIntro = $('.conf-intro')
   
+introHeight = $(window).height() - 50
+if confIntro.outerHeight() < introHeight
+  confIntro.outerHeight(introHeight)
+
 setStellarOffset = ->
   confIntro.each ->
     $section = $(this)
