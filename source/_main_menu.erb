@@ -1,6 +1,7 @@
 <% simple ||= false %>
 
 <%= menu_link 'home', '/' %>
+<%= menu_link "conf_2015#{'_short' if simple}", 'conf_2015' %>
 <%= menu_link 'media', 'media' %>
 
 <% (langs - [I18n.locale]).each do |lang| %>
