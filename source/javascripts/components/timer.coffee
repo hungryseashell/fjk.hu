@@ -21,11 +21,29 @@ class Timer
     @totalMinutes = 0
     for title, minutes of @sections
       @totalMinutes += minutes
+    @serialize()
 
     this
 
+  serialize: ->
+    localStorage.timer = JSON.stringify
+      startTime: @startTime
+      sections: @sections
+
+  @storedTimerCurrent: ->
+    if localStorage.timer
+      {startTime, sections} = JSON.parse(localStorage.timer)
+      startTime = moment(startTime)
+      for title, minutes of sections
+        startTime.add(minutes, 'm')
+      startTime.isAfter()
+
+  @deserialize: ->
+    if localStorage.timer
+      {startTime, sections} = JSON.parse(localStorage.timer)
+      new Timer(moment(startTime), sections)
+
   start: ->
-    @reset()
     @update()
     this
 
@@ -76,13 +94,100 @@ class Timer
 
     @sectionTitle.text(title)
 
-window.timer = new Timer moment(hour: 10, minute: 15),
-  "ének": 9
-  "ima": 1
-  "információk": 5
-  "átadás": 20
-  "Szőllősi Enikő": 35
+class EditTimer
+  constructor: ->
+    @el = $('#edit-timer')
+    @startTime = @el.find('.start-time')
+    @sections = @el.find('.sections')
+    @endingTime = @el.find('.ending-time')
+    @totalDuration = @el.find('.total-duration')
 
-timer.start()
+    @el.on 'click', '.add-section', @addSection
+    @el.on 'click', '.remove-section', @removeSection
+    @el.on 'change', '.start-time, .duration', @updateTotals
+
+    @el.find('form').on 'invalid.fndtn.abide', ->
+      alert("Please fill in the required fields")
+    .on 'valid.fndtn.abide', @confirm
+
+    $(document).on 'open.fndtn.reveal', '#edit-timer', @populateForm
+
+  populateForm: =>
+    return if @startTime.val()
+
+    startTime = if window.timer
+      timer.startTime
+    else
+      moment().startOf('h').add(1, 'h')
+    @startTime.val(startTime.format('HH:mm'))
+
+    if window.timer
+      for title, duration of timer.sections
+        @addSection(title, duration)
+
+    @updateTotals()
+
+  addSection: (title, duration=0) =>
+    if typeof title is 'string'
+      position = "before"
+    else
+      title = ""
+      position = "after"
+
+    lastSection = @sections.children().last()
+    newSection = lastSection.clone()
+    newSection.find('.title').val(title)
+    newSection.find('.duration').val(duration)
+    newSection.find('.error').removeClass('error')
+    newSection.find('[data-invalid]').removeAttr('data-invalid')
+    lastSection[position](newSection)
+
+    @updateTotals()
+
+  removeSection: (e) =>
+    section = $(e.target).closest('li')
+    if @sections.children().length > 1
+      section.remove()
+    else
+      section.find('.title').val('')
+      section.find('.duration').val(0)
+    @updateTotals()
+
+  updateTotals: =>
+    minutes = 0
+    @sections.find('.duration').each ->
+      minutes += +$(this).val() || 0
+
+    @totalDuration.text(minutes)
+
+    endingTime = moment(@startTime.val(), "HH:mm")
+    if endingTime.isValid()
+      endingTime = endingTime.add(minutes, 'm')
+      @endingTime.text(endingTime.format("H:mm:ss"))
+    else
+      @endingTime.text("")
+
+  confirm: =>
+    startTime = moment(@startTime.val(), "HH:mm")
+    sections = {}
+    @sections.children().each ->
+      title = $(this).find('.title').val()
+      duration = +$(this).find('.duration').val()
+      sections[title] = duration
+
+    if window.timer
+      timer.reset(startTime, sections)
+    else
+      window.timer = new Timer(startTime, sections)
+
+    timer.start()
+    @el.foundation('reveal', 'close')
 
 window.Timer = Timer
+new EditTimer()
+
+if Timer.storedTimerCurrent()
+  window.timer = Timer.deserialize()
+  timer.start()
+else
+  $('#edit-timer').foundation('reveal', 'open')

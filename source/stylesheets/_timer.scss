@@ -32,3 +32,22 @@ body.timer {
     &.live { color: #2ecc40; }
   }
 }
+
+#edit-timer {
+  max-height: 80%;
+  overflow: auto;
+
+  .remove-section {
+    display: block;
+    margin-top: 21px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .totals {
+    margin-bottom: 1em;
+    line-height: 1.5;
+  }
+}

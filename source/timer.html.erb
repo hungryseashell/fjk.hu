@@ -22,19 +22,68 @@ layout: false
   <div class="row">
     <div class="medium-12 columns text-center">
       <h1 class="section-countdown countdown">00:00:00</h1>
-      <h2 class="section-title">this is a title</h2>
+      <h2 class="section-title">title</h2>
     </div>
   </div>
   <div class="row">
     <div class="medium-6 columns text-center">
       <h3 class="total-countdown countdown">00:00:00</h3>
       <h4>total remaining</h4>
+      <p><a href="#edit-timer" data-reveal-id="edit-timer">edit timer</a></p>
     </div>
     <div class="medium-6 columns text-center">
       <h3 class="current-time">00:00:00</h3>
       <h4>time</h4>
     </div>
   </div>
+</section>
+
+<section id="edit-timer" class="reveal-modal small" data-reveal>
+  <h4>Edit Timer</h4>
+  <form data-abide>
+    <div class="row">
+      <div class="medium-6 columns">
+        <label>Starting Time <input type="time" required pattern="[0-9]{2}:[0-9]{2}" class="start-time"></label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <h5>Sections</h5>
+        <ul class="sections no-bullet">
+          <li>
+            <div class="row">
+              <div class="small-8 columns">
+                <label>Title <input type="text" class="title"></label>
+              </div>
+              <div class="small-3 columns">
+                <label>Duration <input type="number" required class="duration" value="0" min="0" step="1"></label>
+              </div>
+              <div class="small-1 columns">
+                <a href="#" class="remove-section">×</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="row totals">
+          <div class="small-8 columns">
+            <a href="#" class="add-section">add section</a><br>
+            Total duration<br>
+            Ending time
+          </div>
+          <div class="small-4 columns">
+            <br>
+            <span class="total-duration"></span><br>
+            <span class="ending-time"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <input type="submit" class="button small" value="OK">
+      </div>
+    </div>
+  </form>
 </section>
 
 <%= javascript_include_tag :site %>
