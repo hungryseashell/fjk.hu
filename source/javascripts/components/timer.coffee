@@ -131,6 +131,7 @@ class EditTimer
     if typeof title is 'string'
       position = "before"
     else
+      title.preventDefault?()
       title = ""
       position = "after"
 
@@ -145,6 +146,7 @@ class EditTimer
     @updateTotals()
 
   removeSection: (e) =>
+    e.preventDefault()
     section = $(e.target).closest('li')
     if @sections.children().length > 1
       section.remove()
