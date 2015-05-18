@@ -6,13 +6,9 @@
       <%= t 'conf_2015.motto' %>
     </blockquote>
     <div class="buttons">
-      <a href="<%= t 'conf_2015.register_url' %>" target="_blank" class="button radius"><%= t 'conf_2015.register' %></a>
       <% unless on_page?('conf_2015') %>
       <%= link_to t('conf_2015.more_info'), p('conf_2015'), class: 'button secondary radius' %>
       <% end %>
-      <!-- <br>
-      <a href="<%= t 'conf_2015.program_url' %>" target="_blank" class="button radius" style="background-color:#C2430E;"><%= t 'conf_2015.programbutton' %></a>
-      -->
     </div>
   </div>
 </section>
