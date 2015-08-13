@@ -3,6 +3,17 @@ module.exports = function(grunt) {
   require('time-grunt')(grunt);
 
   grunt.initConfig({
+    less: {
+      production: {
+        options: {
+          paths: ['bower_components/bootstrap/less'],
+          yuicompress: true
+        },
+        files: {
+          'assets/css/fjk.min.css': '_less/fjk.less'
+        }
+      }
+    },
     uglify: {
       bootstrap: {
         files: {
@@ -31,9 +42,10 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('default', [ 'uglify', 'copy', 'exec:build' ]);
+  grunt.registerTask('default', [ 'less', 'uglify', 'copy', 'exec:build' ]);
 
 };
