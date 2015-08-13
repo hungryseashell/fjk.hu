@@ -13,4 +13,12 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-exclude: ['node_module', 'bower_components', 'Gruntfile.js', 'package.json', 'README.md', 'bower.json']
+exclude: [
+  'node_module',
+  'bower_components',
+  'Gruntfile.js',
+  'package.json',
+  'README.md',
+  'bower.json',
+  'tasks'
+]
