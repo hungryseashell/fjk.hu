@@ -1,0 +1,11 @@
+{
+  "name": "fjk.hu",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
