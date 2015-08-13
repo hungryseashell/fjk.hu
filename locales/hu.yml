@@ -4,6 +4,7 @@ hu:
 
   paths:
     index: index
+    conf_2015: 2015-a-keresztnel
     conf_2014: 2014-emberek-es-angyalok-elott
     media: felvetelek
 
@@ -11,6 +12,8 @@ hu:
     lang: Magyar
     menu: Menü
     home: Főoldal
+    conf_2015: A keresztnél - FJK 2015
+    conf_2015_short: FJK 2015
     conf_2014: Emberek és angyalok előtt – FJK 2014
     conf_2014_short: FJK 2014
     media: Felvételek
@@ -19,7 +22,7 @@ hu:
     Az FJK egy fiatalok által fiataloknak szervezett adventista
     konferencia. Az évente megrendezésre kerülő eseményen az
     előadások, szemináriumok és a találkozási lehetőségek a résztvevő
-    ifjakat hitük megújítására, életük megreformálására és a H.N.
+    ifjakat hitük megújítására, életük megreformálására és a Hetednapi
     Adventista Egyház tevékeny támogatására buzdítják, hogy a Hármas
     Angyali Üzenet ennek a generációnak a segítségével eljuthasson az
     egész világra.
@@ -29,6 +32,23 @@ hu:
 
   media:
     download: Letöltés
+    not_available: A felvétel jelenleg nem elérhető
+
+  conf_2016:
+    title: Küldetésben
+    dates: 2016. jan. 27–31.
+    location: Budapest
+    motto: "„És hallám az Úrnak szavát, aki ezt mondja vala:<br><i>Kit küldjek el és ki megyen el nékünk?</i><br>Én pedig mondék: <i>Ímhol vagyok én, küldj el engemet!</i>”<br>Ézs 6:8"
+
+  conf_2015:
+    title: A keresztnél
+    dates: 2015. jan. 28. – feb. 1.
+    location: Budapest
+    motto: "„Aki a mi bűneinket maga vitte fel testében a fára, hogy a bűnöknek meghalván, az igazságnak éljünk: akinek sebeivel gyógyultatok meg.”<br>I Péter 2:24"
+    register: Regisztrálj még ma!
+    register_url: http://reg.fjk.hu
+    more_info: Bővebb információ
+    programbutton: Programfüzet
 
   conf_2014:
     title: Emberek és angyalok előtt

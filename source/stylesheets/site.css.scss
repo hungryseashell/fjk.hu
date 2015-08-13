@@ -7,9 +7,23 @@
 @import "timer";
 
 .conf-intro {
-  padding: 25% 0 15%;
-
   @include bg-cover;
+
+  font-size: 0;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .content {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    font-size: rem-calc(16);
+  }
 
   > div {
     text-align: center;
@@ -32,7 +46,20 @@
   }
 }
 
-#fjk2014 { @include responsive-bg("2014/bg"); }
+#fjk2014 {
+  @include responsive-bg("2014/bg");
+  @include bg-ratio("2014/bg");
+}
+
+#fjk2015 {
+  @include responsive-bg("2015/bg");
+  @include bg-ratio("2015/bg");
+}
+
+#fjk2016 {
+  @include responsive-bg("2016/bg");
+  @include bg-ratio("2016/bg");
+}
 
 section.speakers {
   .th {
