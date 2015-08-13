@@ -5,7 +5,7 @@ module.exports = {
       tasks: ['less', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'exec:build']
     },
     html: {
-      files: ['_includes/**/*', '_layouts/**/*'],
+      files: ['_includes/**/*', '_layouts/**/*', '**/*.html'],
       tasks: ['default']
     },
     options: {

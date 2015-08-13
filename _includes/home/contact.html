@@ -1,0 +1,67 @@
+<section id="contact" class="contact-wr">
+
+  <div class="contact">
+    <h2>Küldj üzenetet</h2>
+
+    <form id="contact_form">
+      <div class="form-alert error client">
+        <div>
+          {{contactMessages.clientError}}
+        </div>
+      </div>
+
+      <div class="form-alert error server">
+        <div>
+          {{contactMessages.serverError}}
+        </div>
+      </div>
+
+       <div class="form-alert ok">
+        <div>
+          {{contactMessages.ok}}
+        </div>
+      </div>
+
+      <div>
+
+        <div class="form-group">
+          <label for="name">Név</label>
+          <input type="text" placeholder="Név" id="name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email cím</label>
+          <input type="text" placeholder="E-mail cím" id="email">
+        </div>
+      </div>
+
+      <div>
+
+        <div class="form-group">
+          <label for="church">Gyülekezet</label>
+          <input type="text" placeholder="Gyülekezet" id="church">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Tárgy</label>
+          <select name="" id="subject">
+            <option value="">Egyéb</option>
+            <option value="">Konferencia</option>
+            <option value="">Szállás</option>
+            <option value="">Étkezés</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="form-group-block">
+        <label for="message">Üzenet</label>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Írd ide az üzenetedet"></textarea>
+      </div>
+
+      <button>Küldés</button>
+
+    </form>
+
+  </div>
+</section>
