@@ -4,8 +4,8 @@ module.exports = {
       files: ['_less/**/*'],
       tasks: ['less', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'exec:build']
     },
-    html: {
-      files: ['_includes/**/*', '_layouts/**/*', '**/*.html'],
+    other: {
+      files: ['_includes/**/*', '_layouts/**/*', '**/*.html', '_js/*.js'],
       tasks: ['default']
     },
     options: {

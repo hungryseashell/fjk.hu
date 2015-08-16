@@ -1,9 +1,17 @@
 module.exports = {
   copy: {
-    jquery: {
-      files: {
-        'assets/js/jquery.min.js': 'bower_components/jquery/dist/jquery.min.js'
-      }
+    main: {
+      files: [
+        {
+          'assets/js/jquery.min.js': 'bower_components/jquery/dist/jquery.min.js'
+        },
+        {
+          expand: true,
+          cwd   :'_img/',
+          src   : ['*'],
+          dest  : 'assets/img/'
+        }
+      ]
     }
   }
 };
