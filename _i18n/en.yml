@@ -1,0 +1,35 @@
+name: Youth for Jesus Conference
+short_name: FJK
+
+paths:
+  index: index
+  conf_2015: 2015-at-the-cross
+  conf_2014: 2014-before-men-and-angels
+  media: media
+
+nav:
+  otherLang: Magyar
+  home: Home
+  conference: Conference
+  spirit: Spirit
+  leadership: Leadership
+  media: Media
+
+description: |
+  FJK is an Adventist conference organized by young people for young
+  people. On this yearly occasion the attendees are encouraged by
+  sermons, seminars and meeting opportunities to renew their faith,
+  to reform their lives, and to actively support the Seventh-day
+  Adventist Church, so the Three Angel's Message can reach to the
+  whole world during this generation.
+
+contact: Contact
+
+media:
+  download: Download
+  not_available: the recording is not available
+
+spirit:
+  title: Spirit of FJK
+  subtitle: |
+    In seeking to uphold the distinctive message of the Seventh-day Adventist Church, FJK will promote among its participants:

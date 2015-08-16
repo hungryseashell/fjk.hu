@@ -1,0 +1,36 @@
+name: Fiatalok Jézusért Konferencia
+short_name: FJK
+
+paths:
+  index: index
+  conf_2015: 2015-a-keresztnel
+  conf_2014: 2014-emberek-es-angyalok-elott
+  media: felvetelek
+
+nav:
+  otherLang: English
+  home: Főoldal
+  conference: A konferencia
+  spirit: Alapelvek
+  leadership: Vezetőség
+  media: Felvételek
+
+description: |
+  Az FJK egy fiatalok által fiataloknak szervezett adventista
+  konferencia. Az évente megrendezésre kerülő eseményen az
+  előadások, szemináriumok és a találkozási lehetőségek a résztvevő
+  ifjakat hitük megújítására, életük megreformálására és a Hetednapi
+  Adventista Egyház tevékeny támogatására buzdítják, hogy a Hármas
+  Angyali Üzenet ennek a generációnak a segítségével eljuthasson az
+  egész világra.
+
+contact: Kapcsolat
+
+media:
+  download: Letöltés
+  not_available: A felvétel jelenleg nem elérhető
+
+spirit:
+  title: Alapelvek
+  subtitle: |
+    Azért, hogy felemelje a Hetednapi Adventista Egyház megkülönböztető üzenetét az FJK a következőket terjeszti a tagjai elé:

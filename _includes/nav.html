@@ -14,12 +14,16 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home" title="Főoldal">Főoldal</a></li>
-          <li><a href="#conference" title="A konferencia">A konferencia</a></li>
-          <li><a href="#spirit" title="Alapelvek">Alapelvek</a></li>
-          <li><a href="#leadership" title="Vezetőség">Vezetőség</a></li>
+          <li><a href="#home" title="{%t nav.home %}">{%t nav.home %}</a></li>
+
+          <li><a href="#conference" title="{%t nav.conference%}">{%t nav.conference %}</a></li>
+
+          <li><a href="#spirit" title="{%t nav.spirit%}">{%t nav.spirit %}</a></li>
+
+          <li><a href="#leadership" title="{%t nav.leadership%}">{%t nav.leadership %}</a></li>
+
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Felvételek">Felvételek<span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="{%t nav.media%}">{%t nav.media %}<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/felvetelek/#2015" title="2015 - A keresztnél">2015 - A keresztnél</a></li>
               <li><a href="/felvetelek/#2014" title="2014 - Emberek és angyalok előtt">2014 - Emberek és angyalok előtt</a></li>
@@ -28,7 +32,14 @@
               <li><a href="/felvetelek/#2011" title="2011 - IGEn">2011 - IGEn</a></li>
             </ul>
           </li>
-          <li><a href="/en" title="English">English</a></li>
+
+          {% if site.lang == "hu" %}
+            {% capture link1 %}{{ site.baseurl_root }}en{{ page.dir }}{% endcapture %}
+            <li><a href="/{{ link1 }}" >{% t nav.otherLang %}</a></li>
+          {% else if site.lang == "en" %}
+            {% capture link2 %}{{ site.baseurl_root }}{{ page.dir }}{% endcapture %}
+            <li><a href="{{ link2 }}" >{% t nav.otherLang %}</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>

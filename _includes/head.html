@@ -5,7 +5,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{%t description %}">
   <meta name="keywords" content="Fiatalok, Jézus, Konferencia, Ifjúság, Keresztény, Biblia, Adventista, Youth, Jesus, Conference, Young People, Christian, Bible, Adventist">
   <meta name="author" content="Gabor Dobrei <gabor.dobrei@fjk.hu>">
 
@@ -17,5 +17,5 @@
 
   <link rel="shortcut icon" type="image/png" href="http://fjk.hu/images/favicon.ico">
 
-  <link rel="stylesheet" href="{{ "/assets/css/fjk.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/fjk.min.css" | prepend: site.baseurl_root }}">
 </head>
