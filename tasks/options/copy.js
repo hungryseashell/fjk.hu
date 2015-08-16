@@ -7,7 +7,7 @@ module.exports = {
         },
         {
           expand: true,
-          cwd   :'_img/',
+          cwd   :'_assets/_img/',
           src   : ['*'],
           dest  : 'assets/img/'
         }

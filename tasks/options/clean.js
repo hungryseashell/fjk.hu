@@ -1,5 +1,5 @@
 module.exports = {
   clean: {
-    src: ['assets', '_site']
+    src: ['assets', '_site', '_temp']
   }
 };

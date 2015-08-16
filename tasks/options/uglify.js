@@ -12,7 +12,7 @@ module.exports = {
     },
     custom: {
       files: {
-        'assets/js/fjk.min.js': 'assets/js/fjk.min.js'
+        'assets/js/fjk.min.js': '_temp/fjk.js'
       }
     }
   }
