@@ -1,12 +1,6 @@
 name: Fiatalok Jézusért Konferencia
 short_name: FJK
 
-paths:
-  index: index
-  conf_2015: 2015-a-keresztnel
-  conf_2014: 2014-emberek-es-angyalok-elott
-  media: felvetelek
-
 nav:
   otherLang: English
   home: Főoldal
@@ -29,6 +23,10 @@ contact: Kapcsolat
 media:
   download: Letöltés
   not_available: A felvétel jelenleg nem elérhető
+  2015: 2015 - A keresztnél
+  2014: 2014 - Emberek és angyalok előtt
+  2013: 2013 - Cselekedj
+  2012: 2012 - Tölts be!
 
 spirit:
   title: Alapelvek

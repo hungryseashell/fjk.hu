@@ -1,12 +1,6 @@
 name: Youth for Jesus Conference
 short_name: FJK
 
-paths:
-  index: index
-  conf_2015: 2015-at-the-cross
-  conf_2014: 2014-before-men-and-angels
-  media: media
-
 nav:
   otherLang: Magyar
   home: Home
@@ -28,6 +22,10 @@ contact: Contact
 media:
   download: Download
   not_available: the recording is not available
+  2015: 2015 -  At the Cross
+  2014: 2014 - Before Men and Angel
+  2013: 2013 - Act
+  2012: 2012 - Fill me!
 
 spirit:
   title: Spirit of FJK

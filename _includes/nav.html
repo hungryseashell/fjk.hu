@@ -22,21 +22,32 @@
 
           <li><a href="#leadership" title="{%t nav.leadership%}">{%t nav.leadership %}</a></li>
 
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="{%t nav.media%}">{%t nav.media %}<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/felvetelek/#2015" title="2015 - A keresztnél">2015 - A keresztnél</a></li>
-              <li><a href="/felvetelek/#2014" title="2014 - Emberek és angyalok előtt">2014 - Emberek és angyalok előtt</a></li>
-              <li><a href="/felvetelek/#2013" title="2013 - Cselekedj">2013 - Cselekedj</a></li>
-              <li><a href="/felvetelek/#2012" title="2012 - Tölts be!">2012 - Tölts be!</a></li>
-              <li><a href="/felvetelek/#2011" title="2011 - IGEn">2011 - IGEn</a></li>
-            </ul>
-          </li>
-
           {% if site.lang == "hu" %}
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="{%t nav.media%}">{%t nav.media %}<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/media/#2015" title="{%t media.2015 %}">{%t media.2015 %}</a></li>
+                <li><a href="/media/#2014" title="{%t media.2014 %}">{%t media.2014 %}</a></li>
+                <li><a href="/media/#2013" title="{%t media.2013 %}">{%t media.2013 %}</a></li>
+                <li><a href="/media/#2012" title="{%t media.2012 %}">{%t media.2012 %}</a></li>
+              </ul>
+            </li>
+
             {% capture link1 %}{{ site.baseurl_root }}en{{ page.dir }}{% endcapture %}
             <li><a href="/{{ link1 }}" >{% t nav.otherLang %}</a></li>
           {% else if site.lang == "en" %}
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="{%t nav.media%}">{%t nav.media %}<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/en/media/#2015" title="{%t media.2015 %}">{%t media.2015 %}</a></li>
+                <li><a href="/en/media/#2014" title="{%t media.2014 %}">{%t media.2014 %}</a></li>
+                <li><a href="/en/media/#2013" title="{%t media.2013 %}">{%t media.2013 %}</a></li>
+                <li><a href="/en/media/#2012" title="{%t media.2012 %}">{%t media.2012 %}</a></li>
+              </ul>
+            </li>
+
             {% capture link2 %}{{ site.baseurl_root }}{{ page.dir }}{% endcapture %}
             <li><a href="{{ link2 }}" >{% t nav.otherLang %}</a></li>
           {% endif %}
