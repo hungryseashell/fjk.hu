@@ -1,5 +1,9 @@
 var body = $('body');
-var menuItems = $('.nav>li>a');
+
+var menuItems = $('.nav>.dropdown>.dropdown-menu>li>a');
+if (!menuItems.length) {
+  menuItems = $('.nav>li>a');
+}
 
 var requestAnimationFrame = window.requestAnimationFrame ||
   window.webkitRequestAnimationFrame ||
@@ -31,7 +35,7 @@ function navigate(e) {
 
   e.preventDefault();
 
-  var anchorEl = document.querySelector(e.target.hash);
+  var anchorEl = document.getElementById(e.target.hash.slice(1));
 
   if (!anchorEl) {
     return false;
