@@ -1,6 +1,19 @@
 <footer>
   <div class="site-footer">
-    Kapcsolat: <a href="mailto:info@fjk.hu">info@fjk.hu</a><br>
-    Copyright © 2011–2015 Fiatalok Jézusért Konferencia
+    <div class="row">
+      <div class="col-md-6 text-right">
+        <img src="/assets/img/logo-white.png" alt="FJK" width="" height="80" />
+      </div>
+
+      <div class="col-md-6 text-left">
+        <img src="/assets/img/asi-logo.png" alt="ASI" width="" height="80"/>
+      </div>
+
+    </div>
+
+    <div id="impressum">
+        {%t contact %}: <a href="mailto:info@fjk.hu">info@fjk.hu</a><br>
+        Copyright © 2011–{{ site.time | date: '%Y' }} {%t name %}
+    </div>
   </div>
 </footer>

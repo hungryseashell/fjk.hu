@@ -4,7 +4,7 @@
 @font-size-base:         16px;
 
 section {
-  padding-top: 85px;
+  padding: 90px 0 30px 0;
 
   h1 {
     color: @carrot;
@@ -21,6 +21,19 @@ section {
   }
 }
 
-footer .site-footer a {
-  color: @carrot;
+footer {
+  .site-footer a {
+    color: @carrot;
+  }
+
+  #impressum {
+    margin-top: 30px;
+  }
+}
+
+section#error-404 {
+  .error-404 {
+    &:extend(.container);
+    padding: 80px 0 300px 0;
+  }
 }
