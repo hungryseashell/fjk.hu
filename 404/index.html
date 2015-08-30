@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section id="error-404">
+  <div class="error-404">
+    <h2>{%t error.title %}</h2>
+    <p>{%t error.text %}</p>
+
+    {% if site.lang == "hu" %}
+      <a href="/" title="{%t nav.home %}">{%t nav.home %}</a>
+    {% else %}
+      <a href="/en" title="{%t nav.home %}">{%t nav.home %}</a>
+    {% endif %}
+  </div>
+</section>
