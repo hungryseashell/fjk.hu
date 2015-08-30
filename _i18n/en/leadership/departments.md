@@ -5,5 +5,4 @@
   <li>Media         – <em>Gábor Döbrei</em></li>
   <li>Evangelism    – <em>Dávid Rárósi</em></li>
   <li>Programming   – <em>Csilla Kárpáti</em></li>
-  <li>Project       – <em>István Matus</em></li>
 </ul>
