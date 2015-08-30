@@ -2,7 +2,11 @@ module.exports = {
   less: {
     production: {
       options: {
-        paths: ['_assets/_less/**', 'bower_components/bootstrap/less'],
+        paths: [
+          '_assets/_less/**',
+          'bower_components/bootstrap/less',
+          'bower_components/animate.less',
+        ],
         yuicompress: true
       },
       files: {

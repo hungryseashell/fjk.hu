@@ -3,6 +3,18 @@
 @font-family-sans-serif: Roboto, sans-serif;
 @font-size-base:         16px;
 
+a,
+a:active,
+a:focus {
+  color: @carrot;
+
+  &:hover {
+    text-decoration: none;
+    color: @pumpkin;
+    transition: color 0.45s;
+  }
+}
+
 section {
   padding: 90px 0 30px 0;
 

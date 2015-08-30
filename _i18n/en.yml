@@ -31,3 +31,7 @@ spirit:
   title: Spirit of FJK
   subtitle: |
     In seeking to uphold the distinctive message of the Seventh-day Adventist Church, FJK will promote among its participants:
+
+error:
+  title: Something happend
+  text: The requested page not found

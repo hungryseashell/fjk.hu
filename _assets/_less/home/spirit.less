@@ -10,5 +10,15 @@
   dl.spirit-list div {
     .make-md-column(6);
     min-height: 70px;
+
+    &:nth-child(even) {
+      .animated;
+      .fadeInRight;
+    }
+
+    &:nth-child(odd) {
+      .animated;
+      .fadeInLeft;
+    }
   }
 }

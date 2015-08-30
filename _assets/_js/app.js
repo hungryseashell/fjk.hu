@@ -23,5 +23,12 @@ setInterval(function () {
   }
 }, 30);
 
+var wow = new WOW({
+  boxClass: 'animated',
+  mobile: false
+});
+wow.init();
+
+
 console.log('FJK - Do you want to help?');
 console.log('Drop us a line at dev@fjk.hu');
