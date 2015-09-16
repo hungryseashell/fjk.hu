@@ -22,14 +22,12 @@
 
           {% if page.dir == "/media" %}
             {% include nav/media.html %}
-          {% endif %}
-
-          {% if page.dir == "/" %}
-            {% include nav/main.html %}
-          {% endif %}
-
-          {% if page.dir == "/404" %}
+          {% elsif page.dir == "/404" %}
             {% include nav/error.html %}
+          {% elsif page.dir == "/conferences/2016" %}
+            {% include nav/conference.html %}
+          {% else %}
+            {% include nav/main.html %}
           {% endif %}
 
           {% if site.lang == "hu" %}
