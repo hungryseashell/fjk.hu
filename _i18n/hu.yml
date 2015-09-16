@@ -8,6 +8,13 @@ nav:
   spirit: Alapelvek
   leadership: Vezetőség
   media: Felvételek
+  conferences:
+    theme: Téma
+    seminars: Szemináriumok
+    speakers: Előadók
+    schedule: Program
+    venue: Helyszín
+    registration: Regisztráció
 
 description: |
   Az FJK egy fiatalok által fiataloknak szervezett adventista
@@ -31,8 +38,15 @@ media:
 spirit:
   title: Alapelvek
   subtitle: |
-    Azért, hogy felemelje a Hetednapi Adventista Egyház megkülönböztető üzenetét az FJK a következőket terjeszti a tagjai elé:
+    Azért, hogy felemelje a Hetednapi Adventista Egyház megkülönböztető üzenetét, az FJK a következőket terjeszti a tagjai elé:
 
 error:
   title: Hiba történt
   text: A keresett oldal nem található
+
+conferences:
+  2016:
+    title: Küldetésben
+    dates: 2016. jan. 27–31.
+    location: Budapest
+    motto: "„És hallám az Úrnak szavát, aki ezt mondja vala:<br><i>Kit küldjek el és ki megyen el nékünk?</i><br>Én pedig mondék: <i>Ímhol vagyok én, küldj el engemet!</i>”<br>Ézs 6:8"

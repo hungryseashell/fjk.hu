@@ -8,6 +8,13 @@ nav:
   spirit: Spirit
   leadership: Leadership
   media: Media
+  conferences:
+    theme: Theme
+    seminars: Seminars
+    speakers: Speakers
+    schedule: Schedule
+    venue: Venue
+    registration: Registration
 
 description: |
   FJK is an Adventist conference organized by young people for young
@@ -35,3 +42,10 @@ spirit:
 error:
   title: Something happend
   text: The requested page not found
+
+conferences:
+  2016:
+    title: Küldetésben
+    dates: 2016. jan. 27–31.
+    location: Budapest
+    motto: "„És hallám az Úrnak szavát, aki ezt mondja vala:<br><i>Kit küldjek el és ki megyen el nékünk?</i><br>Én pedig mondék: <i>Ímhol vagyok én, küldj el engemet!</i>”<br>Ézs 6:8"
