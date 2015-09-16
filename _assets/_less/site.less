@@ -1,8 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,300&subset=latin,latin-ext);
-
-@font-family-sans-serif: Roboto, sans-serif;
-@font-size-base:         16px;
-
 a,
 a:active,
 a:focus {
@@ -30,6 +25,22 @@ section {
 
   dt {
     color: @orange;
+  }
+
+  &.inverted {
+    padding: 60px 0 60px;
+    margin-top: 30px;
+    background-color: @carrot;
+    color: #fff;
+    font-weight: 400;
+
+    h1, h2, h3 {
+      color: #fff;
+    }
+
+    dt {
+      color: @pomegranate;
+    }
   }
 }
 
