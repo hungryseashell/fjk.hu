@@ -2,6 +2,7 @@ var nav = require('./nav');
 
 var body = $('body');
 var navbar = $('#main-nav');
+var svgHeader = $('#header-svg');
 
 // Fix the header
 var goingDown = true;
@@ -29,6 +30,93 @@ var wow = new WOW({
 });
 wow.init();
 
+/**
+  After crunchconf.com
+*/
+
+var colors = [
+  // '#f1c40f', // @sun-flower
+  '#e67e22', // @carrot
+  // '#e74c3c', // @alizarin
+  '#f39c12', // @orange
+  // '#d35400', // @pumpkin
+  // '#c0392b'  // @pomegranate
+];
+
+function hexCoords(x, y, r) {
+  var d = r * Math.cos(Math.PI / 6);
+  return [
+    [Math.round(x), Math.round(y - r)],
+    [Math.round(x + d), Math.round(y - r / 2)],
+    [Math.round(x + d), Math.round(y + r / 2)],
+    [Math.round(x), Math.round(y + r)],
+    [Math.round(x - d), Math.round(y + r / 2)],
+    [Math.round(x - d), Math.round(y - r / 2)],
+    [Math.round(x), Math.round(y - r)]
+  ];
+}
+
+function drawHeader() {
+  var paper = Snap('#header-svg');
+  var r = 50;
+  var d = r * Math.cos(Math.PI / 6);
+  var x = d;
+  var y = 0;
+  var w = svgHeader.width();
+  var h = svgHeader.height();
+  var drawing = true;
+  paper.clear();
+  while (drawing) {
+    var coords = hexCoords(x, y, Math.random() > 0.7 ? 2 * r : r);
+    var p = paper.polyline(coords).attr({
+      fill: colors[Math.floor(Math.random() * colors.length)]
+    });
+    p.addClass('hex');
+    p.attr('opacity', Math.round(Math.random() * 40) / 100 + 0.6);
+
+    if (x <= w) {
+      x += 2 * d;
+    } else {
+      y += r + r / 2;
+      x = y % r > 0 ? 0 : d;
+      if (y > h + r) {
+        drawing = false;
+      }
+    }
+  }
+}
+
+function animateHeader() {
+  window.requestAnimationFrame(animateHeader);
+  var paper = Snap('#header-svg');
+  var h = paper.selectAll('.hex');
+  if (Math.random() < 0.05) {
+    var rand = Math.floor(Math.random() * h.length);
+    h[rand].attr({
+      fill: colors[Math.floor(Math.random() * colors.length)]
+    });
+  }
+}
+
+$(document).ready(function () {
+  drawHeader();
+  animateHeader();
+
+  var wTemp = svgHeader.width();
+  $(window).resize(function() {
+    if (wTemp < svgHeader.width()) {
+      drawHeader();
+    }
+    wTemp = svgHeader.width();
+
+    if (wTemp < 940) {
+      $('nav').addClass('mini fixed');
+    } else {
+      $('nav').removeClass('mini');
+    }
+    $(window).trigger('scroll');
+  }).trigger('resize');
+});
 
 console.log('FJK - Do you want to help?');
 console.log('Drop us a line at dev@fjk.hu');

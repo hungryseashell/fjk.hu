@@ -9,6 +9,9 @@ module.exports = {
           'assets/js/wow.min.js': 'bower_components/wow/dist/wow.min.js'
         },
         {
+          'assets/js/snap.svg.min.js': 'bower_components/Snap.svg/dist/snap.svg-min.js'
+        },
+        {
           expand: true,
           cwd   :'_assets/_img/',
           src   : ['*'],

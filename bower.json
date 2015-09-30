@@ -3,7 +3,8 @@
   "dependencies": {
     "bootstrap": "~3.3.5",
     "animate.less": "*",
-    "wow": "~1.1.2"
+    "wow": "~1.1.2",
+    "Snap.svg": "snap.svg#~0.4.1"
   },
   "ignore": [
     "**/.*",
