@@ -19,4 +19,9 @@ module.exports = function(grunt) {
     'style',
     'exec:build'
   ]);
+
+  grunt.registerTask('deploy', [
+    'default',
+    'sftp:test'
+  ]);
 };
