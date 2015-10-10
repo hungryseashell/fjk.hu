@@ -22,6 +22,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('deploy', [
     'default',
-    'sftp:test'
+    'sftp:digitalocean'
   ]);
 };

@@ -4,15 +4,16 @@ var password = process.env.DEPLOY_PASSWORD;
 
 module.exports = {
   sftp: {
-    test: {
+    digitalocean: {
       files: {
         './': '_site/**'
       },
       options: {
-        path: '/tmp/',
+        path: '/www/fjk.hu',
         host: host,
         username: username,
         password: password,
+        srcBasePath: '_site',
         showProgress: true,
         createDirectories: true
       }
