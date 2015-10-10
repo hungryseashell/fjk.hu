@@ -20,7 +20,28 @@
 //   min-height: 550px;
 // }
 
+section#home {
+  position: relative;
+
+  .home {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+
+    h1 {
+      color: #fff;
+    }
+  }
+}
+
 svg#header-svg {
   width: 100%;
   min-height: 550px;
+
+  .hex {
+    -webkit-transition: fill .5s ease-out;
+    transition: fill .5s ease-out;
+  }
 }

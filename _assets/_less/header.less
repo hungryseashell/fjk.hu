@@ -34,6 +34,33 @@
       .menu-button;
     }
 
+    >li:last-child {
+      &:hover {
+        &:before {
+          transition: border-left 0.3s;
+          border-left: solid 1px @carrot;
+        }
+      }
+
+      &:before {
+        content : "";
+        position: absolute;
+        left: 0;
+        top: 10%;
+        height: 80%;
+        border-left: solid 1px #222;
+
+        &:hover {
+          transition: border-left 0.3s;
+          border-left: solid 1px @carrot;
+        }
+      }
+
+      & a:hover {
+        border-bottom: none;
+      }
+    }
+
     >li>a,
     >li>a:focus {
       color: #333;
