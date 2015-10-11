@@ -3,7 +3,7 @@
   <li>Enikő Szőllősi <em>president</em></li>
   <li>János Rajki <em>secretary</em></li>
   <li>Judit Döbrei-Rakonczai <em>treasurer</em></li>
-  <li>Csilla Kárpáti</li>
+  <li>Csilla Farkas</li>
   <li>Dávid Rárósi</li>
   <li>Eszter Tóth</li>
   <li>István Matus</li>

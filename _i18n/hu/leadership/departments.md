@@ -4,5 +4,5 @@
   <li>Logisztika   – <em>Döbrei-Rakonczai Judit</em></li>
   <li>Média        – <em>Döbrei Gábor</em></li>
   <li>Misszió      – <em>Rárósi Dávid</em></li>
-  <li>Program      – <em>Kárpáti Csilla</em></li>
+  <li>Program      – <em>Farkas Csilla</em></li>
 </ul>

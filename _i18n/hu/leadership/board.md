@@ -6,7 +6,7 @@
   <li>Csengei Károly</li>
   <li>Csizmadia Róbert</li>
   <li>Erdődi Péter</li>
-  <li>Farkas Kamil</li>
+  <li>Farkas Kamill</li>
   <li>Farkasné Rajki Melinda</li>
   <li>Németh-Ambrus Orsolya</li>
   <li>Mészáros Boglárka</li>
