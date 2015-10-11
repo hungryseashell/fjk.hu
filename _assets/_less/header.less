@@ -24,8 +24,7 @@
     .menu-button() {
       color: @carrot;
       background-color: inherit;
-      border-bottom: 2px solid @carrot;
-      transition: border-bottom 0.3s, color 0.3s;
+      transition: color 0.3s;
     }
 
     >li.active>a,
@@ -54,10 +53,6 @@
           transition: border-left 0.3s;
           border-left: solid 1px @carrot;
         }
-      }
-
-      & a:hover {
-        border-bottom: none;
       }
     }
 
