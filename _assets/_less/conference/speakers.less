@@ -17,6 +17,7 @@
     .photo {
       position: relative;
       -webkit-filter: grayscale(100%);
+      transition: -webkit-filter 0.3s;
 
       img {
         margin: 0 auto;
@@ -33,6 +34,11 @@
         bottom: 0;
         background: url(/assets/img/speaker-mask.svg) top center;
         background-size: contain;
+      }
+
+      &:hover {
+        -webkit-filter: grayscale(0);
+        transition: -webkit-filter 0.3s;
       }
     }
 
