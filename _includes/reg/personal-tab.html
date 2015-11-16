@@ -1,0 +1,14 @@
+<div class="personal-tab">
+  {% if site.lang == "hu" %}
+    <input class="form-control input-lg" type="text" name="lname" placeholder="{%t reg.form.name.lastName %}" />
+    <input class="form-control input-lg" type="text" name="fname" placeholder="{%t reg.form.name.firstName %}" />
+  {% else %}
+    <input class="form-control input-lg" type="text" name="fname" placeholder="{%t reg.form.name.firstName %}" />
+    <input class="form-control input-lg" type="text" name="lname" placeholder="{%t reg.form.name.lastName %}" />
+  {% endif %}
+
+  <input class="form-control input-lg" type="email" name="email" placeholder="{%t reg.form.email %}" />
+  <input class="form-control input-lg" type="text" name="birth" placeholder="{%t reg.form.birth %}" />
+  <input class="form-control input-lg" type="text" name="city" placeholder="{%t reg.form.city %}" />
+  <input class="form-control input-lg" type="text" name="country" placeholder="{%t reg.form.country %}" />
+</div>

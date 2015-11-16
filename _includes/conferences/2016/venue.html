@@ -1,6 +1,14 @@
 <section id="venue">
+  <h1>{%t nav.conferences.venue %}</h1>
+
   <div class="venue">
-    <h1>{%t nav.conferences.venue %}</h1>
-    {%tf conferences/2016/venue.md %}
+    <div class="row">
+      <iframe id="veneu-map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Budapest%2C%20Sz%C3%A9kely%20Bertalan%20Street%2013%2C%20Hungary&key=AIzaSyBtALKarsGy54GOwRi_1SLs2ccf9rYTEas" allowfullscreen></iframe>
+
+      <div class="veneu-desc">
+        {%tf conferences/2016/venue.md %}
+      </div>
+      <img id="veneu-img" class="img-responsive" src="http://fjk.hu/images/2015/gyulkep-e9384b87.jpg" alt="" />
+    </div>
   </div>
 </section>

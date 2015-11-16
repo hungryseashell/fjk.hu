@@ -1,23 +1,29 @@
+function shortener(files) {
+  return Object.keys(files).map(function (key) {
+    var obj = {};
+    obj['assets/js/' + key] = 'bower_components/' + files[key];
+    return obj;
+  });
+}
+
+var files = shortener({
+  'jquery.min.js': 'jquery/dist/jquery.min.js',
+  'jquery.easing.min.js': 'jquery-easing-original/jquery.easing.min.js',
+  'wow.min.js': 'wow/dist/wow.min.js',
+  'snap.svg.min.js': 'Snap.svg/dist/snap.svg-min.js'
+});
+
+files.push({
+  expand: true,
+  cwd: '_assets/_img/',
+  src: ['*'],
+  dest: 'assets/img/'
+});
+
 module.exports = {
   copy: {
     main: {
-      files: [
-        {
-          'assets/js/jquery.min.js': 'bower_components/jquery/dist/jquery.min.js'
-        },
-        {
-          'assets/js/wow.min.js': 'bower_components/wow/dist/wow.min.js'
-        },
-        {
-          'assets/js/snap.svg.min.js': 'bower_components/Snap.svg/dist/snap.svg-min.js'
-        },
-        {
-          expand: true,
-          cwd   :'_assets/_img/',
-          src   : ['*'],
-          dest  : 'assets/img/'
-        }
-      ]
+      files: files
     }
   }
 };

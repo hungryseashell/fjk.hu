@@ -62,3 +62,58 @@ conferences:
     dates: 2016. jan. 27–31.
     location: Budapest
     motto: "„És hallám az Úrnak szavát, aki ezt mondja vala:<br><i>Kit küldjek el és ki megyen el nékünk?</i><br>Én pedig mondék: <i>Ímhol vagyok én, küldj el engemet!</i>”<br>Ézs 6:8"
+
+reg:
+  next: Tovább
+  prev: Vissza
+  submit: Jelentkezem
+
+  form:
+    name:
+      firstName: Keresztnév
+      lastName: Vezetéknév
+    email: Email
+    birth: Születési idő
+    city: Város
+    country: Ország # Country / Region
+    conference:
+      sabbath: Csak szombatra jövök
+      full: Résztveszek az egész konferencián
+      info: Reggelit a szállással együtt biztosítunk
+      meal:
+        thursday: Csütörtök
+        friday: Péntek
+        sabbath: Szombat
+        lunch: Ebéd
+        dinner: Vacsora
+    program:
+      voluntary:
+        1: Fordítás
+        2: Kiscsoportos beszélgetés vezetése
+        3: Szombati teremdiakónia
+      other: Egyéb szolgálat
+      seminars:
+        db: Doug Batchelor
+        jhc: Jan-Harry Cabungcal
+        kh: Kraig Harnett
+        csr: Csizmadia Róbert
+        hg: Horváth Gábor
+        tsz: Tóth Szilárd
+        df: Dankó Ferenc
+        sza: Szabó Attila
+
+  tabs:
+    personal:
+      title: Személyes adatok
+      subtitle: A regisztrációhoz szükséges személyes adatok
+    conference:
+      title: Részvétel
+      mealTitle: Étkezés
+    housing:
+      title: Szállás
+    support:
+      title: Támogatás
+      subtitle: Támogatsd a konferenciát
+    program:
+      title: Program
+      subtitle: Előzetes igények felmérése

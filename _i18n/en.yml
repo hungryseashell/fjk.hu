@@ -56,7 +56,47 @@ error:
 
 conferences:
   2016:
-    title: Küldetésben
-    dates: 2016. jan. 27–31.
-    location: Budapest
-    motto: "„És hallám az Úrnak szavát, aki ezt mondja vala:<br><i>Kit küldjek el és ki megyen el nékünk?</i><br>Én pedig mondék: <i>Ímhol vagyok én, küldj el engemet!</i>”<br>Ézs 6:8"
+    title: In Mission
+    dates: Jan 27–31, 2016
+    location: Budapest, Hungary
+    motto: "Also I heard the voice of the Lord, saying,<br><i>Whom shall I send, and who will go for us?</i><br>Then said I <i>Here am I; send me.</i>”<br>Isa 6:8"
+
+
+reg:
+  next: Next
+  prev: Previous
+  submit: Submit
+
+  form:
+    name:
+      firstName: First name
+      lastName: Last name
+    email: Email
+    city: City
+    birth: Date of birth
+    country: Country / Region
+    conference:
+      sabbath: Csak szombatra jövök
+      full: Részt veszek az egész konferencián, de <span class="emph">nem kérek</span> szállást
+      info: Reggelit a szállással együtt biztosítunk
+      meal:
+        thursday: Thursday
+        friday: Friday
+        sabbath: Sabbath
+        lunch: Lunch
+        dinner: Dinner
+
+  tabs:
+    personal:
+      title: Personal details
+      subtitle: A regisztrációhoz szükséges személyes adatok
+    conference:
+      title: Részvétel
+      mealTitle: Étkezés
+      housingTitle: Szállás
+    support:
+      title: Support
+      subtitle: Támogatsd a konferenciát
+    program:
+      title: Program
+      subtitle: Előzetes igények felmérése

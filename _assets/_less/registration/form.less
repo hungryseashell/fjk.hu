@@ -1,0 +1,198 @@
+/*custom font*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+section#registration {
+  min-height: 900px;
+  .container;
+  margin-bottom: 50px;
+
+  .registration {
+    .row;
+    padding-top: 50px;
+
+    .reg-form {
+      .make-lg-column(8);
+      .make-md-column(8);
+      .make-sm-column(8);
+
+      form {
+        font-family: montserrat, arial, verdana;
+        position: relative;
+        text-align: center;
+
+        #progressbar {
+          margin-bottom: 30px;
+          overflow: hidden;
+          /*CSS counters to number the steps*/
+          counter-reset: step;
+
+          li {
+            list-style-type: none;
+            color: #333;
+            text-transform: uppercase;
+            font-size: 9px;
+            width: 20%;
+            float: left;
+            position: relative;
+
+            &:before {
+              content: counter(step);
+              counter-increment: step;
+              width: 20px;
+              line-height: 20px;
+              display: block;
+              font-size: 10px;
+              color: #333;
+              background: white;
+              border-radius: 3px;
+              margin: 0 auto 5px auto;
+            }
+
+            /*progressbar connectors*/
+            &:after {
+              content: '';
+              width: 100%;
+              height: 2px;
+              background: white;
+              position: absolute;
+              left: -50%;
+              top: 9px;
+              z-index: -1; /*put it behind the numbers*/
+            }
+
+            &:first-child:after {
+              /*connector not needed before the first step*/
+              content: none;
+            }
+
+            /*marking active/completed steps green*/
+            /*The number of the step and the connector before it = green*/
+            &.active:before,
+            &.active:after{
+              background: @orange;
+              color: #eee;
+            }
+          }
+        }
+
+        .tab {
+          .form-group;
+          padding-bottom: 50px;
+
+          .personal-tab,
+          .conference-tab,
+          .program-tab,
+          .support-tab {
+            .make-md-column(12);
+          }
+
+          .conference-tab,
+          .program-tab {
+            text-align: left !important;
+
+            span.emph {
+              color: @orange;
+              font-variant: small-caps;
+            }
+          }
+
+          border: 0 none;
+          border-radius: 3px;
+          box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+          padding: 20px 30px;
+
+          box-sizing: border-box;
+          width: 80%;
+          margin: 0 10%;
+
+          /*stacking tabs above each other*/
+          position: absolute;
+
+          /*Hide all except first tab*/
+          &:not(:first-of-type) {
+            display: none;
+          }
+
+          .fs-title {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #333;
+            margin-bottom: 10px;
+          }
+
+          .fs-subtitle {
+            font-weight: normal;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 20px;
+          }
+
+          .fs-section-desc {
+            .help-block;
+            .small;
+            padding-bottom: 20px;
+          }
+
+          h2.fs-section-title {
+            .fs-title;
+            text-align: center;
+            margin: 40px 0 30px 0;
+          }
+        }
+
+        /*inputs*/
+        input, textarea {
+          padding: 15px;
+          border-radius: 3px;
+          margin-bottom: 10px;
+          width: 100%;
+          box-sizing: border-box;
+          font-family: montserrat;
+          color: #333;
+          font-size: 13px;
+        }
+
+        /*buttons*/
+        .action-button {
+          width: 100px;
+          background: @orange;
+          font-weight: bold;
+          color: #eee;
+          border: 0 none;
+          border-radius: 1px;
+          cursor: pointer;
+          padding: 10px 5px;
+          margin: 10px 5px;
+
+          &:hover,
+          &:focus {
+            box-shadow: 0 0 0 2px #eee, 0 0 0 3px @orange;
+          }
+        }
+
+        .plusOne {
+          background: @orange;
+          color: #eee;
+          cursor: pointer;
+          padding: 2px 5px 2px 5px;
+          margin: 2px 5px 2px 5px;
+
+          &:hover,
+          &:focus {
+            box-shadow: 0 0 0 2px #eee, 0 0 0 3px @orange;
+          }
+        }
+
+        .shirt-order {
+          padding-top: 5px;
+        }
+      }
+    }
+
+    .reg-info {
+      .make-lg-column(4);
+      .make-md-column(4);
+      .make-sm-column(4);
+    }
+  }
+}

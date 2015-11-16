@@ -1,0 +1,72 @@
+<div class="conference-tab">
+  <div class="radio">
+    <label>
+      <input type="radio" name="attendance" id="attendanceFull" value="full" checked>
+      {%t reg.form.conference.full %}
+    </label>
+  </div>
+
+  <div class="radio">
+    <label>
+      <input type="radio" name="attendance" id="attendanceSabbath" value="sabbath">
+      {%t reg.form.conference.sabbath %}
+    </label>
+  </div>
+
+  <hr>
+
+  <h2 class="fs-section-title">{%t reg.tabs.conference.mealTitle %}*</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>{%t reg.form.conference.meal.thursday %}</th>
+        <th>{%t reg.form.conference.meal.friday %}</th>
+        <th>{%t reg.form.conference.meal.sabbath %}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{%t reg.form.conference.meal.lunch %}</th>
+        <td>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="thursday" value="lunch" checked> 1200 ft
+          </label>
+        </td>
+        <td>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="friday" value="lunch" checked> 1200 ft
+          </label>
+        </td>
+        <td>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="sabbath" value="lunch" checked> 1200 ft
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">{%t reg.form.conference.meal.dinner %}</th>
+        <td>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="thursday" value="dinner" checked> 700 ft
+          </label>
+        </td>
+        <td>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="friday" value="dinner" checked> 700 ft
+          </label>
+        </td>
+        <td>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="sabbath" value="dinner" checked> 700 ft
+          </label>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="fs-section-desc">
+    *{%t reg.form.conference.info %}
+  </div>
+</div>

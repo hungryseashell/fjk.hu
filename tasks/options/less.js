@@ -5,7 +5,7 @@ module.exports = {
         paths: [
           '_assets/_less/**',
           'bower_components/bootstrap/less',
-          'bower_components/animate.less',
+          'bower_components/animate.less'
         ],
         yuicompress: true
       },

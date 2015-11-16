@@ -1,5 +1,4 @@
-module.exports = function(grunt) {
-
+module.exports = function (grunt) {
   grunt.registerTask('style', 'Update style files', [
     'clean',
     'less',

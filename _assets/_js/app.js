@@ -1,6 +1,6 @@
-var nav = require('./nav');
+require('./nav');
+require('./reg');
 
-var body = $('body');
 var navbar = $('#main-nav');
 var svgHeader = $('#header-svg');
 
@@ -35,12 +35,8 @@ wow.init();
 */
 
 var colors = [
-  // '#f1c40f', // @sun-flower
-  '#e67e22', // @carrot
-  // '#e74c3c', // @alizarin
-  '#f39c12', // @orange
-  // '#d35400', // @pumpkin
-  // '#c0392b'  // @pomegranate
+  '#e67e22',
+  '#f39c12'
 ];
 
 function hexCoords(x, y, r) {
@@ -58,6 +54,7 @@ function hexCoords(x, y, r) {
 
 function drawHeader() {
   var paper = Snap('#header-svg');
+
   var r = 50;
   var d = r * Math.cos(Math.PI / 6);
   var x = d;

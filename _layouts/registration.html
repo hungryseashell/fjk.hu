@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="page-content" data-spy="scroll" data-target="#main-nav">
+
+    <header class="site-header">
+      <!-- <nav id="main-nav" class="navbar navbar-default navbar-fixed-top"> -->
+      <nav id="main-nav" class="navbar navbar-custum navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button id="btn-nav" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            {% if site.lang == "hu" %}
+              <a id="nav-logo" class="pull-left" href="/"></a>
+            {% else if site.lang == "en" %}
+              <a id="nav-logo" class="pull-left" href="/en"></a>
+            {% endif %}
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              {% if site.lang == "hu" %}
+                <li><a href="/conferences/2016" title="{%t conferences.2016.title %}">{%t conferences.2016.title %}</a></li>
+                {% capture link1 %}{{ site.baseurl_root }}en{{ page.dir }}{% endcapture %}
+                <li><a href="/{{ link1 }}" >{% t nav.otherLang %}</a></li>
+              {% else if site.lang == "en" %}
+                <li><a href="/en/conferences/2016" title="{%t conferences.2016.title %}">{%t conferences.2016.title %}</a></li>
+                {% capture link2 %}{{ site.baseurl_root }}{{ page.dir }}{% endcapture %}
+                <li><a href="{{ link2 }}" >{% t nav.otherLang %}</a></li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+
+  </body>
+
+</html>
