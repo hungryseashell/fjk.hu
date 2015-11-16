@@ -1,6 +1,8 @@
-var body = $('body');
+'use strict';
 
 var menuItems = $('.nav>.dropdown>.dropdown-menu>li>a');
+var registrationButtons = $('.registrationButton');
+
 if (!menuItems.length) {
   menuItems = $('.nav>li>a');
 }
@@ -16,11 +18,6 @@ var requestAnimationFrame = window.requestAnimationFrame ||
       callback(timestamp);
     }, 1000 / 60);
   };
-
-// current time, beginning value, change total in value, duration total
-function elasticEase(t, b, c, d) {
-  return c * ((t = t / d - 1) * t * ((1.4 + 1) * t + 1.4) + 1) + b;
-}
 
 function inOutQuintic(t, b, c, d) {
   var ts = (t /= d) * t;
@@ -54,10 +51,11 @@ function navigate(e) {
     t++;
     window.scrollTo(0, inOutQuintic(t, start, distance, duration));
 
-    if (t != duration) {
+    if (t !== duration) {
       requestAnimationFrame(scrollMe);
     }
   }
 }
 
 menuItems.on('click', navigate);
+registrationButtons.on('click', navigate);

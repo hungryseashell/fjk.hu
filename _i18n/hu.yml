@@ -67,6 +67,7 @@ reg:
   next: Tovább
   prev: Vissza
   submit: Jelentkezem
+  cta: Regisztrálj még ma!
 
   form:
     name:

@@ -66,6 +66,7 @@ reg:
   next: Next
   prev: Previous
   submit: Submit
+  cta: Register today!
 
   form:
     name:
