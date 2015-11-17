@@ -144,12 +144,10 @@ $('#shirtOrders').on('change', 'select[name^="shirtType"]', function () {
       shirtColorSelector.hide();
     }
 
-    if (val.indexOf('kid') > -1) {
-      self
-        .parent()
-        .children('select[name^="shirtSize"]')
-        .val('');
-    }
+    self
+      .parent()
+      .children('select[name^="shirtSize"], select[name^="shirtColor"], select[name^="shirtQuantity"]')
+      .prop('selectedIndex', 0);
 
     shirtSizeOptions
       .filter(function () {
@@ -177,12 +175,10 @@ $('#shirtOrders').on('change', 'select', function () {
       price *= $(this).data().singlePrice;
     });
 
-  if (price) {
-    row
-      .children('input')
-      .data('price', price);
-    calculatePrice();
-  }
+  row
+    .children('input')
+    .data('price', price);
+  calculatePrice();
 });
 
 $('#shirtPlusOne').click(function () {
@@ -200,7 +196,7 @@ $('#shirtPlusOne').click(function () {
         '<option value="womenHoody" data-single-price=3650>Noi pullcsi (3650 Ft/db)</option>' +
       '</select>' +
       '<select name="shirtSize-' + count + '">' +
-        '<option class="menHoody womenHoody" value="" data-single-price=0>Meret</option>' +
+        '<option class="menHoody womenHoody men women kid" value="" data-single-price=0>Meret</option>' +
         '<option class="menHoody womenHoody men women" value="S" data-single-price=1>S</option>' +
         '<option class="menHoody womenHoody men women" value="M" data-single-price=1>M</option>' +
         '<option class="menHoody womenHoody men women" value="L" data-single-price=1>L</option>' +
@@ -215,9 +211,8 @@ $('#shirtPlusOne').click(function () {
         '<option class="kid" value="12A" data-single-price=1>12A</option>' +
       '</select>' +
       '<select class="shirtColor" name="shirtColor-' + count + '">' +
-        '<option class="menHoody womenHoody" value="" data-single-price=0>Szin</option>' +
-        '<option class="womenHoody" value="Sport Grey" data-single-price=1>Sport Grey</option>' +
         '<option class="menHoody womenHoody" value="Navy" data-single-price=1>Navy</option>' +
+        '<option class="womenHoody" value="Sport Grey" data-single-price=1>Sport Grey</option>' +
         '<option class="menHoody" value="Forest green" data-single-price=1>Forest green</option>' +
         '<option class="menHoody" value="Maroon" data-single-price=1>Maroon</option>' +
         '<option class="menHoody" value="Dark Chocolate" data-single-price=1>Dark Chocolate</option>' +

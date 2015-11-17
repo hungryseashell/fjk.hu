@@ -90,9 +90,9 @@ reg:
         dinner: Vacsora
     program:
       voluntary:
-        1: Fordítás
+        1: Fordítás (angol-magyar)
         2: Kiscsoportos beszélgetés vezetése
-        3: Szombati teremdiakónia
+        3: Teremdiakónia
       other: Egyéb szolgálat
       seminars:
         db: Doug Batchelor
