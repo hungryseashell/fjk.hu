@@ -1,6 +1,21 @@
 <div class="seminar animated">
   <div class="seminar-wr">
     <div class="seminar-title">
+      <h3>Biblical questions and answers</h3>
+      <span>Doug Batchelor</span>
+    </div>
+    <div class="description">
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="seminar animated">
+  <div class="seminar-wr">
+    <div class="seminar-title">
       <h3>The greatest want of this generation and how this involves the youth of the Seventh-day Adventist movement
       <br>
       At the foot of the cross: Gaining Decisions</h3>
@@ -41,9 +56,9 @@
       <span>Róbert Csizmadia</span>
     </div>
     <div class="description">
-      <blockquote>
+      <p class="text-center">
         „If the Son therefore shall make you free, ye shall be free indeed” - (KJV) John 8:36
-      </blockquote>
+      </p>
       <p>
         Redemption does not only provide a possible access to eternal life but it has an impact on our present life as well. This life-experience can be summarised in the phrase „Freedom in Christ”. We are going to explore and examine together this topic with the help of the Bible. How can we characterise this freedom? Being free from something or free to do something? Freedom with boundaries or unrestricted freedom? Or are these the right questions to ask at all?
       </p>

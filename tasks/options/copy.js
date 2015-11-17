@@ -8,6 +8,7 @@ function shortener(files) {
 
 var files = shortener({
   'jquery.min.js': 'jquery/dist/jquery.min.js',
+  'bootstrap-validator.min.js': 'bootstrap-validator/dist/validator.min.js',
   'jquery.easing.min.js': 'jquery-easing-original/jquery.easing.min.js',
   'wow.min.js': 'wow/dist/wow.min.js',
   'snap.svg.min.js': 'Snap.svg/dist/snap.svg-min.js'

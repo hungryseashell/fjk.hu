@@ -1,14 +1,41 @@
 <div class="personal-tab">
   {% if site.lang == "hu" %}
-    <input class="form-control input-lg" type="text" name="lname" placeholder="{%t reg.form.name.lastName %}" />
-    <input class="form-control input-lg" type="text" name="fname" placeholder="{%t reg.form.name.firstName %}" />
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" placeholder="{%t reg.form.name.lastName %}*" data-error="{%t reg.error.empty %}" name="lname" required>
+      <div class="help-block with-errors"></div>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" placeholder="{%t reg.form.name.firstName %}*" data-error="{%t reg.error.empty %}" name="fname" required>
+      <div class="help-block with-errors"></div>
+    </div>
   {% else %}
-    <input class="form-control input-lg" type="text" name="fname" placeholder="{%t reg.form.name.firstName %}" />
-    <input class="form-control input-lg" type="text" name="lname" placeholder="{%t reg.form.name.lastName %}" />
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" placeholder="{%t reg.form.name.firstName %}*" data-error="{%t reg.error.empty %}" name="fname" required>
+      <div class="help-block with-errors"></div>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" placeholder="{%t reg.form.name.lastName %}*" data-error="{%t reg.error.empty %}" name="lname" required>
+      <div class="help-block with-errors"></div>
+    </div>
   {% endif %}
 
-  <input class="form-control input-lg" type="email" name="email" placeholder="{%t reg.form.email %}" />
-  <input class="form-control input-lg" type="text" name="birth" placeholder="{%t reg.form.birth %}" />
-  <input class="form-control input-lg" type="text" name="city" placeholder="{%t reg.form.city %}" />
-  <input class="form-control input-lg" type="text" name="country" placeholder="{%t reg.form.country %}" />
+  <div class="form-group">
+    <input type="email" class="form-control input-lg" id="inputEmail" placeholder="{%t reg.form.email %}*" data-error="{%t reg.error.email %}" required>
+    <div class="help-block with-errors"></div>
+  </div>
+
+  <div class="form-group">
+    <input type="text" name="birth" class="form-control input-lg" pattern="(19|20)[\d]{2}/[01][\d]/[0123][\d]" placeholder="{%t reg.form.birth %}*" data-error="{%t reg.error.birth %}" required>
+    <div class="help-block with-errors"></div>
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control input-lg" placeholder="{%t reg.form.city %}*" data-error="{%t reg.error.empty %}" name="city" required>
+    <div class="help-block with-errors"></div>
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control input-lg" placeholder="{%t reg.form.country %}*" data-error="{%t reg.error.empty %}" name="country" required>
+    <div class="help-block with-errors"></div>
+  </div>
 </div>

@@ -11,11 +11,50 @@ if (mobilecheck() && window.location.pathname.indexOf('registration') > -1) {
 }
 
 var animatingFlag;
+var inValidFlag;
+
+$('#registrationForm').on('invalid.bs.validator', function (e) {
+  inValidFlag = true;
+});
+
+$('#registrationForm').on('valid.bs.validator', function (e) {
+  inValidFlag = false;
+});
+
+$('.personal-tab input[required]').change(function () {
+  $(this).parent().removeClass('has-error');
+  if (!$(this).val().length) {
+    $(this).parent().addClass('has-error');
+  }
+});
 
 $('.next').click(function () {
-  if (animatingFlag) {
+  $('#registrationForm').validator();
+
+  if (animatingFlag || inValidFlag) {
     return false;
   }
+
+  var inputs = $(this)
+    .parent()
+    .find('input[required]');
+
+  inputs.removeClass('has-error');
+
+  var invalidInputs = inputs
+    .filter(function () {
+      return $(this).val().length === 0;
+    })
+    .each(function () {
+      $(this)
+        .parent()
+        .addClass('has-error');
+    });
+
+  if (invalidInputs.length !== 0) {
+    return false;
+  }
+
   animatingFlag = true;
 
   var current_fs = $(this).parent();
@@ -56,7 +95,7 @@ $('.next').click(function () {
 });
 
 $('.previous').click(function () {
-  if (animatingFlag) {
+  if (animatingFlag || inValidFlag) {
     return false;
   }
   animatingFlag = true;
@@ -189,11 +228,11 @@ $('#shirtPlusOne').click(function () {
       '<input class="shirtOrder" type="hidden" name="name" value="" data-price=0>' +
       '<select name="shirtType-' + count + '">' +
         '<option value="">Tipus</option>' +
-        '<option value="men" data-single-price=1300>Ferfi (1300 Ft/db)</option>' +
-        '<option value="women" data-single-price=1300>Noi (1300 Ft/db)</option>' +
+        '<option value="men" data-single-price=1500>Ferfi (1500 Ft/db)</option>' +
+        '<option value="women" data-single-price=1500>Noi (1500 Ft/db)</option>' +
         '<option value="kid" data-single-price=1700>Gyerek (1700 Ft/db)</option>' +
-        '<option value="menHoody" data-single-price=3650>Ffi pullcsi (3650 Ft/db)</option>' +
-        '<option value="womenHoody" data-single-price=3650>Noi pullcsi (3650 Ft/db)</option>' +
+        '<option value="menHoody" data-single-price=3700>Ffi pullcsi (3700 Ft/db)</option>' +
+        '<option value="womenHoody" data-single-price=3700>Noi pullcsi (3700 Ft/db)</option>' +
       '</select>' +
       '<select name="shirtSize-' + count + '">' +
         '<option class="menHoody womenHoody men women kid" value="" data-single-price=0>Meret</option>' +
@@ -234,17 +273,34 @@ function calculatePrice() {
   var prices = $(payableSelector);
 
   var regCalculator = $('#regCalculator');
+  var orignalVal = parseInt(regCalculator.text(), 10);
   var price = 0;
   prices.each(function () {
     price += $(this).data().price;
   });
-  regCalculator.text(price);
+
+  if (orignalVal === price) {
+    return;
+  }
+
+  regCalculator
+    .animate({
+      'font-size': '150%'
+    }, {
+      duration: 250
+    })
+    .text(price)
+    .animate({
+      'font-size': '100%'
+    }, {
+      duration: 250
+    });
 }
 calculatePrice();
 
 $('#registrationForm').on('change', payableSelector, calculatePrice);
 
-$('#registrationForm').submit(function (e) {
+$('#registrationForm').on('submit', function (e) {
   e.preventDefault();
 
   var serialized = $(this).serializeArray();

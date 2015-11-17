@@ -1,7 +1,7 @@
 <div class="seminar animated">
   <div class="seminar-wr">
     <div class="seminar-title">
-      <h3>Bibliai kerdesek es valaszok</h3>
+      <h3>Bibliai kérdések és válaszok</h3>
       <span>Doug Batchelor</span>
     </div>
     <div class="description">
@@ -56,9 +56,9 @@
       <span>Csizmadia Róbert</span>
     </div>
     <div class="description">
-      <blockquote>
+      <p class="text-center">
         „Ha tehát a Fiú megszabadít titeket, valóban szabadok lesztek.” - János 8:36
-      </blockquote>
+      </p>
       <p>
         A megváltás nemcsak egyszerűen lehetőséget ad az örök életre, hanem befolyásolja jelenlegi életünket. "Szabadság Krisztusban" - összefoglalója ennek az élettapasztalatnak. Ezt a témát fogjuk felfedezni és körüljárni közös munkával, a Biblia segítségével. Hogyan jellemezhetjük ezt a szabadságot? Szabadság valamitől vagy valamire? Szabadság határokkal vagy végtelen szabadság? Egyáltalán: ezek a jó kérdések?
       </p>

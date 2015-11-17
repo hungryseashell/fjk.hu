@@ -70,6 +70,11 @@ reg:
   cta: Regisztrálj még ma!
   calculation: A konferenci teljes költsége <b><span id="regCalculator"></span> Ft</b>
 
+  error:
+    email: Kérlek helyes email címet adj meg
+    birth: Kérlek helyes dátumot adj meg
+    empty: A mező kitöltése kötelező
+
   form:
     name:
       firstName: Keresztnév
