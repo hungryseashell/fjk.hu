@@ -78,6 +78,17 @@ section#register {
         .tab {
           .form-group;
           padding-bottom: 50px;
+          border: 0 none;
+          border-radius: 3px;
+          box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+          padding: 20px 30px;
+
+          box-sizing: border-box;
+          width: 80%;
+          margin: 0 10%;
+
+          /*stacking tabs above each other*/
+          position: absolute;
 
           .personal-tab,
           .conference-tab,
@@ -95,18 +106,6 @@ section#register {
               font-variant: small-caps;
             }
           }
-
-          border: 0 none;
-          border-radius: 3px;
-          box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-          padding: 20px 30px;
-
-          box-sizing: border-box;
-          width: 80%;
-          margin: 0 10%;
-
-          /*stacking tabs above each other*/
-          position: absolute;
 
           /*Hide all except first tab*/
           &:not(:first-of-type) {
@@ -193,6 +192,10 @@ section#register {
       .make-lg-column(4);
       .make-md-column(4);
       .make-sm-column(4);
+
+      b {
+        .pull-right;
+      }
     }
   }
 }

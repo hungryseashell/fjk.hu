@@ -3,34 +3,36 @@
 
   <div id="shirtOrders" class="form-group">
     <div class="shirt-order form-inline row" data-count=1>
+      <input class="shirtOrder" type="hidden" name="name" data-price=0>
       <select name="shirtType-1">
-        <option value="">Tipus</option>
-        <option value="men">Ferfi (1300 Ft/db)</option>
-        <option value="women">Noi (1300 Ft/db)</option>
-        <option value="kid">Gyerek (1700 Ft/db)</option>
+        <option value="" data-single-price=0>Tipus</option>
+        <option value="men" data-single-price=1300>Ferfi (1300 Ft/db)</option>
+        <option value="women" data-single-price=1300>Noi (1300 Ft/db)</option>
+        <option value="kid" data-single-price=1700>Gyerek (1700 Ft/db)</option>
+        <option value="hoody" data-single-price=2000>Pullcsi (2000 Ft/db)</option>
       </select>
       <select name="shirtSize-1">
-        <option value="">Meret</option>
-        <option value="S">S</option>
-        <option value="M">M</option>
-        <option value="L">L</option>
-        <option value="XL">XL</option>
-        <option value="2XL">2XL</option>
-        <option value="3XL">3XL (FFi)</option>
-        <option value="2A">2A</option>
-        <option value="4A">4A</option>
-        <option value="6A">6A</option>
-        <option value="8A">8A</option>
-        <option value="10A">10A</option>
-        <option value="12A">12A</option>
+        <option value="" data-single-price=0>Meret</option>
+        <option class="hoody men women" value="S" data-single-price=1>S</option>
+        <option class="hoody men women" value="M" data-single-price=1>M</option>
+        <option class="hoody men women" value="L" data-single-price=1>L</option>
+        <option class="hoody men women" value="XL" data-single-price=1>XL</option>
+        <option class="hoody men women" value="2XL" data-single-price=1>2XL</option>
+        <option class="hoody men" value="3XL" data-single-price=1>3XL</option>
+        <option class="kid" value="2A" data-single-price=1>2A</option>
+        <option class="kid" value="4A" data-single-price=1>4A</option>
+        <option class="kid" value="6A" data-single-price=1>6A</option>
+        <option class="kid" value="8A" data-single-price=1>8A</option>
+        <option class="kid" value="10A" data-single-price=1>10A</option>
+        <option class="kid" value="12A" data-single-price=1>12A</option>
       </select>
       <select name="shirtQuantity-1">
-        <option value="">Mennyiseg</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
+        <option value="" data-single-price=0>Mennyiseg</option>
+        <option value="1" data-single-price=1>1</option>
+        <option value="2" data-single-price=2>2</option>
+        <option value="3" data-single-price=3>3</option>
+        <option value="4" data-single-price=4>4</option>
+        <option value="5" data-single-price=5>5</option>
       </select>
       <a type="button" class="minusOne plusOne">-</a>
     </div>

@@ -67,6 +67,7 @@ reg:
   prev: Previous
   submit: Submit
   cta: Register today!
+  calculation: The registration fee <b><span id="regCalculator"></span> Ft</b>
 
   form:
     name:
@@ -74,7 +75,7 @@ reg:
       lastName: Last name
     email: Email
     city: City
-    birth: Date of birth
+    birth: Date of birth (1990/12/31)
     country: Country / Region
     conference:
       sabbath: Csak szombatra jövök

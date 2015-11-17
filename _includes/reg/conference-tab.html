@@ -1,14 +1,14 @@
 <div class="conference-tab">
   <div class="radio">
     <label>
-      <input type="radio" name="attendance" id="attendanceFull" value="full" checked>
+      <input type="radio" name="attendance" id="attendanceFull" value="full" data-price=3000 checked>
       {%t reg.form.conference.full %}
     </label>
   </div>
 
   <div class="radio">
     <label>
-      <input type="radio" name="attendance" id="attendanceSabbath" value="sabbath">
+      <input type="radio" name="attendance" id="attendanceSabbath" value="sabbath" data-price=0>
       {%t reg.form.conference.sabbath %}
     </label>
   </div>
@@ -31,17 +31,17 @@
         <th scope="row">{%t reg.form.conference.meal.lunch %}</th>
         <td>
           <label class="checkbox-inline">
-            <input type="checkbox" name="thursday" value="lunch" checked> 1200 ft
+            <input type="checkbox" name="thursday" value="lunch" data-price=1200> 1200 ft
           </label>
         </td>
         <td>
           <label class="checkbox-inline">
-            <input type="checkbox" name="friday" value="lunch" checked> 1200 ft
+            <input type="checkbox" name="friday" value="lunch" data-price=1200> 1200 ft
           </label>
         </td>
         <td>
           <label class="checkbox-inline">
-            <input type="checkbox" name="sabbath" value="lunch" checked> 1200 ft
+            <input type="checkbox" name="sabbath" value="lunch" data-price=1200> 1200 ft
           </label>
         </td>
       </tr>
@@ -49,17 +49,17 @@
         <th scope="row">{%t reg.form.conference.meal.dinner %}</th>
         <td>
           <label class="checkbox-inline">
-            <input type="checkbox" name="thursday" value="dinner" checked> 700 ft
+            <input type="checkbox" name="thursday" value="dinner" data-price=700> 700 ft
           </label>
         </td>
         <td>
           <label class="checkbox-inline">
-            <input type="checkbox" name="friday" value="dinner" checked> 700 ft
+            <input type="checkbox" name="friday" value="dinner" data-price=700> 700 ft
           </label>
         </td>
         <td>
           <label class="checkbox-inline">
-            <input type="checkbox" name="sabbath" value="dinner" checked> 700 ft
+            <input type="checkbox" name="sabbath" value="dinner" data-price=700> 700 ft
           </label>
         </td>
       </tr>

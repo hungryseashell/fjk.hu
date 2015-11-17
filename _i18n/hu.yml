@@ -68,13 +68,14 @@ reg:
   prev: Vissza
   submit: Jelentkezem
   cta: Regisztrálj még ma!
+  calculation: A konferenci teljes költsége <b><span id="regCalculator"></span> Ft</b>
 
   form:
     name:
       firstName: Keresztnév
       lastName: Vezetéknév
     email: Email
-    birth: Születési idő
+    birth: Születési idő (1990/12/31)
     city: Város
     country: Ország # Country / Region
     conference:
