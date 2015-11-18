@@ -3,63 +3,29 @@
     <label>Önkéntes munkára jelentkezés</label>
     <div class="checkbox">
       <label>
-        <input type="checkbox" value="">
+        <input type="checkbox" name="voluntary" value="{%t reg.form.program.voluntary.1 %}">
         {%t reg.form.program.voluntary.1 %}
       </label>
     </div>
     <div class="checkbox">
       <label>
-        <input type="checkbox" value="">
+        <input type="checkbox" name="voluntary" value="{%t reg.form.program.voluntary.2 %}">
         {%t reg.form.program.voluntary.2 %}
       </label>
     </div>
     <div class="checkbox">
       <label>
-        <input type="checkbox" value="">
+        <input type="checkbox" name="voluntary" value="{%t reg.form.program.voluntary.3 %}">
         {%t reg.form.program.voluntary.3 %}
       </label>
     </div>
 
     <div class="checkbox">
       <label>
-        <input id="otherVoluntaryChB" type="checkbox" value="">
-        Egyéb szolgálat
-        <input id="otherVoluntaryText" type="text" class="form-control" placeholder="Egyéb szolgálat">
+        <input id="otherVoluntaryChB" type="checkbox" name="voluntary" value="other">
+        {%t reg.form.program.other %}
+        <input id="otherVoluntaryText" type="text" name="voluntary-text" class="form-control" placeholder="{%t reg.form.program.other %}">
       </label>
     </div>
   </div>
-
-  <!-- <div class="form-group">
-    <label>Melyik szemináriumot választanád legszívesebben <span class="emph">hétköznap</span></label>
-    <span class="help-block small">(Ez nem jelentkezés, csak előzetes felmérés)</span>
-
-    <select class="" name="weekdaySeminar">
-      <option value="0">Válassz</option>
-      <option value="db">{%t reg.form.program.seminars.db%}</option>
-      <option value="jhc">{%t reg.form.program.seminars.jhc%}</option>
-      <option value="kh">{%t reg.form.program.seminars.kh%}</option>
-      <option value="csr">{%t reg.form.program.seminars.csr%}</option>
-      <option value="hg">{%t reg.form.program.seminars.hg%}</option>
-      <option value="tsz">{%t reg.form.program.seminars.tsz%}</option>
-      <option value="df">{%t reg.form.program.seminars.df%}</option>
-      <option value="sza">{%t reg.form.program.seminars.sza%}</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label>Melyik szemináriumot választanád legszívesebben <span class="emph">szombaton</span></label>
-    <span class="help-block small">(Ez nem jelentkezés, csak előzetes felmérés)</span>
-
-    <select class="" name="sabbathSeminar">
-      <option value="0">Válassz</option>
-      <option value="db">{%t reg.form.program.seminars.db%}</option>
-      <option value="jhc">{%t reg.form.program.seminars.jhc%}</option>
-      <option value="kh">{%t reg.form.program.seminars.kh%}</option>
-      <option value="csr">{%t reg.form.program.seminars.csr%}</option>
-      <option value="hg">{%t reg.form.program.seminars.hg%}</option>
-      <option value="tsz">{%t reg.form.program.seminars.tsz%}</option>
-      <option value="df">{%t reg.form.program.seminars.df%}</option>
-      <option value="sza">{%t reg.form.program.seminars.sza%}</option>
-    </select>
-  </div> -->
 </div>
