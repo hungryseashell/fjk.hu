@@ -33,8 +33,6 @@ layout: registration
         </div>
 
         <div class="tab">
-          <h2 class="fs-title">{%t reg.tabs.housing.title %}</h2>
-          <h3 class="fs-subtitle">{%t reg.tabs.housing.subtitle %}</h3>
 
           {% include reg/housing-tab.html %}
 
@@ -53,9 +51,6 @@ layout: registration
         </div>
 
         <div class="tab">
-          <h2 class="fs-title">{%t reg.tabs.support.title %}</h2>
-          <h3 class="fs-subtitle">{%t reg.tabs.support.subtitle %}</h3>
-
           {% include reg/support-tab.html %}
 
           <input type="button" name="previous" class="previous action-button" value="{%t reg.prev %}" />
@@ -66,16 +61,24 @@ layout: registration
     </div>
 
     <div class="reg-info">
-      <p>
+      <div class="bordered">
         {%tf conferences/2016/registration.md %}
-      </p>
+      </div>
 
       <hr>
 
-      <h4>Regisztráció díja</h4>
-      <p id="calculator">
-        {%t reg.calculation %}
-      </p>
+      <h4>{%t reg.price %}</h4>
+      <div id="calculator">
+        <p id="attendancePrice">
+          {%t reg.attendancePrice %}
+        </p>
+        <p id="swagPrice">
+          {%t reg.swagPrice %}
+        </p>
+        <p id="fullPrice">
+          {%t reg.fullPrice %}
+        </p>
+      </div>
     </div>
   </div>
 </section>

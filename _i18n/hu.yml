@@ -68,11 +68,14 @@ reg:
   prev: Vissza
   submit: Jelentkezem
   cta: Regisztrálj még ma!
-  calculation: A konferenci teljes költsége <b><span id="regCalculator"></span> Ft</b>
+  price: Regisztráció díja
+  attendancePrice: Résztvételi díj <b><span id="regCalculator" class="price-calculator"></span> Ft</b>
+  swagPrice: Támogatói csomag <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>
+  fullPrice: Fizetendő összeg <b><span id="fullCalculator"></span> Ft</b>
 
   error:
     email: Kérlek helyes email címet adj meg
-    birth: Kérlek helyes dátumot adj meg
+    birth: Kérlek a helyes dátumot formátumot használd (1990/12/31)
     empty: A mező kitöltése kötelező
 
   form:
@@ -80,9 +83,9 @@ reg:
       firstName: Keresztnév
       lastName: Vezetéknév
     email: Email
-    birth: Születési idő (1990/12/31)
     city: Város
-    country: Ország # Country / Region
+    birth: Születési idő (1990/12/31)
+    country: Ország
     conference:
       sabbath: Csak szombatra jövök
       full: Résztveszek az egész konferencián
@@ -99,15 +102,30 @@ reg:
         2: Kiscsoportos beszélgetés vezetése
         3: Teremdiakónia
       other: Egyéb szolgálat
-      seminars:
-        db: Doug Batchelor
-        jhc: Jan-Harry Cabungcal
-        kh: Kraig Harnett
-        csr: Csizmadia Róbert
-        hg: Horváth Gábor
-        tsz: Tóth Szilárd
-        df: Dankó Ferenc
-        sza: Szabó Attila
+      label: Önkéntes munkára jelentkezés
+    support:
+      label: Póló rendelés
+      type: Típus
+      men: Férfi
+      women: Női
+      kid: Gyerek
+      menHoody: Ffi pulóver
+      womenHoody: Női pulóver
+      size: Méret
+      quantity: Mennyiség
+      swag:
+        title: Támogatói csomagok
+        subtitle: |
+          Most van lehetőséged Támogatói Csomagokon keresztül hozzájárulni a Konferencia szervezéséhez. Minden csomagban egyedileg tervezett, FJK logóval ellátott termékeket találhatsz. Válassz egyet, és támogass minket!
+        10000: |
+          10000 Ft <span class="small">(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vászontáska + Natúr kozmetikai csomag + 100 db-os Glow csomag)</span>
+        5000: |
+          5000 Ft <span class="small">(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vászontáska + 50 db-os Glow csomag)</span>
+        3000: |
+          3000 Ft <span class="small">(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + 30 db-os Glow csomag)</span>
+        1000: |
+          1000 Ft <span class="small">(Jegyzetfüzet + 20 db-os Glow csomag)</span>
+        0: Imádkozom a Konferenciáért!
 
   tabs:
     personal:
@@ -120,7 +138,7 @@ reg:
       title: Szállás
     support:
       title: Támogatás
-      subtitle: Támogatsd a konferenciát
+      subtitle: Támogasd a Konferenciát
     program:
       title: Program
-      subtitle: Előzetes igények felmérése
+      subtitle: Jelentkezz önkéntes munkára

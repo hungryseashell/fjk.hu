@@ -6,5 +6,4 @@
   <li>Csilla Farkas</li>
   <li>Dávid Rárósi</li>
   <li>Eszter Tóth</li>
-  <li>István Matus</li>
 </ul>

@@ -9,6 +9,7 @@
   <li>Kamill Farkas</li>
   <li>Melinda Farkasné Rajki</li>
   <li>Orsolya Németh-Ambrus</li>
+  <li>István Matus</li>
   <li>Boglárka Mészáros</li>
   <li>Imre Ócsai</li>
   <li>Sándor Ócsai</li>

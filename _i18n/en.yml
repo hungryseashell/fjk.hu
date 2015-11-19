@@ -61,13 +61,20 @@ conferences:
     location: Budapest, Hungary
     motto: "Also I heard the voice of the Lord, saying,<br><i>Whom shall I send, and who will go for us?</i><br>Then said I <i>Here am I; send me.</i>”<br>Isa 6:8"
 
-
 reg:
   next: Next
   prev: Previous
   submit: Submit
   cta: Register today!
-  calculation: The registration fee <b><span id="regCalculator"></span> Ft</b>
+  price: Registration fee
+  attendancePrice: Participation fee <b><span id="regCalculator" class="price-calculator"></span> Ft</b>
+  swagPrice: Funding packages <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>
+  fullPrice: Fee to be transferred <b><span id="fullCalculator"></span> Ft</b>
+
+  error:
+    email: Please use valid email address
+    birth: Please use the valid date format (1990/12/31)
+    empty: Please fill out this field
 
   form:
     name:
@@ -78,27 +85,58 @@ reg:
     birth: Date of birth (1990/12/31)
     country: Country / Region
     conference:
-      sabbath: Csak szombatra jövök
-      full: Részt veszek az egész konferencián, de <span class="emph">nem kérek</span> szállást
-      info: Reggelit a szállással együtt biztosítunk
+      sabbath: Visiting only on Sabbath
+      full: Participating in the conference
+      info: Breakfast is included in the accomodation prices
       meal:
         thursday: Thursday
         friday: Friday
         sabbath: Sabbath
         lunch: Lunch
         dinner: Dinner
+    program:
+      voluntary:
+        1: Translation (English - Hungarian)
+        2: Guiding small-group discussions
+        3: Diaconia
+      other: Other services
+      label: Volunteer work
+    support:
+      label: T-Shirts & Hoodies
+      type: Type
+      men: Men
+      women: Women
+      kid: Kid
+      menHoody: Men hoody
+      womenHoody: Women hoody
+      size: Size
+      quantity: Quantity
+      swag:
+        title: Funding packages
+        subtitle: |
+          Here you have the opportunity to donate by Funding Packages. Every package includes specially designed, FJK – marked products. Choose one and support us!
+        10000: |
+          10000 Ft <span class="small">(Notebook + Fridge magnet + Laptop sticker + Cloth Bag + Natur cosmetics selection + 100-item-Glow package)</span>
+        5000: |
+          5000 Ft <span class="small">(Notebook + Fridge magnet + Laptop sticker + Cloth Bag + 50-item-Glow package)</span>
+        3000: |
+          3000 Ft <span class="small">(Notebook + Fridge magnet + Laptop sticker + 30-item-Glow package)</span>
+        1000: |
+          1000 Ft <span class="small">(Notebook + 20-item-Glow package)</span>
+        0: I pray for the Conference!
 
   tabs:
     personal:
       title: Personal details
-      subtitle: A regisztrációhoz szükséges személyes adatok
+      subtitle: We use this data only for the registration
     conference:
-      title: Részvétel
-      mealTitle: Étkezés
-      housingTitle: Szállás
+      title: Attendance
+      mealTitle: Meal
+    housing:
+      title: Housing
     support:
       title: Support
-      subtitle: Támogatsd a konferenciát
+      subtitle: Support the Conference
     program:
       title: Program
-      subtitle: Előzetes igények felmérése
+      subtitle: Help us

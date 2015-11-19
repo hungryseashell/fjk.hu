@@ -61,6 +61,23 @@ module.exports = function (calculatePrice) {
     calculatePrice();
   });
 
+  var typeTexts = {
+    label: $('select[name="shirtType-1"] option[value=""]').text(),
+    men: $('option[value=men]').text(),
+    women: $('option[value=women]').text(),
+    kid: $('option[value=kid]').text(),
+    menHoody: $('option[value=menHoody]').text(),
+    womenHoody: $('option[value=womenHoody]').text()
+  };
+
+  var sizeTexts = {
+    label: $('select[name="shirtSize-1"] option[value=""]').text(),
+  };
+
+  var quantityTexts = {
+    label: $('select[name="shirtQuantity-1"] option[value=""]').text(),
+  };
+
   $('#shirtPlusOne').click(function () {
     var lines = $('#shirtOrders .row');
     var count = lines.length + 1;
@@ -68,15 +85,15 @@ module.exports = function (calculatePrice) {
       '<div class="shirt-order form-inline row" data-count=' + count + '>' +
         '<input class="shirtOrder" type="hidden" data-price=0>' +
         '<select name="shirtType-' + count + '">' +
-          '<option value="">Tipus</option>' +
-          '<option value="men" data-single-price=1500>Ferfi (1500 Ft/db)</option>' +
-          '<option value="women" data-single-price=1500>Noi (1500 Ft/db)</option>' +
-          '<option value="kid" data-single-price=1700>Gyerek (1700 Ft/db)</option>' +
-          '<option value="menHoody" data-single-price=3700>Ffi pullcsi (3700 Ft/db)</option>' +
-          '<option value="womenHoody" data-single-price=3700>Noi pullcsi (3700 Ft/db)</option>' +
+          '<option value="">' + typeTexts.label + '</option>' +
+          '<option value="men" data-single-price=1500>' + typeTexts.men + '</option>' +
+          '<option value="women" data-single-price=1500>' + typeTexts.women + '</option>' +
+          '<option value="kid" data-single-price=1700>' + typeTexts.kid + '</option>' +
+          '<option value="menHoody" data-single-price=3700>' + typeTexts.menHoody + '</option>' +
+          '<option value="womenHoody" data-single-price=3700>' + typeTexts.womenHoody + '</option>' +
         '</select>' +
         '<select name="shirtSize-' + count + '">' +
-          '<option class="menHoody womenHoody men women kid" value="" data-single-price=0>Meret</option>' +
+          '<option class="menHoody womenHoody men women kid" value="" data-single-price=0>' + sizeTexts.label + '</option>' +
           '<option class="menHoody womenHoody men women" value="S" data-single-price=1>S</option>' +
           '<option class="menHoody womenHoody men women" value="M" data-single-price=1>M</option>' +
           '<option class="menHoody womenHoody men women" value="L" data-single-price=1>L</option>' +
@@ -98,7 +115,7 @@ module.exports = function (calculatePrice) {
           '<option class="menHoody" value="Dark Chocolate" data-single-price=1>Dark Chocolate</option>' +
         '</select>' +
         '<select name="shirtQuantity-' + count + '">' +
-          '<option value="" data-single-price=0>Mennyiseg</option>' +
+          '<option value="" data-single-price=0>' + quantityTexts.label + '</option>' +
           '<option value="1" data-single-price=1>1</option>' +
           '<option value="2" data-single-price=2>2</option>' +
           '<option value="3" data-single-price=3>3</option>' +

@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 section#register {
-  min-height: 900px;
+  min-height: 950px;
   .container;
   margin-bottom: 50px;
 
@@ -209,6 +209,11 @@ section#register {
       .make-sm-column(4);
 
       text-align: justify;
+
+      .bordered p:nth-child(2) {
+        border-left: solid 5px @orange;
+        padding-left: 15px;
+      }
 
       b {
         .pull-right;

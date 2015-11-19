@@ -7,6 +7,41 @@ require('./reg/tab');
 require('./reg/shirt')(calculatePrice);
 require('./reg/bindings');
 
+function changeSwagCalculator() {
+  var swagCalculator = $('#swagCalculator');
+  var selectedSwag = $('[data-swag]:checked');
+  var swagPrice = selectedSwag.val();
+
+  swagCalculator
+    .text(swagPrice)
+    .data({
+      asdf:1
+    });
+
+  $('#calculator').trigger('updateFullPrice');
+}
+
+$('#swag').change(changeSwagCalculator);
+
+$('#calculator').on('updateFullPrice', function (e) {
+  var swagPrice = parseInt($('#swagCalculator').text(), 10);
+  var regPrice = parseInt($('#regCalculator').text(), 10);
+  var price = swagPrice + regPrice;
+
+  $('#fullCalculator')
+    .animate({
+      'font-size': '150%'
+    }, {
+      duration: 250
+    })
+    .text(price)
+    .animate({
+      'font-size': '100%'
+    }, {
+      duration: 250
+    });
+});
+
 var payableSelector = '[data-price]:checked, [data-price].shirtOrder';
 
 function calculatePrice() {
@@ -23,18 +58,8 @@ function calculatePrice() {
     return;
   }
 
-  regCalculator
-    .animate({
-      'font-size': '150%'
-    }, {
-      duration: 250
-    })
-    .text(price)
-    .animate({
-      'font-size': '100%'
-    }, {
-      duration: 250
-    });
+  regCalculator.text(price)
+  $('#calculator').trigger('updateFullPrice');
 }
 calculatePrice();
 
