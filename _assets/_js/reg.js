@@ -12,11 +12,7 @@ function changeSwagCalculator() {
   var selectedSwag = $('[data-swag]:checked');
   var swagPrice = selectedSwag.val();
 
-  swagCalculator
-    .text(swagPrice)
-    .data({
-      asdf:1
-    });
+  swagCalculator.text(swagPrice);
 
   $('#calculator').trigger('updateFullPrice');
 }
@@ -58,7 +54,7 @@ function calculatePrice() {
     return;
   }
 
-  regCalculator.text(price)
+  regCalculator.text(price);
   $('#calculator').trigger('updateFullPrice');
 }
 calculatePrice();
@@ -168,15 +164,19 @@ $('#registrationForm').on('submit', function (e) {
     .post('https://reg-fjk-staging.herokuapp.com/register')
     .send(registration)
     .end(function (err, res, body) {
-      console.log('err', err);
-      console.log('body', body);
+      if (err) {
+        return $('#server-error').show();
+      }
+
       if (res.statusType === 2) {
-        $('#success').show();
+        $('input[type=submit]')
+          .parent()
+          .children('.next')
+          .trigger('click');
       } else {
-        $('#server-error').show();
+        $('#server-error').fadeIn();
       }
     });
 
-  console.log(JSON.stringify(registration, null, 2));
-  return false;
+  return true;
 });

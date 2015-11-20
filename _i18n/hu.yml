@@ -71,12 +71,18 @@ reg:
   price: Regisztráció díja
   attendancePrice: Résztvételi díj <b><span id="regCalculator" class="price-calculator"></span> Ft</b>
   swagPrice: Támogatói csomag <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>
-  fullPrice: Fizetendő összeg <b><span id="fullCalculator"></span> Ft</b>
+  fullPrice: Fizetendő összeg* <b><span id="fullCalculator"></span> Ft</b>
+  fullPriceHelp: A szállás költségét ezen felül kell rendezni!
+
+  success:
+    title: A regisztrációd sikeres!
+    subtitle: A részletekről küldtünk egy emailt!
 
   error:
     email: Kérlek helyes email címet adj meg
     birth: Kérlek a helyes dátumot formátumot használd (1990/12/31)
     empty: A mező kitöltése kötelező
+    server: Hiba merült fel az üzenet elküldése során. Kérjük, próbálja újra később!
 
   form:
     name:
@@ -126,6 +132,8 @@ reg:
         1000: |
           1000 Ft <span class="small">(Jegyzetfüzet + 20 db-os Glow csomag)</span>
         0: Imádkozom a Konferenciáért!
+      links: |
+        A pulóvereket itt nézheted meg: <a href="/files/men-hoody.pdf" target="_blank">férfi</a> és <a href="/files/women-hoody.pdf" target="_blank">női</a>.
 
   tabs:
     personal:

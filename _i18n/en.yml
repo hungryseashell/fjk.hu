@@ -69,12 +69,18 @@ reg:
   price: Registration fee
   attendancePrice: Participation fee <b><span id="regCalculator" class="price-calculator"></span> Ft</b>
   swagPrice: Funding packages <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>
-  fullPrice: Fee to be transferred <b><span id="fullCalculator"></span> Ft</b>
+  fullPrice: Fee to be transferred* <b><span id="fullCalculator"></span> Ft</b>
+  fullPriceHelp: The accommodation fee is not included!
+
+  success:
+    title: A regisztrációd sikeres!
+    subtitle: A részletekről küldtünk egy emailt!
 
   error:
     email: Please use valid email address
     birth: Please use the valid date format (1990/12/31)
     empty: Please fill out this field
+    server: Something went wrong, please try again later!
 
   form:
     name:
@@ -86,8 +92,8 @@ reg:
     country: Country / Region
     conference:
       sabbath: Visiting only on Sabbath
-      full: Participating in the conference
-      info: Breakfast is included in the accomodation prices
+      full: Participating in the whole conference
+      info: Breakfast is included in the accommodation prices
       meal:
         thursday: Thursday
         friday: Friday
@@ -124,6 +130,8 @@ reg:
         1000: |
           1000 Ft <span class="small">(Notebook + 20-item-Glow package)</span>
         0: I pray for the Conference!
+      links: |
+        You can check out the hoodies here: <a href="/files/men-hoody.pdf" target="_blank">men</a> and <a href="/files/women-hoody.pdf" target="_blank">women</a>.
 
   tabs:
     personal:

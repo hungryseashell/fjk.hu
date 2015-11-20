@@ -53,10 +53,21 @@ layout: registration
         <div class="tab">
           {% include reg/support-tab.html %}
 
+          <input type="hidden" name="next" class="next action-button" />
           <input type="button" name="previous" class="previous action-button" value="{%t reg.prev %}" />
           <input type="submit" name="submit" class="submit action-button" value="{%t reg.submit %}" />
+
+          <div id="server-error">
+            <p>
+              {%t reg.error.server %}
+            </p>
+          </div>
         </div>
 
+        <div class="tab">
+          <h2 class="fs-title">{%t reg.success.title %}</h2>
+          <h3 class="fs-subtitle">{%t reg.success.subtitle %}</h3>
+        </div>
       </form>
     </div>
 
@@ -78,6 +89,7 @@ layout: registration
         <p id="fullPrice">
           {%t reg.fullPrice %}
         </p>
+        <p class="small">*{%t reg.fullPriceHelp %}</p>
       </div>
     </div>
   </div>
