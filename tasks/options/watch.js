@@ -5,12 +5,12 @@ module.exports = {
       tasks: ['less', 'newer:uglify', 'newer:cssmin', 'newer:copy', 'exec:build']
     },
     other: {
-      files: ['_includes/**/*', '_layouts/**/*', '**/*.html', '_assets/_js/*.js'],
+      files: ['_includes/**/*', '_layouts/**/*', '**/*.html', '_assets/**/*.js'],
       tasks: ['default']
     },
     options: {
       livereload: true,
       spawn: false
-    },
+    }
   }
 };

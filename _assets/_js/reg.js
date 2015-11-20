@@ -65,104 +65,15 @@ $('#registrationForm').on('submit', function (e) {
   e.preventDefault();
   var form = $(this).serializeArray();
 
-  function get(key) {
-    return form
-      .find(function (param) {
-        return param.name === key;
-      }).value;
-  }
-
-  var meals = {
-    lunch: [],
-    dinner: []
-  };
-
-  meals.lunch = form
-    .filter(function (param) {
-      return param.name === 'lunch';
-    })
-    .map(function (lunch) {
-      return lunch.value;
-    });
-
-  meals.dinner = form
-    .filter(function (param) {
-      return param.name === 'dinner';
-    })
-    .map(function (dinner) {
-      return dinner.value;
-    });
-
-  var voluntaries = form
-    .filter(function (param) {
-      return param.name === 'voluntary';
-    })
-    .map(function (voluntary) {
-      if (voluntary.value === 'other') {
-        return form
-          .find(function (param) {
-            return param.name === 'voluntary-text';
-          }).value;
-      }
-      return voluntary.value;
-    });
-
-  var shirts = form
-    .filter(function (param) {
-      return param.name.indexOf('shirt') > -1;
-    })
-    .reduce(function (shirts, shirt) {
-      var number = parseInt(shirt.name.split('-')[1], 10) - 1;
-      var dataType = shirt.name.split('-')[0];
-      if (!shirts[number]) {
-        shirts[number] = {};
-      }
-      shirts[number][dataType] = shirt.value;
-
-      return shirts;
-    }, [])
-    .filter(function (shirt) {
-      return shirt.shirtType.length * shirt.shirtSize.length * shirt.shirtQuantity.length;
-    })
-    .map(function (shirt) {
-      if (shirt.shirtType.indexOf('Hoody') === -1) {
-        return {
-          type: shirt.shirtType,
-          size: shirt.shirtSize,
-          quantity: shirt.shirtQuantity
-        };
-      }
-
-      return {
-        type: shirt.shirtType,
-        size: shirt.shirtSize,
-        color: shirt.shirtColor,
-        quantity: shirt.shirtQuantity
-      };
-    });
-
-  var registration = {
-    name: {
-      lastName: get('lname'),
-      firstName: get('fname')
-    },
-    email: get('email'),
-    birthDay: get('birth'),
-
-    city: get('city'),
-    country: get('country'),
-
-    attendance: get('attendance'),
-    meals: meals,
-
-    voluntaries: voluntaries,
-
-    shirts: shirts
-  };
+  form.push({
+    name: 'lang',
+    value: (window.location.pathname.indexOf('/en/') > -1)
+  });
+  console.log(form);
 
   request
     .post('https://reg-fjk-staging.herokuapp.com/register')
-    .send(registration)
+    .send(form)
     .end(function (err, res, body) {
       if (err) {
         return $('#server-error').show();

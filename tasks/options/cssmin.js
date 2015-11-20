@@ -4,6 +4,6 @@ module.exports = {
       files: {
         'assets/css/fjk.min.css': '_temp/fjk.css'
       }
-    },
+    }
   }
 };

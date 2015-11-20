@@ -115,7 +115,7 @@ reg:
       men: Férfi
       women: Női
       kid: Gyerek
-      menHoody: Ffi pulóver
+      menHoody: Férfi pulóver
       womenHoody: Női pulóver
       size: Méret
       quantity: Mennyiség
@@ -133,7 +133,7 @@ reg:
           1000 Ft <span class="small">(Jegyzetfüzet + 20 db-os Glow csomag)</span>
         0: Imádkozom a Konferenciáért!
       links: |
-        A pulóvereket itt nézheted meg: <a href="/files/men-hoody.pdf" target="_blank">férfi</a> és <a href="/files/women-hoody.pdf" target="_blank">női</a>.
+        A pulóvereket itt nézheted meg: <a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>, <a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>, <a id="popover-kid" rel="popover" data-content="" title="Gyerek méretek">gyerek</a>, <a id="popover-hoody" rel="popover" data-content="" title="Pulóverek méretek">pulóverek</a>.
 
   tabs:
     personal:

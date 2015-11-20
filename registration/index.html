@@ -67,6 +67,12 @@ layout: registration
         <div class="tab">
           <h2 class="fs-title">{%t reg.success.title %}</h2>
           <h3 class="fs-subtitle">{%t reg.success.subtitle %}</h3>
+
+          {% if site.lang == "hu" %}
+            <a href="/conferences/2016" title="{%t conferences.2016.title %}">{%t conferences.2016.title %}</a>
+          {% else %}
+            <a href="/en/conferences/2016" title="{%t conferences.2016.title %}">{%t conferences.2016.title %}</a>
+          {% endif %}
         </div>
       </form>
     </div>

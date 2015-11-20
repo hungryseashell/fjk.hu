@@ -1,3 +1,7 @@
+'use strict';
+
+var util = require('util');
+
 module.exports = function (calculatePrice) {
   $('#shirtOrders').on('change', 'select[name^="shirtType"]', function () {
     var self = $(this);
@@ -124,5 +128,41 @@ module.exports = function (calculatePrice) {
         '</select>' +
         '<a type="button" class="minusOne plusOne">-</a>' +
       '</div>');
+  });
+
+  var image = '<img src="/assets/img/%s.png" width="%s" height="%s">';
+  [{
+    name: 'men',
+    w: 400,
+    h: 100
+  }, {
+    name: 'women',
+    w: 727,
+    h: 176
+  }, {
+    name: 'menHoody',
+    w: 500,
+    h: 431
+  }, {
+    name: 'womenHoody',
+    w: 500,
+    h: 289
+  }, {
+    name: 'hoody',
+    w: 400,
+    h: 100
+  }, {
+    name: 'kid',
+    w: 400,
+    h: 100
+  }].forEach(function (pop) {
+    var content = util.format(image, pop.name, pop.w, pop.h);
+    console.log(content);
+    $('#popover-' + pop.name).popover({
+      container: 'body',
+      trigger: 'hover',
+      content: content,
+      html: true
+    });
   });
 };
