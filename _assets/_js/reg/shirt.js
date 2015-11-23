@@ -148,9 +148,13 @@ module.exports = function (calculatePrice) {
     w: 500,
     h: 289
   }, {
-    name: 'hoody',
+    name: 'menHoodySize',
     w: 400,
     h: 100
+  }, {
+    name: 'womenHoodySize',
+    w: 821,
+    h: 252
   }, {
     name: 'kid',
     w: 400,

@@ -108,11 +108,11 @@ reg:
     support:
       label: T-Shirts & Hoodies
       type: Type
-      men: Men
-      women: Women
+      men: Men's T-Shirts
+      women: Women's T-Shirts
       kid: Child
-      menHoody: Men hoody
-      womenHoody: Women hoody
+      menHoody: Men's hoody
+      womenHoody: Women's hoody
       size: Size
       quantity: Quantity
       swag:
@@ -129,7 +129,7 @@ reg:
           1000 Ft <span class="small">(Notebook + 20-item-Glow package)</span>
         0: I pray for the Conference!
       links: |
-        You can check out the hoodies here: <a id="popover-menHoody" rel="popover" data-content="" title="Men's hoodies">men</a> and <a id="popover-womenHoody" rel="popover" data-content="" title="Women's hoodies">women</a>. Size: <a id="popover-men" rel="popover" data-content="" title="Men">men</a>, <a id="popover-women" rel="popover" data-content="" title="Women">women</a>, <a id="popover-kid" rel="popover" data-content="" title="Kid">kid</a>, <a id="popover-hoody" rel="popover" data-content="" title="Hoodies">hoodies</a>.
+        You can check out the hoodies here: <a id="popover-menHoody" rel="popover" data-content="" title="Men's hoodies">men</a> and <a id="popover-womenHoody" rel="popover" data-content="" title="Women's hoodies">women</a>. Size: <a id="popover-men" rel="popover" data-content="" title="Men">men</a>, <a id="popover-women" rel="popover" data-content="" title="Women">women</a>, <a id="popover-kid" rel="popover" data-content="" title="Kid">kid</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Men's hoodies">men's hoodies</a>, <a id="popover-womenHoodySize" rel="popover" data-content="" title="Women's hoodies">women's hoodies</a>.
 
   tabs:
     personal:

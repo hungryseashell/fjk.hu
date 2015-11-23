@@ -108,11 +108,11 @@ reg:
       other: Egyéb szolgálat
       label: Önkéntes munkára jelentkezés
     support:
-      label: Póló rendelés
+      label: Póló és pulóver rendelés
       type: Típus
-      men: Férfi
-      women: Női
-      kid: Gyerek
+      men: Férfi póló
+      women: Női póló
+      kid: Gyerek póló
       menHoody: Férfi pulóver
       womenHoody: Női pulóver
       size: Méret
@@ -131,7 +131,7 @@ reg:
           1000 Ft <span class="small">(Jegyzetfüzet + 20 db-os Glow csomag)</span>
         0: Imádkozom a Konferenciáért!
       links: |
-        A pulóvereket itt nézheted meg: <a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>, <a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>, <a id="popover-kid" rel="popover" data-content="" title="Gyerek méretek">gyerek</a>, <a id="popover-hoody" rel="popover" data-content="" title="Pulóverek méretek">pulóverek</a>.
+        A pulóvereket itt nézheted meg: <a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>, <a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>, <a id="popover-kid" rel="popover" data-content="" title="Gyerek méretek">gyerek</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Férfi pulóverek méretek">Férfi pulóverek</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Női pulóverek méretek">női pulóverek</a>.
 
   tabs:
     personal:

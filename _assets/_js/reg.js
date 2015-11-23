@@ -69,12 +69,13 @@ $('#registrationForm').on('submit', function (e) {
     name: 'lang',
     value: (window.location.pathname.indexOf('/en/') > -1)
   });
-  console.log(form);
 
+  $('html,body').css('cursor', 'progress');
   request
     .post('https://reg-fjk-staging.herokuapp.com/register')
     .send(form)
     .end(function (err, res, body) {
+      $('html,body').css('cursor', 'default');
       if (err) {
         return $('#server-error').show();
       }
