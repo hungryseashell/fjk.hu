@@ -110,7 +110,7 @@ reg:
       type: Type
       men: Men
       women: Women
-      kid: Kid
+      kid: Child
       menHoody: Men hoody
       womenHoody: Women hoody
       size: Size

@@ -68,6 +68,7 @@ layout: registration
           <h2 class="fs-title">{%t reg.success.title %}</h2>
           <h3 class="fs-subtitle">{%t reg.success.subtitle %}</h3>
 
+          <input type="button" name="previous" class="previous action-button" value="{%t reg.prev %}" />
           {% if site.lang == "hu" %}
             <a href="/conferences/2016" title="{%t conferences.2016.title %}">{%t conferences.2016.title %}</a>
           {% else %}
@@ -86,14 +87,14 @@ layout: registration
 
       <h4>{%t reg.price %}</h4>
       <div id="calculator">
-        <p id="attendancePrice">
-          {%t reg.attendancePrice %}
+        <p id="fullPrice">
+          {%t reg.fullPrice %}
         </p>
         <p id="swagPrice">
           {%t reg.swagPrice %}
         </p>
-        <p id="fullPrice">
-          {%t reg.fullPrice %}
+        <p id="attendancePrice">
+          {%t reg.attendancePrice %}
         </p>
         <p class="small">*{%t reg.fullPriceHelp %}</p>
       </div>
