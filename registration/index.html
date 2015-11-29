@@ -3,6 +3,10 @@ layout: registration
 ---
 
 <section id="register">
+  <div class="too-small-display">
+    {%t reg.error.smallDisplay %}
+  </div>
+
   <div class="register">
     <div class="reg-form">
       <form id="registrationForm" role="form" data-toggle="validator">
@@ -53,7 +57,7 @@ layout: registration
         <div class="tab">
           {% include reg/support-tab.html %}
 
-          <input type="hidden" name="next" class="next action-button" />
+          <input id="submitNext" type="hidden" name="next" class="next action-button" />
           <input type="button" name="previous" class="previous action-button" value="{%t reg.prev %}" />
           <input type="submit" name="submit" class="submit action-button" value="{%t reg.submit %}" />
 
@@ -62,6 +66,18 @@ layout: registration
               {%t reg.error.server %}
             </p>
           </div>
+        </div>
+
+        <div class="tab">
+          <div class="submit-tab">
+            <div class="spinner"></div>
+            <p>
+              {%t reg.error.progress %}
+            </p>
+          </div>
+
+          <input id="submitOk" type="hidden" name="next" class="next action-button" />
+          <input id="submitError" type="hidden" name="previous" class="previous action-button" value="{%t reg.prev %}" />
         </div>
 
         <div class="tab">

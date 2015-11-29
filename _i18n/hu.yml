@@ -81,6 +81,8 @@ reg:
     birth: Kérlek a helyes dátumot formátumot használd (1990/12/31)
     empty: A mező kitöltése kötelező
     server: Hiba merült fel az üzenet elküldése során. Kérjük, próbálja újra később!
+    progress: Regisztrációd feldolgozása folyamatban...
+    smallDisplay: A regisztrációdat csak nagyobb felbontású kijelzőn tudod folytatni...
 
   form:
     name:

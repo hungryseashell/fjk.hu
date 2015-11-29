@@ -2,7 +2,6 @@
 
 var request = require('superagent');
 
-require('./reg/mobilcheck');
 require('./reg/tab');
 require('./reg/shirt')(calculatePrice);
 require('./reg/bindings');
@@ -61,8 +60,15 @@ calculatePrice();
 
 $('#registrationForm').on('change', '[data-price], [data-price].shirtOrder', calculatePrice);
 
+var submitted = false;
 $('#registrationForm').on('submit', function (e) {
   e.preventDefault();
+
+  if (submitted) {
+    return false;
+  }
+  submitted = true;
+
   var form = $(this).serializeArray();
 
   form.push({
@@ -70,21 +76,18 @@ $('#registrationForm').on('submit', function (e) {
     value: (window.location.pathname.indexOf('/en/') > -1)
   });
 
-  $('html,body').css('cursor', 'progress');
+  $('#submitNext').trigger('click');
   request
     .post('https://reg-fjk-staging.herokuapp.com/register')
     .send(form)
     .end(function (err, res, body) {
-      $('html,body').css('cursor', 'default');
       if (err) {
+        $('#submitError').trigger('click');
         return $('#server-error').show();
       }
 
       if (res.statusType === 2) {
-        $('input[type=submit]')
-          .parent()
-          .children('.next')
-          .trigger('click');
+        $('#submitOk').trigger('click');
       } else {
         $('#server-error').fadeIn();
       }

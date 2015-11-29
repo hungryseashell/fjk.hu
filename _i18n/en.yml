@@ -79,6 +79,8 @@ reg:
     birth: Please use the valid date format (1990/12/31)
     empty: Please fill out this field
     server: Something went wrong, please try again later!
+    progress: Your registration is in progress...
+    smallDisplay: Please proceed your registration on higher resolution screen...
 
   form:
     name:

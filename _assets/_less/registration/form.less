@@ -9,9 +9,22 @@ section#register {
   min-height: 950px;
   margin-bottom: 50px;
 
+  .too-small-display {
+    display: none;
+    margin-top: 50px;
+
+    @media (max-width: 994px) {
+      display: block;
+    }
+  }
+
   .register {
     .row;
     padding-top: 50px;
+
+    @media (max-width: 994px) {
+      display: none;
+    }
 
     .reg-form {
       .make-lg-column(8);
@@ -95,7 +108,8 @@ section#register {
           .personal-tab,
           .conference-tab,
           .program-tab,
-          .support-tab {
+          .support-tab,
+          .submit-tab {
             .make-md-column(12);
 
             .shirtColor {
@@ -122,6 +136,18 @@ section#register {
           .housing-tab {
             p {
               text-align: justify;
+            }
+          }
+
+          .submit-tab {
+            padding: 100px 0;
+
+            .spinner {
+              background: url(/assets/img/spinner.gif);
+              width: 128px;
+              height: 128px;
+              margin: auto;
+              margin-bottom: 20px;
             }
           }
 
