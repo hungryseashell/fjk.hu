@@ -75,11 +75,11 @@ module.exports = function (calculatePrice) {
   };
 
   var sizeTexts = {
-    label: $('select[name="shirtSize-1"] option[value=""]').text(),
+    label: $('select[name="shirtSize-1"] option[value=""]').text()
   };
 
   var quantityTexts = {
-    label: $('select[name="shirtQuantity-1"] option[value=""]').text(),
+    label: $('select[name="shirtQuantity-1"] option[value=""]').text()
   };
 
   $('#shirtPlusOne').click(function () {
@@ -161,7 +161,6 @@ module.exports = function (calculatePrice) {
     h: 100
   }].forEach(function (pop) {
     var content = util.format(image, pop.name, pop.w, pop.h);
-    console.log(content);
     $('#popover-' + pop.name).popover({
       container: 'body',
       trigger: 'hover',

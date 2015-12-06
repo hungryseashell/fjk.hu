@@ -55,6 +55,10 @@ function hexCoords(x, y, r) {
 function drawHeader() {
   var paper = Snap('#header-svg');
 
+  if (!paper) {
+    return;
+  }
+
   var r = 50;
   var d = r * Math.cos(Math.PI / 6);
   var x = d;
@@ -86,6 +90,9 @@ function drawHeader() {
 function animateHeader() {
   window.requestAnimationFrame(animateHeader);
   var paper = Snap('#header-svg');
+  if (!paper) {
+    return;
+  }
   var h = paper.selectAll('.hex');
   if (Math.random() < 0.05) {
     var rand = Math.floor(Math.random() * h.length);

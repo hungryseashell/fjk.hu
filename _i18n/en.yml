@@ -69,6 +69,7 @@ reg:
   swagPrice: Funding packages <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>
   fullPrice: Fee to be transferred* <b><span id="fullCalculator"></span> Ft</b>
   fullPriceHelp: The accommodation fee is not included!
+  newsletter: Sign up for FJK newsletter
 
   success:
     title: Your application was successful!
