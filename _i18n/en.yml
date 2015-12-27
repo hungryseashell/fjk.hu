@@ -96,9 +96,11 @@ reg:
       full: Participating in the whole conference
       info: Breakfast is included in the accommodation prices
       meal:
+        wednesday: Wednesday
         thursday: Thursday
         friday: Friday
         sabbath: Sabbath
+        sunday: Sunday
         lunch: Lunch
         dinner: Dinner
     program:

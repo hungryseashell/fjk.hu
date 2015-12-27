@@ -1,10 +1,10 @@
 'use strict';
 
-var menuItems = $('.nav>.dropdown>.dropdown-menu>li>a');
+var menuItems = $('.navbar-nav>.dropdown>.dropdown-menu>li>a');
 var registrationButtons = $('.registrationButton');
 
 if (!menuItems.length) {
-  menuItems = $('.nav>li>a');
+  menuItems = $('.navbar-nav>li>a');
 }
 
 var requestAnimationFrame = window.requestAnimationFrame ||

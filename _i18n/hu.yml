@@ -98,9 +98,11 @@ reg:
       full: Résztveszek az egész konferencián
       info: Reggelit a szállással együtt biztosítunk
       meal:
+        wednesday: Szerda
         thursday: Csütörtök
         friday: Péntek
         sabbath: Szombat
+        sunday: Vasárnap
         lunch: Ebéd
         dinner: Vacsora
     program:
