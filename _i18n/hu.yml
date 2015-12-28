@@ -82,6 +82,7 @@ reg:
     birth: Kérlek a helyes dátumot formátumot használd (1990/12/31)
     empty: A mező kitöltése kötelező
     server: Hiba merült fel az üzenet elküldése során. Kérjük, próbálja újra később!
+    user: Ezzel az email címmel már regisztráltak! Ha módosítani szeretnéd a regisztrációdat, keress meg minket a <a href="mailto:reg@fjk.hu">reg@fjk.hu</a> email címen!
     progress: Regisztrációd feldolgozása folyamatban...
     smallDisplay: A regisztrációdat csak nagyobb felbontású kijelzőn tudod folytatni...
 

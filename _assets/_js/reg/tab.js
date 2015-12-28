@@ -16,7 +16,8 @@ $('#registrationForm').on('valid.bs.validator', function (e) {
   inValidFlag = false;
 });
 
-$('.next').click(function () {
+$('.next').click(function (e, options) {
+  const duration = options ? options.duration : 800;
   $('#registrationForm').validator();
 
   if (animatingFlag || inValidFlag) {
@@ -73,7 +74,7 @@ $('.next').click(function () {
         opacity: opacity
       });
     },
-    duration: 800,
+    duration: duration,
     complete: function () {
       current_fs.hide();
       animatingFlag = false;
@@ -82,7 +83,8 @@ $('.next').click(function () {
   });
 });
 
-$('.previous').click(function () {
+$('.previous').click(function (e, options) {
+  const duration = options ? options.duration : 800;
   if (animatingFlag || inValidFlag) {
     return false;
   }
@@ -116,7 +118,7 @@ $('.previous').click(function () {
         opacity: opacity
       });
     },
-    duration: 800,
+    duration: duration,
     complete: function () {
       current_fs.hide();
       animatingFlag = false;

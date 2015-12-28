@@ -80,6 +80,7 @@ reg:
     birth: Please use the valid date format (1990/12/31)
     empty: Please fill out this field
     server: Something went wrong, please try again later!
+    user: This email address has already been used for a registration! If you want to modify it, please contact us by email at <a href="mailto:reg@fjk.hu">reg@fjk.hu</a>!
     progress: Your registration is in progress...
     smallDisplay: Please proceed your registration on higher resolution screen...
 
