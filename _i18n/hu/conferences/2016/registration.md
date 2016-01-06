@@ -4,6 +4,4 @@ A regisztrációd véglegesítéséhez szükséges a regisztráció során megje
 
 A regisztráció során megjelölt összeget átutalással kérjük befizetni, a <span class="emph">12001008-01177336-00100001</span> (**ASi Magyarország**) számlaszámra. A közlemény rovatban a regisztráló személy(ek) neve mellett mindenféleképpen legyen feltüntetve az is, hogy „**FJK támogatás**”. Külföldi utalás esetén a következő adatok szükségesek: IBAN: HU19 1200 1008 0117 7336 0010 0001, Swift code: UBRTHUHB.
 
-**Kedvezményes előregisztrációra 2015. 12. 31-ig van lehetőséged!** A kedvezmény mértéke 3000 Ft, mellyel szállás foglalása esetén a konferencián fizetendő szállás díját csökkentjük. A kedvezmény további feltétele a szállás foglalási nyomtatvány kitöltése és visszaküldése az előregisztráció határidejéig, a <a href="mailto:reg@fjk.hu">reg@fjk.hu</a> email címre.
-
 Ha bármilyen egyéb kérésed, kérdésed van, írj bátran az <a href="mailto:info@fjk.hu">info@fjk.hu</a> e-mail címre!
