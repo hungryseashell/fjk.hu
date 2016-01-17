@@ -23,9 +23,9 @@
     </div>
     <div class="description">
       <p>
-      Egy olyan világban élünk, ahol több nagy intelligenciával és (ál)okosokodással rendelkező fiatalra van szükség? Mi ennek a generációnak a legnagyobb hiánya és szükséglete? Hogyan tud a HNA mozgalom katalizátor és a hiányzó láncszem lenni ebben az utolsó generációban? Ezekre a kérdésekre keressük a választ a szeminárium alatt és gyakorlati módszereket nyújtunk arra, hogy magasabbra tűzzük ki a céljainkat, mint amilyen magasra csak emberi gondolat elérhet – ez Isten tökéletes elgondolása gyermekei számára.
+        Egy olyan világban élünk, ahol több nagy intelligenciával és (ál)okosokodással rendelkező fiatalra van szükség? Mi ennek a generációnak a legnagyobb hiánya és szükséglete? Hogyan lehet az adventista mozgalom katalizátor és a hiányzó láncszem lenni ebben az utolsó generációban? Ezekre a kérdésekre keressük a választ a szeminárium alatt, és gyakorlati módszereket nyújtunk arra, hogy magasabbra tűzzük ki a céljainkat, mint amilyen magasra csak emberi gondolat elérhet – ez Isten tökéletes elgondolása gyermekei számára.
       <br>
-      A Biblia azt tanítja, hogy nemcsak hallgatói vagyunk Isten szavának, hanem cselekvői is. Mégis olyan sokszor, miután megosztottunk egy kritikus igazságot egy barátunkkal vagy családtagunkkal, nem történik döntés. Hogyan tudunk oly módon együttműködni a Szentlélekkel, hogy sok, a döntés völgyében veszteglő lélektől nyerjünk döntést? Hogyan hívjunk döntésre hatásosan, meggyőződéssel, magabiztosan? Gyere és tanuld meg hogyan hozz embereket Jézus lábához, és hogyan engedd, hogy a kereszt ereje által az egyén egy meg-nem-kötözött életet válasszon ezekben az utolsó napokban.
+        A Biblia azt tanítja, hogy nemcsak hallgatói vagyunk Isten szavának, hanem cselekvői is. Mégis olyan sokszor, miután megosztottunk egy kritikus igazságot egy barátunkkal vagy családtagunkkal, nem történik döntés. Hogyan tudunk oly módon együttműködni a Szentlélekkel, hogy sok, a döntés völgyében veszteglő emberen segítsünk? Hogyan hívjunk döntésre hatásosan, meggyőződéssel, magabiztosan? Gyere, és tanuld meg hogyan hozz embereket Jézus lábához, és hogyan engedd, hogy a kereszt ereje által az egyén egy meg-nem-kötözött életet válasszon ezekben az utolsó napokban.
       </p>
     </div>
   </div>

@@ -11,7 +11,7 @@
     </div>
     <div class="bio">
       <p>
-        Doug Batchelor az Amazing Facts szervezet elnöke és elóadója, valamint a Kaliforniában lévő Granite Bay-i adventista gyülekezet vezető lelkésze. A bibliai témájú tanító programja minden nap látható a nemzeti kábeltelevíziós csatornákon, illetve műholddal az egész vílágon. Ő a házaigazdája a Bible Answers Live (Bibliai válaszok élő adása) betelefonálós rádióprogramnak, ahol bibliai kérdésekkel foglalkoznak. Ezt az adást minden vasárnap este lehet hallgatni Észak-Amerika egész területén. Számos cikknek és könyvnek a szerzőnje.Doug a látás  és a mély lelkiség embere, mégis a földhözragadt hozzáállása és spontán humorarévén képes arra, hogy egyaránt keresztényekhez és világi közönséghez is beszéljen. Szeret repülni, búvárkodni, quadot vezetni és gitározni. Feleségével, Karennel öt gyermekük van.
+        Doug Batchelor az Amazing Facts szervezet elnöke és előadója, valamint a kaliforniai Granite Bay Adventista gyülekezet lelkésze. Bibliai témájú TV műsora minden nap látható a amerikai kábeltelevíziós csatornákon, illetve műhold segítségével az egész világon. Házigazdája a Bible Answers Live (Bibliai válaszok Élőben) betelefonálós rádióprogramnak. Ez az adás minden vasárnap este hallgatható Észak-Amerika egész területén. Számos cikk és könyv szerzője. Doug a mély lelkiség és látás embere, mégis gyakorlatias hozzáállása és spontán humora révén képes arra, hogy keresztények és nem hívő közönséghez egyaránt szóljon. Szeret repülni, búvárkodni, quadot vezetni és gitározni. Feleségével, Karennel öt gyermekük van.
       </p>
     </div>
   </div>
@@ -32,7 +32,7 @@
     </div>
     <div class="bio">
       <p>
-        Jan-Harry Cabungcal neurológus végzettsége szerint, de a lélekmentés élete szenvedélye. A Europe 4 Jesus alapítójaként és evangelizációs koordinátoraként, valamint a svájci ASI választott elnökeként Dr. Cabungcal azon munkálkodik, hogy a fiatalokat az elveszettek megkeresésére ösztönözze, képezze és mozgósítsa, új erőt adva a megfáradtaknak, s tekintetüket Urára, Jézus Krisztusra irányítva.
+        Jan-Harry Cabungcal végzettsége szerint neurológus-kutató, de a lélekmentés élete igazi szenvedélye. A Europe 4 Jesus alapítójaként és evangelizációs koordinátoraként, valamint a svájci ASI elnökeként Dr. Cabungcal azon munkálkodik, hogy a fiatalokat az elveszettek megkeresésére ösztönözze, képezze és mozgósítsa, új erőt adva a megfáradtaknak, s tekintetüket Urára, Jézus Krisztusra irányítsa.
       </p>
     </div>
   </div>
@@ -53,7 +53,7 @@
     </div>
     <div class="bio">
       <p>
-        Csizmadia Róbert, teológus-lelkész. Egyetemi diplomáját az angliai Newbold College-on szerezte, ahol teológia mellett lelkigondozást és párkapcsolati tanácsadást tanult, illetve a kollégium vezetőhelyetteseként dolgozott. A Ketten Együtt Házassági Műhely társalapítója. Óraadóként dolgozott az Adventista Teológiai Főiskolán, a Janus Pannonius Tudományegyetemen és a Károli Gáspár Református Egyetemen. Nős, finn származású feleségével, Helivel, boldog házasságban él, két kislányuk van: Aino és Helmi. Róbert jelenleg a Hetednapi Adventista Egyház lelkészeként dolgozik.
+        Csizmadia Róbert, teológus-lelkész. Egyetemi diplomáját az angliai Newbold College-on szerezte, ahol teológia mellett lelkigondozást és párkapcsolati tanácsadást tanult, illetve a kollégium vezető-helyetteseként dolgozott. A Ketten Együtt Házassági Műhely társalapítója. Óraadóként dolgozott az Adventista Teológiai Főiskolán, a Janus Pannonius Tudományegyetemen és a Károli Gáspár Református Egyetemen. Nős, finn származású feleségével, Helivel, boldog házasságban él, két kislányuk van: Aino és Helmi. A Hetednapi Adventista Egyház lelkészeként dolgozik.
       </p>
     </div>
   </div>
@@ -74,7 +74,7 @@
     </div>
     <div class="bio">
       <p>
-        A nevem Horváth Gábor, egy somogy megyei kisfaluban Nágocson élek feleségemmel és két kisfiammal. Az alapszakmám zenepedagógus (ütőhangszertanárként diplomáztam Debrecenben és végeztem mesterképzést Pécsett), de Isten arra vezetett, hogy az ütőhangszerek szeretetén túl többet is tehetnék másokért, így 1999-ben elhívást kaptam a Sola scriptura Lelkészképző iskola nappali szakára. 2002 óta dolgozom segédlelkészként és lelkészként, valamint 8 évre ifjúságvezetői szolgálatra is elhívást kaptam. Szolgálatom közben elvégeztem a SOTE addiktológiai konzultáns képzését és 2006 óta rendszeresen dolgozom alkohol- drog- és gyógyszerfüggők között. 2010-ben indult bentlakásos rehabilitációs programunk, ahol szakmai vezetőként igyekszem összefogni az itt folyó munkát (részletesen: <a href="http://www.alkoholbeteg.hu/" target="_blank">www.alkoholbeteg.hu</a>). Az elmúlt 10 évben számos átlalános és középiskolában, illetve táborban megfordultam és sok fiatalhoz kapcsolódhattam, hogy együtt gondolkodhassunk a függőség és a szabadulás kérdéséről. Szeptembertől nyertem felvételt az Hetednapi Adventista Egyház soraiba és folytathatom szolgálatomat a balatonlellei körzet lelkészeként.
+        A nevem Horváth Gábor, egy Somogy megyei kis faluban, Nágocson élek feleségemmel és két kisfiammal. Az alapszakmám zenepedagógus (ütőhangszertanárként diplomáztam Debrecenben és végeztem mesterképzést Pécsett), de Isten arra vezetett, hogy az ütőhangszerek szeretetén túl többet is tehetnék másokért, így 1999-ben elhívást kaptam a Sola scriptura Lelkészképző iskola nappali szakára. 2002 óta dolgozom segédlelkészként és lelkészként, valamint 8 évre ifjúságvezetői szolgálatra is elhívást kaptam. Szolgálatom közben elvégeztem a SOTE addiktológiai konzultáns képzését és 2006 óta rendszeresen dolgozom alkohol- drog- és gyógyszerfüggők között. 2010-ben indult bentlakásos rehabilitációs programunk, ahol szakmai vezetőként igyekszem összefogni az itt folyó munkát (részletesen: www.alkoholbeteg.hu). Az elmúlt 10 évben számos általános és középiskolában, illetve táborban megfordultam és sok fiatalhoz kapcsolódhattam, hogy együtt gondolkodhassunk a függőség és a szabadulás kérdéséről. Szeptembertől nyertem felvételt az Hetednapi Adventista Egyház soraiba és folytathatom szolgálatomat a balatonlellei körzet lelkészeként.
       </p>
     </div>
   </div>
