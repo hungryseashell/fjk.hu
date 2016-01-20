@@ -3,10 +3,10 @@
   <td>Registration</td>
 </tr>
 <tr>
-  <th>18:30-20:30</th>
+  <th>18:00-19:30</th>
   <td><strong>Opening Plenary (Pastor Doug Batchelor)</strong></td>
 </tr>
 <tr>
-  <th>20:30-21:00</th>
+  <th>19:30-21:00</th>
   <td>Exhibits open</td>
 </tr>

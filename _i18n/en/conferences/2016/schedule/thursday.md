@@ -1,14 +1,10 @@
 <tr scope="row">
-  <th>06:00-06:30</th>
+  <th></th>
   <td>Personal devotions</td>
 </tr>
 <tr>
-  <th>06:30-07:00</th>
+  <th>07:00-07:30</th>
   <td>Morning exercise</td>
-</tr>
-<tr>
-  <th>07:15-08:30</th>
-  <td>Breakfast</td>
 </tr>
 <tr>
   <th>08:30-09:30</th>
@@ -16,33 +12,41 @@
 </tr>
 <tr>
   <th>09:45-10:45</th>
-  <td><strong>Testimony</strong></td>
+  <td><strong>Testimony (Gábor Horváth)</strong></td>
 </tr>
 <tr>
   <th>11:00-13:00</th>
   <td>Seminars</td>
 </tr>
 <tr>
-  <th>13:00-14:30</th>
+  <th>13:00-14:00</th>
   <td>Lunch</td>
 </tr>
 <tr>
-  <th>13:00-15:00</th>
+  <th>13:00-14:30</th>
   <td>Exhibits open</td>
 </tr>
 <tr>
-  <th>15:00-17:00</th>
+  <th>14:00-14:30</th>
+  <td>Break, FJK Choir Rehearsal</td>
+</tr>
+<tr>
+  <th>14:30-16:30</th>
   <td>Seminars</td>
 </tr>
 <tr>
-  <th>17:30-19:00</th>
+  <th>16:30-17:00</th>
+  <td>Break, FJK Choir Rehearsal</td>
+</tr>
+<tr>
+  <th>17:00-18:00</th>
   <td>Supper</td>
 </tr>
 <tr>
-  <th>19:00-20:30</th>
+  <th>18:00-19:30</th>
   <td><strong>Plenary (Pastor Doug Batchelor)</strong></td>
 </tr>
 <tr>
-  <th>20:30-21:00</th>
+  <th>19:30-21:00</th>
   <td>Exhibits open</td>
 </tr>
