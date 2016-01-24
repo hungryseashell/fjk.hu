@@ -21,6 +21,13 @@ files.push({
   dest: 'assets/img/'
 });
 
+files.push({
+  expand: true,
+  cwd: '_assets/files/',
+  src: ['*'],
+  dest: 'assets/files/'
+});
+
 module.exports = {
   copy: {
     main: {

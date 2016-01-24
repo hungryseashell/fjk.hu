@@ -17,6 +17,10 @@ nav:
     venue: Helyszín
     registration: Regisztráció
 
+booklet:
+  link: /assets/files/program.pdf
+  text: Töltsd le a programot pdf-ben.
+
 bio: |
   Az <span>FJK</span> egy fiatalok által fiataloknak szervezett adventista
   konferencia. Az <span>évente megrendezésre kerülő</span> eseményen az

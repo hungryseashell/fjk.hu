@@ -17,6 +17,10 @@ nav:
     venue: Venue
     registration: Registration
 
+booklet:
+  link: /assets/files/schedule.pdf
+  text: Download the booklet in pdf format.
+
 bio: |
   <span>FJK</span> is an Adventist conference organized by young people for young
   people. On <span>this yearly occasion</span> the attendees are encouraged by
