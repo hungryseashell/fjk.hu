@@ -142,3 +142,45 @@
     </div>
   </div>
 </div>
+
+<hr>
+
+<div class="speaker">
+  <div class="photo-wr animated">
+    <div class="photo">
+      <img class="img-responsive" src="/assets/img/ocsai-imre.jpg" alt="Ócsai Imre"/>
+    </div>
+  </div>
+  <div class="caption animated">
+    <div class="name">
+      <h3>Ócsai Imre</h3>
+      <span class="small">Lelkész</span>
+    </div>
+    <div class="bio">
+      <p>
+        Hét éve dolgozom az evangélium ügyében. A teológiai tanulmányaim után a bózsvai Biblia- és Életmódtábor munkatársaként kezdtem dolgozni. Feleségemmel, négy gyermekemmel jelenleg a szolnoki gyülekezetben munkálkodunk. Eddigi életem, szolgálatom nagy részét a Hetednapi Adventista Egyházon kívül éltem. Az ígéből, és Bizonyságtételekből felfedezett kincs új értelmet adott, új dimenziót nyitott a szolgálatomnak. A korábban jól ismert igazságokat új fényben láthattam meg. Ezek a felfedezések döntő szerepet játszottak abban, hogy csatlakoztam az egyházhoz. Remélem, mindezek megosztásával segítséget tudok nyújtani Krisztusért dolgozni vágyó fiataloknak.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="speaker">
+  <div class="photo-wr animated">
+    <div class="photo">
+      <img class="img-responsive" src="/assets/img/erdodi-peter.jpg" alt="Erdődi Péter"/>
+    </div>
+  </div>
+  <div class="caption animated">
+    <div class="name">
+      <h3>Erdődi Péter</h3>
+      <span class="small">Szoftverfejlesztő, laikus Biblia-kutató</span>
+    </div>
+    <div class="bio">
+      <p>
+        Informatikai tanulmányai után teológiát tanult a Sola Scriptura Főiskolán. Korábbi hallgatótársaival együtt mindene a Biblia-kutatás, Jézus Krisztus Evangéliumának mind mélyebb megértése és továbbadása. Jelenleg egy, de hamarosan három gyermek apukája, feleségével a Hetednapi Adventista Egyház ráckevei gyülekezetének tagjai.
+      </p>
+    </div>
+  </div>
+</div>

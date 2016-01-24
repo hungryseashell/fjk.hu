@@ -142,3 +142,45 @@
     </div>
   </div>
 </div>
+
+<hr>
+
+<div class="speaker">
+  <div class="photo-wr animated">
+    <div class="photo">
+      <img class="img-responsive" src="/assets/img/ocsai-imre.jpg" alt="Imre Ócsai"/>
+    </div>
+  </div>
+  <div class="caption animated">
+    <div class="name">
+      <h3>Imre Ócsai</h3>
+      <span class="small">Pastor</span>
+    </div>
+    <div class="bio">
+      <p>
+      I’ve been a Gospel worker for seven years. After my studies in Theology I’ve started to work at the Bible and Lifestyle Camp in Bózsva. Together with my wife and our four children we work for the church in Szolnok. I have spent most part of my life and ministry outside the Seventh-day Adventist Church. A recently discovered treasure from the Scripture and the Testimonies gave a new meaning, opened a new dimension for my ministry. New light shone upon well known truths before my eyes. These discoveries played a key role in my joining to the World Church. I hope that by sharing these I may help young people, who desire to work for Christ.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="speaker">
+  <div class="photo-wr animated">
+    <div class="photo">
+      <img class="img-responsive" src="/assets/img/erdodi-peter.jpg" alt="Péter Erdődi"/>
+    </div>
+  </div>
+  <div class="caption animated">
+    <div class="name">
+      <h3>Péter Erdődi</h3>
+      <span class="small">Software developer, lay Bible student</span>
+    </div>
+    <div class="bio">
+      <p>
+        After his studies in IT, he studied Theology at the Sola Scriptura College. Together with his former classmates, his passion is Bible research, to understand and share the Gospel of Jesus Christ. Father of one currently, but soon of three children, together with his wife, Erika, they are members of the Seventh-day Adventist Church in Ráckeve.
+      </p>
+    </div>
+  </div>
+</div>

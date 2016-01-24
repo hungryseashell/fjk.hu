@@ -1,11 +1,14 @@
 <div class="seminar animated">
   <div class="seminar-wr">
     <div class="seminar-title">
-      <h3>Biblical questions and answers</h3>
+      <h3>Bible Answers Live!</h3>
       <span>Doug Batchelor</span>
     </div>
     <div class="description">
       <p>
+      Have you ever faced Bible Questions you could not answer? Are there questions in your life your life that you would like to get answered solely from the Bible?
+      <br>
+      Doug Batchelor, host of the Bible Answers Live! - programme is visiting Hungary for the first time! You can ask your questions, come and seek the Bible's true answer together.
       </p>
     </div>
   </div>

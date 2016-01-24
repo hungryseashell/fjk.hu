@@ -6,6 +6,9 @@
     </div>
     <div class="description">
       <p>
+      Szembesültél már olyan kérdésekkel a Bibliából, amire nem tudtál válaszolni? Foglalkoztat egy kérdés, és szeretnéd tudni, mi Isten Igéjének a válasza rá?
+      <br>
+      Doug Batchelor a Bible Answers Live! - bibliai kérdésekkel foglalkozó rádióműsor házigazdája. Most Magyarországon először, személyesen tehetjük fel a kérdéseinket, és kereshetjük együtt a Biblia pontos válaszát.
       </p>
     </div>
   </div>
