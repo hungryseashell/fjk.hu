@@ -148,3 +148,37 @@
     </div>
   </div>
 </div>
+
+<hr>
+
+<div class="seminar animated">
+  <div class="seminar-wr">
+    <div class="seminar-title">
+      <h3>GLOW - prédikáció a zsebedben. Küldetésben minden nap.</h3>
+      <span>Szőllősi Enikő - Anna Müller</span>
+    </div>
+    <div class="description">
+      <p>
+        Isten arra hív minket, hogy képviselői legyünk a világban, és világosságot, amit nekünk adott, másokkal is megosszuk. Sok féle missziós módszer van, azonban van egy, amit szinte mindig hasznosíthatsz, mindig veled lehet - Hogyan hozhatnak lázba ilyen kicsi dolgok nagy gyülekezeteket? Hogyan tehetsz szert olyan tapasztalatokra, amiket eddig irigyeltél a mások beszámolóiból?
+        <br>
+        Gyere és vegyél részt a GLOW történetében!
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="seminar animated">
+  <div class="seminar-wr">
+    <div class="seminar-title">
+      <h3>Egyházszervezet - Mint a mennyben úgy a földön is...?</h3>
+      <span>Erdődi Péter - Ócsai Imre</span>
+    </div>
+    <div class="description">
+      <p>
+        Mi az egyház? Ki találta ki a szervezetet, és mire való? Kell-e ez nekem? Nem elég csak Krisztushoz tartoznom? Mi köze ennek az üdvösségemhez? Vajon megtalálható-e az örökkévaló Evangélium a szervezett egyházról szóló Hetednapi Adventista tanításban? Ha a fenti kérdések bármelyike valaha is megfogalmazódott benned, akkor szeretettel várunk egy interaktív szemináriumra, ahol igyekszünk közösen választ találni ezekre a Bibliából és a Prófétaság Lelke írásaiból, „hogy az egyház által mindenki megismerje az Isten sokféle bölcsességét” (Ef 3,10).
+      </p>
+    </div>
+  </div>
+</div>

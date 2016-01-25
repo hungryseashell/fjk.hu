@@ -148,3 +148,40 @@
     </div>
   </div>
 </div>
+
+<hr>
+
+<div class="seminar animated">
+  <div class="seminar-wr">
+    <div class="seminar-title">
+      <h3>GLOW - sermon in your pocket. In mission every day.</h3>
+      <span>Enikő Szőllősi - Anna Müller</span>
+    </div>
+    <div class="description">
+      <p>
+        God is calling us to be His missionaries, and bring the light to the world, to others - what He has given us. There are many mission methods, but there is one that you can use in almost every situation.
+        <br>
+        How can such small things set big local churches on  re? How can you gain experiences that you only dreamt of?
+        <br>
+        Come and be part of the GLOW story.
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="seminar animated">
+  <div class="seminar-wr">
+    <div class="seminar-title">
+      <h3>Church organization - on earth as it is in heaven...?</h3>
+      <span>Péter Erdődi - Imre Ócsai</span>
+    </div>
+    <div class="description">
+      <p>
+        What is the church? Who has invented the organization and what is its„raison d’etre”? Do I really need this anyway? Isn’t it sufficient to be connected to Christ only? Does it have anything to do with my salvation? Can we find the everlasting Gospel in the Seventh-day Adventist doctrine of the church?
+        If you have ever asked any of these questions above then you are welcome to our interactive seminar, where we’ll find answers together from the Bible and the Spirit of Prophecy, that „the manifold wisdom of God might be known through the church” (Eph 3:10).
+      </p>
+    </div>
+  </div>
+</div>
