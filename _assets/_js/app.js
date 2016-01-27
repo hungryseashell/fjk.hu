@@ -1,5 +1,7 @@
 require('./nav');
 require('./reg');
+require('./timer');
+require('./jwplayer/jwplayer');
 
 var navbar = $('#main-nav');
 var svgHeader = $('#header-svg');

@@ -28,6 +28,13 @@ files.push({
   dest: 'assets/files/'
 });
 
+files.push({
+  expand: true,
+  cwd: '_assets/_js/jwplayer/',
+  src: ['*'],
+  dest: 'assets/js/jwplayer/'
+});
+
 module.exports = {
   copy: {
     main: {

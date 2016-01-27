@@ -8,6 +8,7 @@ module.exports = {
           'bower_components/bootstrap/js/carousel.js',
           'bower_components/bootstrap/js/tooltip.js',
           'bower_components/bootstrap/js/popover.js',
+          'bower_components/bootstrap/js/modal.js',
           'bower_components/bootstrap/js/scrollspy.js'
         ]
       }
