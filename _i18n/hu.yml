@@ -16,6 +16,7 @@ nav:
     schedule: Program
     venue: Helyszín
     registration: Regisztráció
+    live: Elő közvetítés
 
 booklet:
   link: /assets/files/program.pdf

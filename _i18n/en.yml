@@ -16,6 +16,7 @@ nav:
     schedule: Schedule
     venue: Venue
     registration: Registration
+    live: Live stream
 
 booklet:
   link: /assets/files/schedule.pdf
