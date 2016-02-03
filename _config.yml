@@ -1,6 +1,6 @@
 # Site settings
 title: Fiatalok Jézusért Konferencia
-email: your-email@domain.com
+email: info@fjk.hu
 description: >
   Az FJK egy fiatalok által fiataloknak szervezett adventista konferencia. Az évente megrendezésre
   kerülő eseményen az előadások, szemináriumok és a találkozási lehetőségek a résztvevő ifjakat hitük
@@ -8,7 +8,7 @@ description: >
   buzdítják, hogy a Hármas Angyali Üzenet ennek a generációnak a segítségével eljuthasson az egész
   világra.
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'http://fjk.hu' # the base hostname & protocol for your site
+url: 'https://fjk.hu' # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
