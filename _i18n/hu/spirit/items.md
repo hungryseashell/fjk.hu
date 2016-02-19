@@ -10,7 +10,7 @@
 
 <div class="animated" data-wow-delay="0.2s">
   <dt>A bibliai szentség keresése</dt>
-  <dd>naponkénti imán és igekutáson keresztül, az Ő Igéjének követésére való odaszánással.</dd>
+  <dd>naponkénti imán és igekutatáson keresztül, az Ő Igéjének követésére való odaszánással.</dd>
 </div>
 
 <div class="animated" data-wow-delay="0.2s">
