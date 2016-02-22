@@ -1,5 +1,5 @@
 section .mini-hero {
-  background-image: url('/assets/img/bg-l.jpg');
+  background-image: url('/assets/img/mini-bg-l.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -20,6 +20,10 @@ section .mini-hero {
 
     h1 {
       margin-top: 0;
+
+      @media (max-width: 390px) {
+        font-size: 200%;
+      }
     }
 
     h1, h2 {
