@@ -2,7 +2,7 @@ module.exports = {
   browserify: {
     dist: {
       files: {
-        '_temp/fjk.js': ['_assets/_js/*.js']
+        '_temp/fjk.js': ['src/assets/js/*.js']
       }
     }
   }

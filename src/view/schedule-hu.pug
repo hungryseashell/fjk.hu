@@ -1,0 +1,79 @@
+section#schedule
+  .schedule
+    h1 #{ content.schedule.title }
+    .text-center
+      a(href=page.assetsPath + content.schedule.booklet.link, target='_blank') #{ content.schedule.booklet.text }
+    .container
+      .row
+        .col-md-12
+          h3 #{ content.schedule.schedule.wednesday.name }
+          table.table.table-striped.table-bordered.table-condensed
+            tbody
+              each item, i in content.schedule.schedule.wednesday.items
+                if (i == 0)
+                  tr(scope='row')
+                    th #{ item.time }
+                    td !{ item.text }
+                else
+                  tr
+                    th #{ item.time }
+                    td !{ item.text }
+
+      .row
+        .col-md-6
+          h3 #{ content.schedule.schedule.thursday.name }
+          table.table.table-striped.table-bordered.table-condensed
+            tbody
+              each item, i in content.schedule.schedule.thursday.items
+                if (i == 0)
+                  tr(scope='row')
+                    th #{ item.time }
+                    td !{ item.text }
+                else
+                  tr
+                    th #{ item.time }
+                    td !{ item.text }
+
+        .col-md-6
+          h3 #{ content.schedule.schedule.friday.name }
+          table.table.table-striped.table-bordered.table-condensed
+            tbody
+              each item, i in content.schedule.schedule.friday.items
+                if (i == 0)
+                  tr(scope='row')
+                    th #{ item.time }
+                    td !{ item.text }
+                else
+                  tr
+                    th #{ item.time }
+                    td !{ item.text }
+
+      .row
+        .col-md-12
+          h3 #{ content.schedule.schedule.sabbath.name }
+          table.table.table-striped.table-bordered.table-condensed
+            tbody
+              each item, i in content.schedule.schedule.sabbath.items
+                if (i == 0)
+                  tr(scope='row')
+                    th #{ item.time }
+                    td !{ item.text }
+                else
+                  tr
+                    th #{ item.time }
+                    td !{ item.text }
+
+      .row
+        .col-md-12
+          h3 #{ content.schedule.schedule.sunday.name }
+          table.table.table-striped.table-bordered.table-condensed
+            tbody
+              each item, i in content.schedule.schedule.sunday.items
+                if (i == 0)
+                  tr(scope='row')
+                    th #{ item.time }
+                    td !{ item.text }
+                else
+                  tr
+                    th #{ item.time }
+                    td !{ item.text }

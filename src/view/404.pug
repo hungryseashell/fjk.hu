@@ -1,0 +1,17 @@
+doctype html
+html
+
+  include head
+
+  body.page-content(data-spy='scroll', data-target='#main-nav')
+
+    include nav
+
+    div
+      section#error-404
+        div.error-404(style="text-align: center")
+          h2 404
+          p Oops, something went wrong
+          a(href=page.home) Go home
+
+    include foot

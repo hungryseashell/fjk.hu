@@ -3,14 +3,14 @@ module.exports = {
     production: {
       options: {
         paths: [
-          '_assets/_less/**',
+          'src/assets/less/**',
           'bower_components/bootstrap/less',
           'bower_components/animate.less'
         ],
         yuicompress: true
       },
       files: {
-        '_temp/fjk.css': '_assets/_less/fjk.less'
+        '_temp/fjk.css': 'src/assets/less/fjk.less'
       }
     }
   }

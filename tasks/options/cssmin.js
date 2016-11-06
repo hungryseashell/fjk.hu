@@ -2,7 +2,7 @@ module.exports = {
   cssmin: {
     target: {
       files: {
-        'assets/css/fjk.min.css': '_temp/fjk.css'
+        '_site/assets/css/fjk.min.css': '_temp/fjk.css'
       }
     }
   }

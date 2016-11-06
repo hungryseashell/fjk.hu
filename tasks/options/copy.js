@@ -1,7 +1,7 @@
 function shortener(files) {
   return Object.keys(files).map(function (key) {
     var obj = {};
-    obj['assets/js/' + key] = 'bower_components/' + files[key];
+    obj['_site/assets/js/' + key] = 'bower_components/' + files[key];
     return obj;
   });
 }
@@ -16,23 +16,30 @@ var files = shortener({
 
 files.push({
   expand: true,
-  cwd: '_assets/_img/',
+  cwd: 'src/assets/img/',
   src: ['*'],
-  dest: 'assets/img/'
+  dest: '_site/assets/img/'
 });
 
 files.push({
   expand: true,
-  cwd: '_assets/files/',
+  cwd: 'src/assets/files/',
   src: ['*'],
-  dest: 'assets/files/'
+  dest: '_site/assets/files/'
 });
 
 files.push({
   expand: true,
-  cwd: '_assets/_js/jwplayer/',
+  cwd: 'src/assets/forms/',
   src: ['*'],
-  dest: 'assets/js/jwplayer/'
+  dest: '_site/assets/forms/'
+});
+
+files.push({
+  expand: true,
+  cwd: 'src/assets/js/jwplayer/',
+  src: ['*'],
+  dest: '_site/assets/js/jwplayer/'
 });
 
 module.exports = {
