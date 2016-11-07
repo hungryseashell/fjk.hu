@@ -26,23 +26,23 @@ html
                   .radio
                     label
                       input#attendanceFull(type='radio', name='attendance', value='full', data-price='3000', checked='')
-                      | Participating in the whole conference
+                      | #{ content.tabs.conference.attendance.full }
                   .radio
                     label
                       input#attendanceSabbath(type='radio', name='attendance', value='sabbath', data-price='0')
-                      | Visiting only on Sabbath
+                      | #{ content.tabs.conference.attendance.sabbath }
                   hr
-                  h2.fs-section-title Meal*
+                  h2.fs-section-title #{ content.tabs.conference.meal.title }*
                   table.table
                     thead
                       tr
                         th
-                        th Thursday
-                        th Friday
-                        th Sabbath
+                        th #{ content.tabs.conference.meal.thursday }
+                        th #{ content.tabs.conference.meal.friday }
+                        th #{ content.tabs.conference.meal.sabbath }
                     tbody
                       tr
-                        th(scope='row') Lunch
+                        th(scope='row') #{ content.tabs.conference.meal.lunch }
                         td
                           label.checkbox-inline
                             input(type='checkbox', value='thursday', name='lunch', data-price='1200')
@@ -56,7 +56,7 @@ html
                             input(type='checkbox', value='sabbath', name='lunch', data-price='1200')
                             | 1200 Ft
                       tr
-                        th(scope='row') Dinner
+                        th(scope='row') #{ content.tabs.conference.meal.dinner }
                         td
                           label.checkbox-inline
                             input(type='checkbox', value='thursday', name='dinner', data-price='700')
@@ -69,7 +69,7 @@ html
                           label.checkbox-inline
                             input(type='checkbox', value='sabbath', name='dinner', data-price='700')
                             | 700 Ft
-                  .fs-section-desc *Breakfast is included in the accommodation prices
+                  .fs-section-desc *#{ content.tabs.conference.meal.info }
 
                 input.previous.action-button(type='button', name='previous', value=content.prev)
                 input.next.action-button(type='button', name='next', value=content.next)
@@ -78,16 +78,11 @@ html
                 .housing-tab
                   div
                     h2.fs-section-title Broadway Apartments
-                    | This accommodation is booked, we can't receive additional bookings.
+                    | #{ content.tabs.housing.broadway }
                     hr
                     h2.fs-section-title Hotel Benczúr
-                    h3.fs-subtitle This accommodation is recommended for individual or double booking!
-                    | The housing will be in hotel rooms with 1 or 2 beds, which are separable. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information.
-                    | Check out the
-                    a(href='http://www.hotelbenczur.hu/en', target='_blank')  apartments
-                    |  then
-                    a(href=page.assetsPath + '/forms/benczur-en.docx')  the application form
-                    | .
+                    h3.fs-subtitle !{ content.tabs.housing.benczur }
+
 
                 input.previous.action-button(type='button', name='previous', value=content.prev)
                 input.next.action-button(type='button', name='next', value=content.next)
@@ -98,24 +93,24 @@ html
                   .program-tab
                     .form-group
                       label
-                      | Volunteer work
+                      | #{ content.tabs.program.label }
                       .checkbox
                         label
-                          input(type='checkbox', name='voluntary', value='Translation (English - Hungarian)')
-                          | Translation (English - Hungarian)
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.translate)
+                          | #{ content.tabs.program.translate }
                       .checkbox
                         label
-                          input(type='checkbox', name='voluntary', value='Guiding small-group discussions')
-                          | Guiding small-group discussions
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.smallGroups)
+                          | #{ content.tabs.program.smallGroups }
                       .checkbox
                         label
-                          input(type='checkbox', name='voluntary', value='Diaconia')
-                          | Diaconia
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.diaconia)
+                          | #{ content.tabs.program.diaconia }
                       .checkbox
                         label
                           input#otherVoluntaryChB(type='checkbox', name='voluntary', value='other')
-                          | Other services
-                          input#otherVoluntaryText.form-control(type='text', name='voluntary-text', placeholder='Other services')
+                          | #{ content.tabs.program.other }
+                          input#otherVoluntaryText.form-control(type='text', name='voluntary-text', placeholder=content.tabs.program.other)
 
                 input.previous.action-button(type='button', name='previous', value=content.prev)
                 input.next.action-button(type='button', name='next', value=content.next)
@@ -123,64 +118,48 @@ html
               .tab
                 .support-tab
                   h2.fs-section-title
-                  | Funding packages
+                  | #{ content.tabs.support.label }
                   h3.fs-subtitle
-                  | Here you have the opportunity to donate by Funding Packages. Every package includes specially designed, FJK – marked products. Choose one and support us!
+                  | #{ content.tabs.support.description }
                   #swag
                     .radio
                       label
                         input(type='radio', name='swag', value='10000', data-swag='10000')
                         | 10000 Ft
-                        span.small (Notebook + Fridge magnet + Laptop sticker + Cloth Bag + Natur cosmetics selection + 100-item-Glow package)
+                        span.small  #{ content.tabs.support['10000'] }
                     .radio
                       label
                         input(type='radio', name='swag', value='5000', data-swag='5000')
                         | 5000 Ft
-                        span.small (Notebook + Fridge magnet + Laptop sticker + Cloth Bag + 50-item-Glow package)
+                        span.small  #{ content.tabs.support['5000'] }
                     .radio
                       label
                         input(type='radio', name='swag', value='3000', data-swag='3000')
                         | 3000 Ft
-                        span.small (Notebook + Fridge magnet + Laptop sticker + 30-item-Glow package)
+                        span.small  #{ content.tabs.support['3000'] }
                     .radio
                       label
                         input(type='radio', name='swag', value='1000', data-swag='1000')
                         | 1000 Ft
-                        span.small (Notebook + 20-item-Glow package)
+                        span.small  #{ content.tabs.support['1000'] }
                     .radio
                       label
                         input(type='radio', name='swag', value='0', data-swag='0')
-                        | I pray for the Conference!
+                        |  #{ content.tabs.support['0'] }
                   hr.hide
-                  h2.hide.fs-section-title
-                    | You can check out the hoodies here:
-                    a#popover-menHoody(rel='popover', data-content='', title="Men's hoodies") men
-                    |  és
-                    a#popover-womenHoody(rel='popover', data-content='', title="Women's hoodies") women
-                    | . Size:
-                    a#popover-men(rel='popover', data-content='', title='Men') men
-                    | ,
-                    a#popover-women(rel='popover', data-content='', title='Women') women
-                    | ,
-                    a#popover-kid(rel='popover', data-content='', title='Kid') kid
-                    | ,
-                    a#popover-menHoodySize(rel='popover', data-content='', title="Men's hoodies") men's hoodies
-                    |  és
-                    a#popover-womenHoodySize(rel='popover', data-content='', title="Women's hoodies") women's hoodies
-                    | .
-
+                  h2.hide.fs-section-title #{ content.tabs.support.hoodies.title }
                   #shirtOrders.hide.form-group
                     .shirt-order.form-inline.row(data-count='1')
                       input.shirtOrder(type='hidden', data-price='0')
                       select(name='shirtType-1')
-                        option(value='', data-single-price='0') Type
-                        option(value='men', data-single-price='1500') Men's T-Shirts (1500 Ft)
-                        option(value='women', data-single-price='1500') Women's T-Shirts (1500 Ft)
-                        option(value='kid', data-single-price='1700') Child (1700 Ft)
-                        option(value='menHoody', data-single-price='3700') Men's hoody (3700 Ft)
-                        option(value='womenHoody', data-single-price='3700') Women's hoody (3700 Ft)
+                        option(value='', data-single-price='0') #{ content.tabs.support.hoodies.type }
+                        option(value='men', data-single-price='1500') #{ content.tabs.support.hoodies.shirts.men }
+                        option(value='women', data-single-price='1500') #{ content.tabs.support.hoodies.shirts.women }
+                        option(value='kid', data-single-price='1700') #{ content.tabs.support.hoodies.shirts.kid }
+                        option(value='menHoody', data-single-price='3700') #{ content.tabs.support.hoodies.shirts.menHoody }
+                        option(value='womenHoody', data-single-price='3700') #{ content.tabs.support.hoodies.shirts.womenHoody }
                       select(name='shirtSize-1')
-                        option.menHoody.womenHoody.men.women.kid(value='', data-single-price='0') Size
+                        option.menHoody.womenHoody.men.women.kid(value='', data-single-price='0') #{ content.tabs.support.hoodies.size }
                         option.menHoody.womenHoody.men.women(value='S', data-single-price='1') S
                         option.menHoody.womenHoody.men.women(value='M', data-single-price='1') M
                         option.menHoody.womenHoody.men.women(value='L', data-single-price='1') L
@@ -200,7 +179,7 @@ html
                         option.menHoody(value='Maroon', data-single-price='1') Maroon
                         option.menHoody(value='Dark Chocolate', data-single-price='1') Dark Chocolate
                       select(name='shirtQuantity-1')
-                        option(value='', data-single-price='0') Quantity
+                        option(value='', data-single-price='0') #{ content.tabs.support.hoodies.quantity }
                         option(value='1', data-single-price='1') 1
                         option(value='2', data-single-price='2') 2
                         option(value='3', data-single-price='3') 3
@@ -217,27 +196,27 @@ html
                 h3.fs-subtitle #{ content.tabs.personal.subtitle }
                   .personal-tab
                     .form-group
-                      input.form-control.input-lg(type='text', placeholder='Last name*', data-error=content.errors.empty, name='lname', required='')
+                      input.form-control.input-lg(type='text', placeholder=content.tabs.personal.lname, data-error=content.errors.empty, name='lname', required='')
                       .help-block.with-errors
                     .form-group
-                      input.form-control.input-lg(type='text', placeholder='First name*', data-error=content.errors.empty, name='fname', required='')
+                      input.form-control.input-lg(type='text', placeholder=content.tabs.personal.fname, data-error=content.errors.empty, name='fname', required='')
                       .help-block.with-errors
 
                     .form-group
                       input#inputEmail.form-control.input-lg(type='email', name='email', placeholder='Email*', data-error=content.errors.email, required='')
                       .help-block.with-errors
                     .form-group
-                      input.form-control.input-lg(type='text', name='birth', pattern='(19|20)[\d]{2}/[01][\d]/[0123][\d]', placeholder='Date of birth (1990/12/31)*', data-error=content.errors.birth, required='')
+                      input.form-control.input-lg(type='text', name='birth', pattern='(19|20)[\d]{2}/[01][\d]/[0123][\d]', placeholder=content.tabs.personal.birth, data-error=content.errors.birth, required='')
                       .help-block.with-errors
                     .form-group
-                      input.form-control.input-lg(type='text', placeholder='City*', data-error=content.errors.empty, name='city', required='')
+                      input.form-control.input-lg(type='text', placeholder=content.tabs.personal.city, data-error=content.errors.empty, name='city', required='')
                       .help-block.with-errors
                     .form-group
-                      input.form-control.input-lg(type='text', placeholder='Country / Region*', data-error=content.errors.empty, name='country', required='')
+                      input.form-control.input-lg(type='text', placeholder=content.tabs.personal.country, data-error=content.errors.empty, name='country', required='')
                       .help-block.with-errors
                     label.checkbox-inline
                       input#newsletter(type='checkbox', value='1', name='newsletter', data-price='0', checked='')
-                      | Sign up for FJK newsletter
+                      | #{ content.tabs.personal.newsletter }
 
                 input#submitNext.next.action-button(type='hidden', name='next')
                 input.previous.action-button(type='button', name='previous', value=content.prev)
@@ -261,22 +240,8 @@ html
 
           .reg-info
             .bordered
-              h3 Information
-              | To finalize your registration, you have to transfer the
-              span.emph  whole amount
-              |  of the calculated registration fee. We would like to inform you, that the amount that you see at the end of your online registration
-              span.emph  does not include accommodation fee.
-              | You can settle your accommodation costs by personal registration at the Conference.
-              | We require your registration fee amount to be transferred to the following account:
-              span.emph  12001008-01177336-00100001
-              |  (
-              span.emph ASi Magyarország
-              | ). At the memo, please add the name of the registered participant(s), and please also add
-              span.emph  „FJK támogatás”.
-              | For not domestic transfer, please use the followings: IBAN: HU19 1200 1008 0117 7336 0010 0001, Swift code: UBRTHUHB.
-              | If you have any other question or request, please feel free to contact us via e-mail at
-              a(href='mailto:info@fjk.hu')  info@fjk.hu
-              | !
+              h3 #{ content.info.title }
+              | !{ content.info.description }
 
             hr
             h4 #{ content.price }
