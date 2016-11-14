@@ -70,17 +70,19 @@ $('#registrationForm').on('submit', function(e) {
   request
     .post('https://reg-fjk-staging.herokuapp.com/register')
     .send(form)
-    .end(function (err, res) {
-      if (res.statusType === 2) {
-        $('#submitOk').trigger('click');
-      } else {
-        if (res.statusType === 4) {
-          $('#user-error').fadeIn();
-        } else {
-          submitted = false;
-          $('#server-error').fadeIn();
-        }
+    .end(function(err, res) {
+      if (err) {
+        submitted = false;
+        $('#server-error').fadeIn();
+        return $('#submitError').trigger('click');
+      }
 
+      if (res.statusType === 2) {
+        return $('#submitOk').trigger('click');
+      }
+
+      if (res.statusType === 4) {
+        $('#user-error').fadeIn();
         return $('#submitError').trigger('click');
       }
     });
