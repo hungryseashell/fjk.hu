@@ -207,7 +207,7 @@ html
                       input#inputEmail.form-control.input-lg(type='email', name='email', placeholder='Email*', data-error=content.errors.email, required='')
                       .help-block.with-errors
                     .form-group
-                      input.form-control.input-lg(type='text', name='birth', pattern='(19|20)[\d]{2}/[01][\d]/[0123][\d]', placeholder=content.tabs.personal.birth, data-error=content.errors.birth, required='')
+                      input.form-control.input-lg(type='text', name='birth', pattern!='(19|20)[\\d]{2}/[01][\\d]/[0123][\\d]', placeholder=content.tabs.personal.birth, data-error=content.errors.birth, required='')
                       .help-block.with-errors
                     .form-group
                       input.form-control.input-lg(type='text', placeholder=content.tabs.personal.city, data-error=content.errors.empty, name='city', required='')
