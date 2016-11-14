@@ -7,6 +7,7 @@ html
 
     include nav
 
+    script(type='text/javascript') window.assetsPath = '#{ page.assetsPath }';
     div
       section#register
         .too-small-display #{ content.errors.smallDisplay }
@@ -146,9 +147,9 @@ html
                       label
                         input(type='radio', name='swag', value='0', data-swag='0')
                         |  #{ content.tabs.support['0'] }
-                  hr.hide
-                  h2.hide.fs-section-title #{ content.tabs.support.hoodies.title }
-                  #shirtOrders.hide.form-group
+                  hr
+                  h2.fs-section-title !{ content.tabs.support.hoodies.title }
+                  #shirtOrders.form-group
                     .shirt-order.form-inline.row(data-count='1')
                       input.shirtOrder(type='hidden', data-price='0')
                       select(name='shirtType-1')

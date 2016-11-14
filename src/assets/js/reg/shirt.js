@@ -130,7 +130,7 @@ module.exports = function (calculatePrice) {
       '</div>');
   });
 
-  var image = '<img src="/assets/img/%s.png" width="%s" height="%s">';
+  var image = '<img src="' + window.assetsPath + '/img/%s.png" width="%s" height="%s">';
   [{
     name: 'men',
     w: 400,
