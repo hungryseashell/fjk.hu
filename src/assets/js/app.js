@@ -1,6 +1,5 @@
 require('./nav');
 require('./reg');
-require('./timer');
 require('./jwplayer/jwplayer');
 
 var navbar = $('#main-nav');
@@ -10,7 +9,7 @@ var svgHeader = $('#header-svg');
 var goingDown = true;
 var goingUp = false;
 
-setInterval(function () {
+setInterval(function() {
   if (goingDown && window.scrollY > 200) {
     goingDown = false;
     goingUp = true;
@@ -20,26 +19,18 @@ setInterval(function () {
     goingDown = true;
     goingUp = false;
 
-    navbar
-      .addClass('navbar-fixed-top')
-      .removeClass('site-header-animation-down');
+    navbar.addClass('navbar-fixed-top').removeClass('site-header-animation-down');
   }
 }, 30);
 
-var wow = new WOW({
-  boxClass: 'animated',
-  mobile: false
-});
+var wow = new WOW({ boxClass: 'animated', mobile: false });
 wow.init();
 
 /**
-  After crunchconf.com
-*/
+ After crunchconf.com
+ */
 
-var colors = [
-  '#e67e22',
-  '#f39c12'
-];
+var colors = ['#e67e22', '#f39c12'];
 
 function hexCoords(x, y, r) {
   var d = r * Math.cos(Math.PI / 6);
@@ -98,13 +89,11 @@ function animateHeader() {
   var h = paper.selectAll('.hex');
   if (Math.random() < 0.05) {
     var rand = Math.floor(Math.random() * h.length);
-    h[rand].attr({
-      fill: colors[Math.floor(Math.random() * colors.length)]
-    });
+    h[rand].attr({ fill: colors[Math.floor(Math.random() * colors.length)] });
   }
 }
 
-$(document).ready(function () {
+$(document).ready(function() {
   drawHeader();
   animateHeader();
 

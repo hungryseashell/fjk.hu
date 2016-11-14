@@ -12,8 +12,8 @@ var requestAnimationFrame = window.requestAnimationFrame ||
   window.mozRequestAnimationFrame ||
   window.oRequestAnimationFrame ||
   window.msRequestAnimationFrame ||
-  function (callback) {
-    window.setTimeout(function () {
+  function(callback) {
+    window.setTimeout(function() {
       var timestamp = Date.now();
       callback(timestamp);
     }, 1000 / 60);
