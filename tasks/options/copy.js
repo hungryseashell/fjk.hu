@@ -42,6 +42,13 @@ files.push({
   dest: '_site/assets/js/jwplayer/'
 });
 
+files.push({
+  expand: true,
+  cwd: './',
+  src: ['CNAME'],
+  dest: '_site'
+});
+
 module.exports = {
   copy: {
     main: {
