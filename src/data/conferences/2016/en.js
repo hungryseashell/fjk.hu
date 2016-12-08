@@ -2,6 +2,7 @@
 
 module.exports = {
   page: {
+    year: 2016,
     home: 'https://fjk.hu/en',
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: '../../../assets',
@@ -53,7 +54,7 @@ module.exports = {
           bio: 'Jan-Harry Cabungcal is a neuroscientist by profession, but soul-winning is his life passion. As the founder and evangelism coordinator of Europe 4 Jesus and president-elect of ASI Switzerland, Dr. Cabungcal works to inspire, equip and mobilize young people in seeking the lost, reviving the weary and pointing them to his Lord - Jesus Christ.'
         },
         {
-          img: '/img/csizmadia-robert.png',
+          img: '/img/csizmadia-robert.jpg',
           name: 'Róbert Csizmadia',
           description: 'Pastor',
           bio: 'Róbert Csizmadia, pastor theologian. He obtained his MA degree in Theological Studies at Newbold College, England; he also studied there pastoral care and relationship counselling. In addition, he was the  Assistant Dean of Newbold College. He is the co-founder of the Ketten Együtt Házassági Műhely (Marital and Premarital Counselling). He worked as a lecturer at the Adventist Theological Seminary, the Janus Pannonius University of Pécs and the Károli Gáspár University of the Reformed Church in Hungary. He is happily married: his wife, Heli is from Finland, they have two daughters: Aino and Helmi. He works as a pastor of the SDA church at the moment.'

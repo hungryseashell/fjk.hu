@@ -2,6 +2,7 @@
 
 module.exports = {
   page: {
+    year: 2016,
     home: 'https://fjk.hu',
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: '../../assets',
@@ -53,7 +54,7 @@ module.exports = {
           bio: 'Jan-Harry Cabungcal végzettsége szerint neurológus-kutató, de a lélekmentés élete igazi szenvedélye. A Europe 4 Jesus alapítójaként és evangelizációs koordinátoraként, valamint a svájci ASI elnökeként Dr. Cabungcal azon munkálkodik, hogy a fiatalokat az elveszettek megkeresésére ösztönözze, képezze és mozgósítsa, új erőt adva a megfáradtaknak, s tekintetüket Urára, Jézus Krisztusra irányítsa.'
         },
         {
-          img: '/img/csizmadia-robert.png',
+          img: '/img/csizmadia-robert.jpg',
           name: 'Csizmadia Róbert',
           description: 'Teológus-lelkész',
           bio: 'Csizmadia Róbert, teológus-lelkész. Egyetemi diplomáját az angliai Newbold College-on szerezte, ahol teológia mellett lelkigondozást és párkapcsolati tanácsadást tanult, illetve a kollégium vezető-helyetteseként dolgozott. A Ketten Együtt Házassági Műhely társalapítója. Óraadóként dolgozott az Adventista Teológiai Főiskolán, a Janus Pannonius Tudományegyetemen és a Károli Gáspár Református Egyetemen. Nős, finn származású feleségével, Helivel, boldog házasságban él, két kislányuk van: Aino és Helmi. A Hetednapi Adventista Egyház lelkészeként dolgozik.'
