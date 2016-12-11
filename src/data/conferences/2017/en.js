@@ -56,7 +56,7 @@ module.exports = {
         {
           img: '/img/kraig-harnett.jpg',
           name: 'Kraig Harnett',
-          description: '',
+          description: 'Banker, mission worker',
           bio: 'Kraig grew up in Australia and had a calling to live and work in Geneva, Switzerland. He is working full time in the banking industry but soul winning is his occupation and passion! Our Lord and Mighty Savior saved Kraig from a life threatening situation while mountain bike riding which has inspired him to become an evangelist! He enjoys working passionately with Europe 4 Jesus and witnessing to people of all ages answering the call to serve Christ.'
         },
         {

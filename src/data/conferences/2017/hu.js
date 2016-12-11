@@ -56,7 +56,7 @@ module.exports = {
         {
           img: '/img/kraig-harnett.jpg',
           name: 'Kraig Harnett',
-          description: '',
+          description: 'Bankár, missziómunkás',
           bio: 'Kraig Ausztráliában nőtt fel, majd meghívást kapott, hogy Svájcban, Genf városában éljen és dolgozzon. Főállásban a bankszférában dolgozik, a lélekmentés a hobbija és szenvedélye! Egyszer hegyi kerékpározás közben Megváltó Urunk egy életveszélyes helyzetből mentette ki Kraig-et, ami arra késztette őt, hogy evangélizátor legyen. Krisztus hívására válaszolva élvezettel tesz bizonyságot minden korosztálynak, és szenvedélyesen szolgál a Europe for Jesus szervezettel.'
         },
         {
