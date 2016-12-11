@@ -9,7 +9,7 @@ html
 
     div
       section#hero
-        .conferences-2016-hero
+        div(class="conferences-hero conferences-" + page.year + "-hero")
           .hero-content-wr
             .hero-content
               h1.conference-title #{ content.title }
@@ -30,7 +30,7 @@ html
                   h3 #{ speaker.name }
                   span.small #{ speaker.description }
                 .bio
-                  p #{ speaker.bio }
+                  p !{ speaker.bio }
 
       section#seminars.inverted
         .seminars
@@ -54,15 +54,26 @@ html
               h2 #{ content.venue.name }
               address #{ content.venue.address }
               p
-                a(href='https://www.google.com/maps?ll=47.509244,19.089315&z=16&t=m&hl=en-US&gl=HU&mapclient=embed&cid=3891721808783336383' target='_blank' role='button') #{ content.venue.description.showOnMap }
+                a(href=content.venue.description.showOnMap.url target='_blank' role='button') #{ content.venue.description.showOnMap.text }
 
               p !{ content.venue.description.text }
           .row
-            .col-md-4
-              img.img-responsive(src=page.assetsPath + '/img/durer_2.jpg', alt='FJK Venue 2016')
-            .col-md-4
-              img.img-responsive(src=page.assetsPath + '/img/durer_1.jpg', alt='FJK Venue 2016')
-            .col-md-4
-              img.img-responsive(src=page.assetsPath + '/img/durer_3.jpg', alt='FJK Venue 2016')
+            each pic in content.venue.pics
+              .col-md-4
+                img.img-responsive(src=page.assetsPath + pic, alt='FJK Venue')
+
+          if content.sabbathVenue
+            .row
+              .veneu-desc
+                h2 #{ content.sabbathVenue.name }
+                address #{ content.sabbathVenue.address }
+                p
+                  a(href=content.sabbathVenue.description.showOnMap.url target='_blank' role='button') #{ content.sabbathVenue.description.showOnMap.text }
+
+                p !{ content.sabbathVenue.description.text }
+            .row
+              each pic in content.sabbathVenue.pics
+                .col-md-4
+                  img.img-responsive(src=page.assetsPath + pic, alt='FJK Venue')
 
     include foot

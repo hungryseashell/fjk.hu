@@ -1,25 +1,22 @@
 'use strict';
 
-const landingHu = require('./landing/hu');
-const landingEn = require('./landing/en');
-const conferenceHu = require('./conferences/2016/hu');
-const conferenceEn = require('./conferences/2016/en');
-const registrationHu = require('./registration/hu');
-const registrationEn = require('./registration/en');
-
 module.exports = {
   landing: {
-    hu: landingHu,
-    en: landingEn
+    hu: require('./landing/hu'),
+    en: require('./landing/en')
   },
   conferences: {
     '2016': {
-      hu: conferenceHu,
-      en: conferenceEn
+      hu: require('./conferences/2016/hu'),
+      en: require('./conferences/2016/en')
+    },
+    '2017': {
+      hu: require('./conferences/2017/hu'),
+      en: require('./conferences/2017/en')
     }
   },
   registration: {
-    hu: registrationHu,
-    en: registrationEn
+    hu: require('./registration/hu'),
+    en: require('./registration/en')
   }
 };

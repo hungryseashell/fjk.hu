@@ -7,8 +7,8 @@ module.exports = {
     assetsPath: './assets',
     nav: {
       nextYear: {
-        url: './conferences/2016',
-        text: '2016-ban'
+        url: './conferences/2017',
+        text: '2017-ben'
       },
       spirit: {
         url: '#spirit',

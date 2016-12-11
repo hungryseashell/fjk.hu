@@ -366,9 +366,17 @@ module.exports = {
       name: 'Dürer Rendezvényház',
       address: '1146 Budapest, Ajtósi Dürer sor 19-21',
       description: {
-        showOnMap: 'Show it on a map',
+        showOnMap: {
+          url: 'https://www.google.com/maps?ll=47.509244,19.089315&z=16&t=m&hl=en-US&gl=HU&mapclient=embed&cid=3891721808783336383',
+          text: 'Show it on a map'
+        },
         text: 'The conference will take place at the <a href="http://durerhaz.hu/" target="_blank">Dürer Rendezvényház</a>, a modern cultural complex in Pest next to the Városliget, with excellent public transport accessibility.'
-      }
+      },
+      pics: [
+        '/img/durer_2.jpg',
+        '/img/durer_1.jpg',
+        '/img/durer_3.jpg'
+      ]
     }
   }
 };
