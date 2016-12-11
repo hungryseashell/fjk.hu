@@ -120,7 +120,7 @@ module.exports = {
           items: [
             {
               time: '15:00-18:00',
-              text: 'Regisztráció'
+              text: 'Registration'
             },
             {
               time: '18:30-20:30',
@@ -178,7 +178,7 @@ module.exports = {
           ]
         },
         friday: {
-          name: 'Péntek',
+          name: 'Friday',
           items: [
             {
               time: ' ',
