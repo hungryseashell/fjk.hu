@@ -296,7 +296,7 @@ module.exports = {
           url: 'https://www.google.com/maps?ll=47.509244,19.089315&z=16&t=m&hl=en-US&gl=HU&mapclient=embed&cid=3891721808783336383',
           text: 'Mutasd térképen'
         },
-        text: 'Az előzetesen regisztrálók magas száma miatt új helyszínt kellett választanunk az idei konferenciának, ami a 2011-ben felújított kulturális központban, a <a href="http://durerhaz.hu/" target="_blank">Dürer Rendezvényházban</a> lesz. A Városliget szomszédságában lévő terület könnyen megközelíthető tömegközlekedéssel, az autók számára parkolóhely biztosított.'
+        text: 'Az előzetesen regisztrálók magas száma miatt szombatra új helyszínt választottunk: a 2011-ben felújított kulturális központot, a <a href="http://durerhaz.hu/" target="_blank">Dürer Rendezvényházat</a>. A Városliget szomszédságában lévő terület könnyen megközelíthető tömegközlekedéssel, az autók számára parkolóhely biztosított.'
       },
       pics: [
         '/img/durer_1.jpg',
