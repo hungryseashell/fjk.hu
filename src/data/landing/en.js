@@ -115,6 +115,10 @@ module.exports = {
           { dep: 'Programming ', name: 'Csilla Farkas' }
         ]
       }
+    },
+    registration: {
+      url: './en/registration',
+      text: 'Register to the Conference of 2017'
     }
   }
 };

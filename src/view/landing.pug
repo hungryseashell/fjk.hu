@@ -14,6 +14,8 @@ html
           .container
             .row
               h1 #{ page.title }
+            if content.registration
+              a.registrationButton.landing(href=content.registration.url role='button') #{content.registration.text}
             .social
               .youtube.social-icon
                 a(href='https://www.youtube.com/channel/UCA4IZxNaPmDCrQrG-ToCwBA/feed', target='_blank')
@@ -23,6 +25,7 @@ html
                 a(href='https://www.facebook.com/FiatalokJezusertKonferencia', target='_blank')
                   i.fa.fa-facebook-square
                     span Facebook
+
 
       section#conference
         .conference

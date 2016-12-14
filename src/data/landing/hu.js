@@ -114,6 +114,10 @@ module.exports = {
           { dep: 'Program ', name: 'Farkas Csilla' }
         ]
       }
+    },
+    registration: {
+      url: './registration',
+      text: 'Regisztrálj a 2017-es Konferenciára'
     }
   }
 };
