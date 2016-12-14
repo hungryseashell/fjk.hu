@@ -27,6 +27,10 @@ module.exports = {
         url: '#venue',
         text: 'Helyszín'
       },
+      registration: {
+        url: '#registration',
+        text: 'Regisztráció'
+      },
       changeLang: {
         url: '../../en/conferences/2017',
         text: 'EN'
@@ -320,6 +324,10 @@ module.exports = {
         '/img/durer_2.jpg',
         '/img/durer_3.jpg'
       ]
+    },
+    registration: {
+      url: '../../registration',
+      text: 'Regisztrálj még ma!'
     }
   }
 };

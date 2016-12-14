@@ -27,6 +27,10 @@ module.exports = {
         url: '#venue',
         text: 'Venue'
       },
+      registration: {
+        url: '#registration',
+        text: 'Registration'
+      },
       changeLang: {
         url: '../../../conferences/2017',
         text: 'HU'
@@ -307,6 +311,10 @@ module.exports = {
         '/img/durer_2.jpg',
         '/img/durer_3.jpg'
       ]
+    },
+    registration: {
+      url: '../../registration',
+      text: 'Register today!'
     }
   }
 };
