@@ -9,7 +9,7 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2016/',
+        url: '../conferences/2017/',
         text: 'Küldetésben'
       },
       changeLang: {
@@ -64,8 +64,14 @@ module.exports = {
       },
       housing: {
         title: 'Szállás',
-        broadway: 'Ez a szállás már betelt, nem tudunk további foglalást fogadni!',
-        benczur: 'Ezt a szállást egyéni, vagy két fős foglalás esetén ajánljuk! A hotelben 1 illetve 2 ágyas szobák állnak rendelkezésre, felújított illetve standard minőségben. A két fős szobákba egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket a különálló két ágyas szobákban egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Nézd meg a <a href="http://www.hotelbenczur.hu/en" target="_blank">hotelszobákat</a> és töltsd le a <a href="' + assetsPath + '/forms/benczur-hu.docx">jelentkezési lapot</a>.'
+        broadway: {
+          subtitle: 'Ezt a szállást csoportos foglalás esetén ajánljuk!',
+          text: 'A szálláson 4 fős apartmanokban lehet elhelyezkedni, ahol <strong>2 db (nem szétválasztható) duplaágy</strong> áll rendelkezésre. Az apartmanokhoz különálló konyha- és fürdőszobarész tartozik. Egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket, a duplaágyak valamelyikén, egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Jelentkezési lap <a href="' + assetsPath + '/forms/broadway.en.docx">letöltése</a>.'
+        },
+        benczur: {
+          subtitle: 'Ezt a szállást egyéni, vagy két fős foglalás esetén ajánljuk!',
+          text: 'A hotelben 1 illetve 2 ágyas szobák állnak rendelkezésre, felújított illetve standard minőségben. A két fős szobákba egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket a különálló két ágyas szobákban egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Nézd meg a <a href="http://www.hotelbenczur.hu/en" target="_blank">hotelszobákat</a> és töltsd le a <a href="' + assetsPath + '/forms/benczur-hu.docx">jelentkezési lapot</a>.'
+        }
       },
       program: {
         title: 'Program',
@@ -87,16 +93,16 @@ module.exports = {
         '1000': '(Jegyzetfüzet + 20 db-os Glow csomag)',
         '0': 'Imádkozom a Konferenciáért!',
         hoodies: {
-          title: 'A pulóvereket itt nézheted meg:<a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és<a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek:<a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>,<a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>,<a id="popover-kid" rel="popover" data-content="" title="Gyerek méretek">gyerek</a>,<a id="popover-menHoodySize" rel="popover" data-content="" title="Férfi pulóverek méretek">Férfi pulóverek</a> és<a id="popover-womenHoodySize" rel="popover" data-content="" title="Női pulóverek méretek">női pulóverek</a>.',
+          title: 'A pulóvereket itt nézheted meg: <a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>, <a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>, <a id="popover-kid" rel="popover" data-content="" title="Gyerek méretek">gyerek</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Férfi pulóverek méretek">Férfi pulóverek</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Női pulóverek méretek">női pulóverek</a>.',
           type: 'Típus',
           size: 'Méret',
           quantity: 'Mennyiség',
           shirts: {
             men: 'Férfi póló (1500 Ft)',
             women: 'Női póló (1500 Ft)',
-            kid: 'Gyerek póló (1700 Ft)',
-            menHoody: 'Férfi pulóver (3700 Ft)',
-            womenHoody: 'Női pulóver (3700 Ft)'
+            kid: 'Gyerek póló (1900 Ft)',
+            menHoody: 'Férfi pulóver (4000 Ft)',
+            womenHoody: 'Női pulóver (4000 Ft)'
           }
         }
       },

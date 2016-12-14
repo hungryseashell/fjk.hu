@@ -60,16 +60,16 @@ html
                         th(scope='row') #{ content.tabs.conference.meal.dinner }
                         td
                           label.checkbox-inline
-                            input(type='checkbox', value='thursday', name='dinner', data-price='700')
-                            | 700 Ft
+                            input(type='checkbox', value='thursday', name='dinner', data-price='800')
+                            | 800 Ft
                         td
                           label.checkbox-inline
-                            input(type='checkbox', value='friday', name='dinner', data-price='700')
-                            | 700 Ft
+                            input(type='checkbox', value='friday', name='dinner', data-price='800')
+                            | 800 Ft
                         td
                           label.checkbox-inline
-                            input(type='checkbox', value='sabbath', name='dinner', data-price='700')
-                            | 700 Ft
+                            input(type='checkbox', value='sabbath', name='dinner', data-price='800')
+                            | 800 Ft
                   .fs-section-desc *#{ content.tabs.conference.meal.info }
 
                 input.previous.action-button(type='button', name='previous', value=content.prev)
@@ -79,10 +79,12 @@ html
                 .housing-tab
                   div
                     h2.fs-section-title Broadway Apartments
-                    | #{ content.tabs.housing.broadway }
+                    h3.fs-subtitle !{ content.tabs.housing.broadway.subtitle }
+                    | !{ content.tabs.housing.broadway.text }
                     hr
                     h2.fs-section-title Hotel Benczúr
-                    h3.fs-subtitle !{ content.tabs.housing.benczur }
+                    h3.fs-subtitle !{ content.tabs.housing.benczur.subtitle }
+                    | !{ content.tabs.housing.benczur.text }
 
 
                 input.previous.action-button(type='button', name='previous', value=content.prev)
@@ -156,9 +158,9 @@ html
                         option(value='', data-single-price='0') #{ content.tabs.support.hoodies.type }
                         option(value='men', data-single-price='1500') #{ content.tabs.support.hoodies.shirts.men }
                         option(value='women', data-single-price='1500') #{ content.tabs.support.hoodies.shirts.women }
-                        option(value='kid', data-single-price='1700') #{ content.tabs.support.hoodies.shirts.kid }
-                        option(value='menHoody', data-single-price='3700') #{ content.tabs.support.hoodies.shirts.menHoody }
-                        option(value='womenHoody', data-single-price='3700') #{ content.tabs.support.hoodies.shirts.womenHoody }
+                        option(value='kid', data-single-price='1900') #{ content.tabs.support.hoodies.shirts.kid }
+                        option(value='menHoody', data-single-price='4000') #{ content.tabs.support.hoodies.shirts.menHoody }
+                        option(value='womenHoody', data-single-price='4000') #{ content.tabs.support.hoodies.shirts.womenHoody }
                       select(name='shirtSize-1')
                         option.menHoody.womenHoody.men.women.kid(value='', data-single-price='0') #{ content.tabs.support.hoodies.size }
                         option.menHoody.womenHoody.men.women(value='S', data-single-price='1') S
@@ -187,7 +189,7 @@ html
                         option(value='4', data-single-price='4') 4
                         option(value='5', data-single-price='5') 5
                       a.minusOne.plusOne(type='button') -
-                  a#shirtPlusOne.plusOne.hide(type='button') +
+                  a#shirtPlusOne.plusOne(type='button') +
 
                 input.previous.action-button(type='button', name='previous', value=content.prev)
                 input.next.action-button(type='button', name='next', value=content.next)

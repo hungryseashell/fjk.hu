@@ -9,11 +9,11 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2016/',
+        url: '../conferences/2017/',
         text: 'In Mission'
       },
       changeLang: {
-        url: '../registration/',
+        url: '../../registration/',
         text: 'HU'
       }
     }
@@ -64,8 +64,14 @@ module.exports = {
       },
       housing: {
         title: 'Housing',
-        broadway: "This accommodation is booked, we can't receive additional bookings.",
-        benczur: 'This accommodation is recommended for individual or double booking! The housing will be in hotel rooms with 1 or 2 beds, which are separable. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information. Check out the <a href="http://www.hotelbenczur.hu/en target="_blank">apartments</a> then <a href="' + assetsPath + '/forms/benczur-en.docx">the application form</a>.'
+        broadway: {
+          subtitle: 'This accommodation is recommended for group reservations!',
+          text: 'The housing will be in apartments for 4 people, which include <strong>2 non-seperable double beds</strong>. A kitchen and a bathroom belong to every apartment. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the double beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information. <a href="' + assetsPath + '/forms/broadway-en.docx">Download</a> the application form.'
+        },
+        benczur: {
+          subtitle: 'This accommodation is recommended for individual or double booking!',
+          text: 'The housing will be in hotel rooms with 1 or 2 beds, which are separable. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information. Check out the <a href="http://www.hotelbenczur.hu/en target="_blank">apartments</a> then <a href="' + assetsPath + '/forms/benczur-en.docx">the application form</a>.'
+        }
       },
       program: {
         title: 'Program',
@@ -87,16 +93,16 @@ module.exports = {
         '1000': '(Notebook + 20-item-Glow package)',
         '0': 'I pray for the Conference!',
         hoodies: {
-          title: 'You can check out the hoodies here:<a id="popover-menHoody" rel="popover" data-content="" title="Men\'s hoodies">men</a> és<a id="popover-womenHoody" rel="popover" data-content="" title="Women\'s hoodies">women</a>. Size:<a id="popover-men" rel="popover" data-content="" title="Men">men</a>,<a id="popover-women" rel="popover" data-content="" title="Women">women</a>,<a id="popover-kid" rel="popover" data-content="" title="Kid">kid</a>,<a id="popover-menHoodySize" rel="popover" data-content="" title="Men\'s hoodies">men\'s hoodies</a> és<a id="popover-womenHoodySize" rel="popover" data-content="" title="Women\'s hoodies">women\'s hoodies</a>.',
+          title: 'You can check out the hoodies here: <a id="popover-menHoody" rel="popover" data-content="" title="Men\'s hoodies">men</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Women\'s hoodies">women</a>. Size: <a id="popover-men" rel="popover" data-content="" title="Men">men</a>, <a id="popover-women" rel="popover" data-content="" title="Women">women</a>, <a id="popover-kid" rel="popover" data-content="" title="Kid">kid</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Men\'s hoodies">men\'s hoodies</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Women\'s hoodies">women\'s hoodies</a>.',
           type: 'Type',
           size: 'Size',
           quantity: 'Quantity',
           shirts: {
             men: "Men's T-Shirts (1500 Ft)",
             women: "Women's T-Shirts (1500 Ft)",
-            kid: "Child (1700 Ft)",
-            menHoody: "Men's hoody (3700 Ft)",
-            womenHoody: "Women's hoody (3700 Ft)"
+            kid: "Child (1900 Ft)",
+            menHoody: "Men's hoody (4000 Ft)",
+            womenHoody: "Women's hoody (4000 Ft)"
           }
         }
       },

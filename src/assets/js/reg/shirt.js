@@ -76,9 +76,9 @@ module.exports = function(calculatePrice) {
       '<option value="">' + typeTexts.label + '</option>' +
       '<option value="men" data-single-price=1500>' + typeTexts.men + '</option>' +
       '<option value="women" data-single-price=1500>' + typeTexts.women + '</option>' +
-      '<option value="kid" data-single-price=1700>' + typeTexts.kid + '</option>' +
-      '<option value="menHoody" data-single-price=3700>' + typeTexts.menHoody + '</option>' +
-      '<option value="womenHoody" data-single-price=3700>' + typeTexts.womenHoody + '</option>' +
+      '<option value="kid" data-single-price=1900>' + typeTexts.kid + '</option>' +
+      '<option value="menHoody" data-single-price=4000>' + typeTexts.menHoody + '</option>' +
+      '<option value="womenHoody" data-single-price=4000>' + typeTexts.womenHoody + '</option>' +
       '</select>' +
       '<select name="shirtSize-' + count + '">' +
       '<option class="menHoody womenHoody men women kid" value="" data-single-price=0>' + sizeTexts.label + '</option>' +
