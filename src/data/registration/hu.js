@@ -10,7 +10,7 @@ module.exports = {
     nav: {
       conference: {
         url: '../conferences/2017/',
-        text: 'Küldetésben'
+        text: 'Készülj Istened elé!'
       },
       changeLang: {
         url: '../en/registration/',

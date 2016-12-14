@@ -10,7 +10,7 @@ module.exports = {
     nav: {
       conference: {
         url: '../conferences/2017/',
-        text: 'In Mission'
+        text: 'Prepare to meet your God'
       },
       changeLang: {
         url: '../../registration/',
