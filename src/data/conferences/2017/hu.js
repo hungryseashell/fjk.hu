@@ -70,6 +70,18 @@ module.exports = {
           name: 'Ördög Róbert',
           description: 'Lelkész',
           bio: 'Szerbiában a Vajdasági egyházterület titkára és pénztárosa vagyok, ugyanakkor az ifjúsági osztályt vezetem az egyházterületnél, s vallom, hogy ez utóbbi a legszebb része a szolgálatomnak. Szivügyemnek tekintem az ifjúsági missziót, folyamatosan foglalkoztat a kérdés, hogyan vezessük a fiatalokat Jézushoz.<br>Feleségemmel Judittal közösen fáradozunk a vajdasági magyarság lelki épüléséért.<br>Mint négygyermekes családapa (Daniella, Dániel, Anita, Attila) és háromszoros nagyapa (Lilly, Roberto, Nia) sokat foglalkozom a keresztény család szükségleteivel, erősitésével.'
+        },
+        {
+          img: '/img/hegyi-marton.jpg',
+          name: 'Dr. Hegyi Márton',
+          description: 'Cserkész segédtiszt, állatorvos',
+          bio: '14 éves korom óta vagyok cserkészvezető, 4. éve a 431. Huenergardt János Frigyes cserkészcsapatban. Az ennek keretén belül működő 9 fős, 13-16 éves fiúkból álló Hód őrs segédőrsvezetője vagyok.<br>Vezetőtársaim tavaly szeptemberben választottak a Magyar Cserkészszövetség adventista lelki közössége, a Tábortűz elnökévé.<br>Feleségemmel 2012-ben a keresztelkedtünk. Vele és azóta született két kisfiammal szülővárosomban, Hódmezővásárhelyen élünk.'
+        },
+        {
+          img: '/img/kassai-csaba-peter.jpg',
+          name: 'Kassai Csaba Péter',
+          description: 'Mester, teológus, cserkész-csapatparancsnok',
+          bio: 'Fiatal koromban tehetséges sportolónak indultam, versenyekre jártam, majd egy motoros bandába kerültem, ahol mindennaposak voltak a törvénybe ütköző cselekmények. Viszont Isten egy kalandos úton kiragadott, és megismertette velem a kereszténységet, amit addig gyűlöltem. Az Isten megragadott, 1992-ben megkeresztelkedtem, a következő évben megházasodtam és ugyanabban az évben cserkészfogadalmat is tettem. Azóta feleségemmel az egyház több dolgában – ahova csak Isten elhív - teljesítünk szolgálatot. Jelenleg az újjáalakult Huenergardt János Frigyes cserkészcsapatban szolgálunk feleségemmel és négy gyermekemmel, kik közül a legkisebb még kiscserkész, a legnagyobb, mint őrsvezető veszi ki részét a szolgálatból.<br>Jelenleg a magyar adventista unió cserkészvezetője vagyok, itt képviselem a magyarországi adventista cserkészcsapatokat.'
         }
       ]
     },
@@ -105,6 +117,11 @@ module.exports = {
           title: 'Készülj Istened elé – Hogyan? Hogyan mondjam el ezt másoknak?',
           speaker: 'Ördög Róbert',
           description: 'A legnagyobb kérdés az ember számára, hogyan készüljön fel az Istennel való találkozásra. Különösen fontos ez minden fiatalnak. Várjuk Jézus eljövetelét, de ha választhatnánk, mikor jöjjön el, lehet, hogy a "kicsit később" lehetőséget jelölnénk be. A felkészülés, lelki növekedés sok esetben különböző szakaszokban van bemutatva, lépcsőfokokhoz hasonlítva, de akkor ez olyan, mint egy kurzus, melyet végigjárunk, bemagoljuk az anyagot, elsajátítunk meghatározott gyakorlati ismeretet s máris diplomás szakemberek vagyunk. Hogy működik ez lelki téren? Mit tehetünk ezért mi magunk, s mi ebben a Szentlélek szerepe? Hogy néz ki egy fiatal keresztény számára a lelki növekedés, újjászületés, s ami még fontosabb, különválasztható-e ez az aktív missziós küldetéstudattól? Készülök Istenem elé, de hogy mondjam el ezt másoknak?<br>Szeretném a fiatalokat olyan élettapasztalatokkal bátoritani, melyek meghatározták hitéletemet, megerősítettek lelkészi szolgálatomban (pedig soha nem akartam lelkész lenni, s folyamatosan visszautasitottam minden hivást...), s elkötelezetté tettek a misszió irányában.'
+        },
+        {
+          title: '13+1 dolog, amit mindig is tudni akartál a cserkészetről, de sosem merted megkérdezni<br>Mire jó a cserkészet Jézusnak? És mi mindenre lehet jó Neked?',
+          speaker: 'Dr. Hegyi Márton - Kassai Csaba Péter',
+          description: 'Érdekes és meglepő kérdések és válaszok a cserkészetről, játékosan. Mitől a legerőteljesebb ifjúsági misszió a cserkészet az Egyházban? Egy örökkévaló jelentőségű hobbi: a cserkészet, mint a tanítvánnyá levés és tanítvánnyá tevés örömteli útja.'
         }
       ]
     },
