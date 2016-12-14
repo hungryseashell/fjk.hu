@@ -66,7 +66,7 @@ module.exports = {
         title: 'Szállás',
         broadway: {
           subtitle: 'Ezt a szállást csoportos foglalás esetén ajánljuk!',
-          text: 'A szálláson 4 fős apartmanokban lehet elhelyezkedni, ahol <strong>2 db (nem szétválasztható) duplaágy</strong> áll rendelkezésre. Az apartmanokhoz különálló konyha- és fürdőszobarész tartozik. Egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket, a duplaágyak valamelyikén, egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Jelentkezési lap <a href="' + assetsPath + '/forms/broadway.en.docx">letöltése</a>.'
+          text: 'A szálláson 4 fős apartmanokban lehet elhelyezkedni, ahol <strong>2 db (nem szétválasztható) duplaágy</strong> áll rendelkezésre. Az apartmanokhoz különálló konyha- és fürdőszobarész tartozik. Egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket, a duplaágyak valamelyikén, egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Jelentkezési lap <a href="' + assetsPath + '/forms/broadway-hu.docx">letöltése</a>.'
         },
         benczur: {
           subtitle: 'Ezt a szállást egyéni, vagy két fős foglalás esetén ajánljuk!',
