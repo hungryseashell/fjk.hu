@@ -59,7 +59,7 @@ module.exports = {
         },
         attendance: {
           full: 'Résztveszek az egész konferencián',
-          sabbath: 'Csak szombatra jövök'
+          sabbath: 'Csak szombaton és/vagy hétköznap 17 órától veszek részt a konferencián'
         }
       },
       housing: {

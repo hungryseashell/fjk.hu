@@ -59,7 +59,7 @@ module.exports = {
         },
         attendance: {
           full: 'Participating in the whole conference',
-          sabbath: 'Visiting only on Sabbath'
+          sabbath: 'Visiting only on Sabbath and/or on workdays after 17:00'
         }
       },
       housing: {
