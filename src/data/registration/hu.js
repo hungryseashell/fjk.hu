@@ -58,7 +58,7 @@ module.exports = {
           info: 'Reggelit a szállással együtt biztosítunk'
         },
         attendance: {
-          full: 'Résztveszek az egész konferencián',
+          full: 'Részt veszek az egész konferencián',
           sabbath: 'Csak szombaton és/vagy hétköznap 17 órától veszek részt a konferencián'
         }
       },
