@@ -74,6 +74,18 @@ module.exports = {
           name: 'Róbert Ördög',
           description: 'Pastor',
           bio: 'I am secretary and treasurer of the Vojvodina Conference in Serbia, and at the same time, I am also the Youth Ministries leader at the Conference, and I strongly believe that this is the most beautiful part of my ministry. Youth Ministry is especially important for me; I always wonder how we can lead young people to Christ.<br>Together with my wife, Judit, I aim to foster the spiritual growth of Hungarians in Vojvodina. As a father of four (Daniella, Dániel, Anita, Attila) and a grandpa of three (Lilly, Roberto, Nia), I am busy supporting Christian families and catering for their needs.'
+        },
+        {
+          img: '/img/hegyi-marton.jpg',
+          name: 'Márton Hegyi, Dr.',
+          description: 'Assistant-scoutmaster, vet',
+          bio: 'I have been a scout leader since I was fourteen, this is my fourth year in the 431st Huenergardt János Frigyes Scout Group. I am the assistant patrol-leader of the nine-member Hód (Beaver) Patrol, consisting of 13–16-year-old boys, which is part of the above-mentioned scout group.<br>My scout leader colleagues elected me last September the president of the Adventist spiritual community of the Hungarian Scout Association called Tábortűz (Campfire).<br>I got baptized together with my wife in 2012. Since then, we have lived with our two sons in my hometown, Hódmezővásárhely.'
+        },
+        {
+          img: '/img/kassai-csaba-peter.jpg',
+          name: 'Csaba Péter Kassai',
+          description: 'Scout master, theologian, scout group leader',
+          bio: 'When I was young, I started out as a talented sportsman: I participated in competitions, then I got involved in a motorbike gang, where unlawful acitivites were common. However, God took me out of that in an adventurous way, and gave me the opportunity of getting to know Christianism that I had hated before. God seized me; I got baptized in 1992, the next year I got married and I made the scout-promise in the same year. With my wife, I have been serving in multiple fields of ministry in the church – wherever God called us. At the moment, I serve in the re-organized Huenergardt János Frigyes Scout Group with my wife and four children: the youngest is a cub, the eldest serves as a patrol-leader.<br>At present, I am the scout leader of the Hungarian Union of the Seventh-day Adventist Church, I represent the Hungarian Adventist scout groups here.'
         }
       ]
     },
@@ -109,6 +121,11 @@ module.exports = {
           title: 'Prepare to meet your God – How? How can I share it with others?',
           speaker: 'Róbert Ördög',
           description: 'The biggest question for us is how to prepare to meet God. It has a special importance to young people. We are waiting for Christ’s return, but if we had the opportunity to choose, we would probably tick the “a bit later” box. Preparation and spiritual growth is often described as staircase, having different phases, but then it resembles a course: we attend the course, cram the material, acquire certain practical skills and then we graduate and become professionals. How does it work in spiritual matters? What is our job and what is the role of the Holy Spirit in this process? What does it mean for a young person  to grow spiritually and to be born again? Can it be separated from an active sense of mission? I prepare to meet God, but how can I share it with others?<br>I would like to encourage young people with my experiences that shaped my faith and strengthened me in my ministry (although I never wanted to be a pastor and refused every call...), and deepened my devotion towards missionary work.'
+        },
+        {
+          title: '13+1 things you have always wanted to ask about scouting, but never dared to ask – What can Jesus use scouting for? And what can you use it for?',
+          speaker: 'Márton Hegyi, Dr. – Csaba Péter Kassai',
+          description: 'Interesting and surprising questions and answers about scouting, in a playful way. Why is scouting the strongest youth ministry in the church? This is a hobby with a significance for eternal life: scouting is the joyful way of becoming a disciple and making disciples of others.'
         }
       ]
     },
