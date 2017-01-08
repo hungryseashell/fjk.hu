@@ -93,11 +93,6 @@ module.exports = {
       title: 'Szemináriumok',
       seminars: [
         {
-          title: 'A világban, de nem a világból – hogyan?',
-          speaker: 'Jan-Harry Cabungcal',
-          description: 'Hetednapi Adventista keresztényekként mindannyian tudjuk, hogy készen kellene állnunk az Úr közeli visszajövetelére. Legtöbben elkötelezett hívőnek tartjuk magunkat – megvan fixen a reggeli és esti áhítatunk, megvannak a saját kis szabályaink arról, hogy mit szabad és mit nem, rendszeresen járunk gyülekezetbe, résztveszünk a tevékenységeiben, de vajon előrébb jutunk? Sok fiatal feltette már a kérdést: hogy lehetek a világban úgy, hogy közben nem vagyok a világból való? Ezen a szemináriumon annak egyszerű, mégis hathatós és gyakorlatias alapelveit fedezzük fel, hogy mit jelent naponként helytállni és tapasztalatot szerezni a bizonyságtételben.'
-        },
-        {
           title: 'Hogyan lehet éles elménk és kiegyensúlyozott érzelemvilágunk?',
           speaker: 'Jan-Harry Cabungcal',
           description: 'Legtöbben, vagy talán mindnyájan vágyunk arra, hogy éles elménk legyen, de ezt meg lehet könnyíteni bizonyos alapelvek követésével. A szeminárium azokkal az alapelvekkel foglalkozik, amelyeket az évek folyamán, tudományos munkásságunk révén tanultunk meg. Meg fogtok lepődni, hogy ezek közül milyen sok alapelv gyökerezik Isten Szavában és a Prófétaság Lelkének írásaiban. Ez a szeminárium különösen érdekes lehet azon párok számára, akik gyermeket terveznek vállalni ezekben az utolsó napokban. Gyertek el és tudjatok meg többet arról, hogyan tehetünk szert éles elmére és kiegyensúlyozott érzelmekre!'
@@ -144,7 +139,7 @@ module.exports = {
               text: 'Regisztráció'
             },
             {
-              time: '18:30-20:30',
+              time: '18:00-19:30',
               text: '<strong>Megnyitó plenáris előadás (Jerry & Janet Page)</strong>'
             },
             {

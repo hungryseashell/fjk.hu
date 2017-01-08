@@ -93,11 +93,6 @@ module.exports = {
       title: 'Seminars',
       seminars: [
         {
-          title: 'In this world, but not of this world – how?',
-          speaker: 'Jan-Harry Cabungcal',
-          description: 'As Seventh-day Adventist Christians, we know all that we ought to be ready for the Lord’s soon return. Most of us consider ourselves religious and committed - we have set routine morning and evening devotions, we have our do’s and don’t’s, we go to church regularly and get involved in its activities, but are we advancing to higher ground? Many young people have asked: how can I be in this world, but not of this world? This workshop will explore simple, yet powerful practical principles of what it means to have a daily stand to witness experience.'
-        },
-        {
           title: 'How to have a sharp mind and balanced emotions?',
           speaker: 'Jan-Harry Cabungcal',
           description: 'Most, if not all, desire a sharp mind, but this can be made easier when certain fundamental elements are followed. The workshop will deal with the fundamental elements that we have learned from the scientific work over the years. You will be surprised to learn that many of the pre-requisites are founded in the word of God and the spirit of prophecy. This workshop would be particularly informative to couples planning to have children in these last days. Come and learn more about how we can have a sharp mind and balanced emotions.'
@@ -144,7 +139,7 @@ module.exports = {
               text: 'Registration'
             },
             {
-              time: '18:30-20:30',
+              time: '18:00-19:30',
               text: '<strong>Opening Plenary (Jerry & Janet Page)</strong>'
             },
             {
