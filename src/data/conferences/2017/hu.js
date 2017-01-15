@@ -82,7 +82,6 @@ module.exports = {
           bio: '14 éves korom óta vagyok cserkészvezető, 4. éve a 431. Huenergardt János Frigyes cserkészcsapatban. Az ennek keretén belül működő 9 fős, 13-16 éves fiúkból álló Hód őrs segédőrsvezetője vagyok.<br>Vezetőtársaim tavaly szeptemberben választottak a Magyar Cserkészszövetség adventista lelki közössége, a Tábortűz elnökévé.<br>Feleségemmel 2012-ben a keresztelkedtünk. Vele és azóta született két kisfiammal szülővárosomban, Hódmezővásárhelyen élünk.'
         },
         {
-          img: '/img/kassai-csaba-peter.jpg',
           name: 'Kassai Csaba Péter',
           description: 'Mester, teológus, cserkész-csapatparancsnok',
           bio: 'Fiatal koromban tehetséges sportolónak indultam, versenyekre jártam, majd egy motoros bandába kerültem, ahol mindennaposak voltak a törvénybe ütköző cselekmények. Viszont Isten egy kalandos úton kiragadott, és megismertette velem a kereszténységet, amit addig gyűlöltem. Az Isten megragadott, 1992-ben megkeresztelkedtem, a következő évben megházasodtam és ugyanabban az évben cserkészfogadalmat is tettem. Azóta feleségemmel az egyház több dolgában – ahova csak Isten elhív - teljesítünk szolgálatot. Jelenleg az újjáalakult Huenergardt János Frigyes cserkészcsapatban szolgálunk feleségemmel és négy gyermekemmel, kik közül a legkisebb még kiscserkész, a legnagyobb, mint őrsvezető veszi ki részét a szolgálatból.<br>Jelenleg a magyar adventista unió cserkészvezetője vagyok, itt képviselem a magyarországi adventista cserkészcsapatokat.'

@@ -27,7 +27,8 @@ html
             .speaker
               .photo-wr.animated
                 .photo
-                  img.img-responsive(src=page.assetsPath + speaker.img, alt=speaker.name)
+                  if speaker.img
+                    img.img-responsive(src=page.assetsPath + speaker.img, alt=speaker.name)
               .caption.animated
                 .name
                   h3 #{ speaker.name }
