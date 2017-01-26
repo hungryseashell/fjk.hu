@@ -18,5 +18,9 @@ module.exports = {
   registration: {
     hu: require('./registration/hu'),
     en: require('./registration/en')
+  },
+  live: {
+    hu: require('./live/hu'),
+    en: require('./live/en')
   }
 };

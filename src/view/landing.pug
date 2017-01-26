@@ -14,7 +14,9 @@ html
           .container
             .row
               h1 #{ page.title }
-            if content.registration
+            if page.live.isOn
+              a.registrationButton.landing(href=page.live.url role='button') #{page.live.cta}
+            if page.regIsOn
               a.registrationButton.landing(href=content.registration.url role='button') #{content.registration.text}
             .social
               .youtube.social-icon

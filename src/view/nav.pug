@@ -11,5 +11,11 @@ header.site-header
       #navbar.navbar-collapse.collapse
         ul.nav.navbar-nav.navbar-right
           each item in page.nav
-            li
-              a(href=item.url, title=item.text) #{ item.text }
+            if (item.url.indexOf('registration') > -1 && ['EN', 'HU'].indexOf(item.text) === -1)
+              if (page.regIsOn)
+                li
+                  a(href=item.url, title=item.text) #{ item.text }
+              else
+            else
+              li
+                a(href=item.url, title=item.text) #{ item.text }

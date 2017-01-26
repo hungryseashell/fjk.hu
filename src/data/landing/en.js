@@ -2,6 +2,12 @@
 
 module.exports = {
   page: {
+    regIsOn: Boolean(process.env.REG_IS_ON),
+    live: {
+      isOn: Boolean(process.env.LIVE_IS_ON),
+      url: './live',
+      cta: 'Go watch live!'
+    },
     home: 'https://fjk.hu/en',
     title: 'Youth for Jesus Conference',
     assetsPath: '../assets',

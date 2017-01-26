@@ -17,7 +17,7 @@ html
               h2.conference-location #{ content.location }
               p.conference-motto !{ content.motto }
 
-              if content.registration
+              if (page.regIsOn)
                 a.registrationButton(href=content.registration.url role='button') #{content.registration.text}
 
       section#speakers
@@ -81,7 +81,7 @@ html
                   img.img-responsive(src=page.assetsPath + pic, alt='FJK Venue')
 
 
-      if content.registration
+      if (page.regIsOn)
         section#registration
           .registration
             a.registrationButton(href=content.registration.url role='button') #{ content.registration.text }

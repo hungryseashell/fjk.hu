@@ -4,6 +4,9 @@ const assetsPath = '../assets';
 
 module.exports = {
   page: {
+    regIsOn: Boolean(process.env.REG_IS_ON),
+    liveIsOn: Boolean(process.env.LIVE_IS_ON),
+    regIsClosed: 'Jelenleg nincs regisztráció',
     home: 'https://fjk.hu',
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: assetsPath,

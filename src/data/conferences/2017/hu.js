@@ -2,6 +2,7 @@
 
 module.exports = {
   page: {
+    regIsOn: Boolean(process.env.REG_IS_ON),
     year: 2017,
     home: 'https://fjk.hu',
     title: 'Fiatalok Jézusért Konferencia',
