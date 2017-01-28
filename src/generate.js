@@ -8,7 +8,6 @@ const pages = require('./pages');
 const sitePath = '_site';
 const viewPath = 'src/view';
 
-
 const write = function(file, content) {
   const dirname = path.dirname(file);
   if (!fs.existsSync(dirname)) {
