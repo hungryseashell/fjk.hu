@@ -22,5 +22,8 @@ module.exports = {
   live: {
     hu: require('./live/hu'),
     en: require('./live/en')
+  },
+  mini: {
+    hu: require('./mini/hu')
   }
 };

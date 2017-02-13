@@ -8,10 +8,19 @@ module.exports = {
       url: './live',
       cta: 'Nézd élőben!'
     },
+    mini: {
+      isOn: Boolean(process.env.MINI_IS_ON),
+      url: './mini',
+      cta: 'Mini FJK'
+    },
     home: 'https://fjk.hu',
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: './assets',
     nav: {
+      mini: {
+        url: './mini',
+        text: 'Mini FJK'
+      },
       nextYear: {
         url: './conferences/2017',
         text: '2017-ben'

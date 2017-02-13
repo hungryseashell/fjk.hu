@@ -16,6 +16,8 @@ html
               h1 #{ page.title }
             if page.live.isOn
               a.registrationButton.landing(href=page.live.url role='button') #{page.live.cta}
+            if page.mini.isOn
+              a.registrationButton.landing(href=page.mini.url role='button') #{page.mini.cta}
             if page.regIsOn
               a.registrationButton.landing(href=content.registration.url role='button') #{content.registration.text}
             .social

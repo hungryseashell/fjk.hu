@@ -1,0 +1,79 @@
+doctype html
+html
+
+  include head
+
+  body.page-content(data-spy='scroll', data-target='#main-nav')
+
+    include nav
+
+    div
+      section#hero
+        div(class="conferences-hero conferences-mini-hero")
+          .hero-content-wr
+            .hero-content
+              h1.conference-title #{ content.title }
+              h2.conference-dates #{ content.dates }
+              h2.conference-location #{ content.location }
+              p.conference-motto !{ content.motto }
+
+              a.registrationButton(href=content.registration.url role='button') #{content.registration.text}
+
+      section#speakers
+        .speakers
+          h1 #{ content.speakers.title }
+          each speaker in content.speakers.speakers
+            .speaker
+              .photo-wr.animated
+                .photo
+                  if speaker.img
+                    img.img-responsive(src=page.assetsPath + speaker.img, alt=speaker.name)
+              .caption.animated
+                .name
+                  h3 #{ speaker.name }
+                  span.small #{ speaker.description }
+                .bio
+                  p !{ speaker.bio }
+
+      section#info.inverted
+        .seminars
+          h1 Információk
+          .animated.col-md-offset-2
+            dt Előadások és program helyszíne:
+            dd Szolnok, Kápolna u. 19.
+          .animated.col-md-offset-2
+            dt Regisztrációs költség: 2000 Ft/fő
+            dd Regisztráció határideje: 2017. február 20. (hétfő), 23:59
+          .animated.col-md-offset-2
+            dt Befizetés menete:
+            dd Helyszíni regisztrációkor.
+          .animated.col-md-offset-2
+            dt Befizetéssel kapcsolatos információk:
+            dd
+              | A teljes összeg tartalmazza a programokon való részvételt, étkezés. Szállást a gyülekezet testvérei biztosítják.
+          .animated.col-md-offset-2
+            dt Étkezés:
+            dd
+              | 2016. március 11. (péntek):
+              strong  vacsora
+              br
+              | 2016. március 12. (szombat):
+              strong  reggeli-ebéd-vacsora
+              br
+              | 2016. március 13. (vasárnap):
+              strong  reggeli-ebéd-vacsora
+              br
+              | 2016. március 14. (hétfő)
+              strong  reggeli-ebéd
+          .animated.col-md-offset-2
+            dt Helyszíni regisztráció:
+            dd
+              | 2017. február 24., pénteken 16:00-18:15-ig.
+              br
+              | Helyszín: Szolnok, Kápolna u. 19.
+
+
+      section#registration
+        .registration
+          a.registrationButton(href=content.registration.url role='button') #{ content.registration.text }
+    include foot

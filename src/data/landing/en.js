@@ -8,6 +8,9 @@ module.exports = {
       url: './live',
       cta: 'Go watch live!'
     },
+    mini: {
+      isOn: false
+    },
     home: 'https://fjk.hu/en',
     title: 'Youth for Jesus Conference',
     assetsPath: '../assets',
