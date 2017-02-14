@@ -114,7 +114,6 @@ module.exports = {
           'Németh-Ambrus Orsolya',
           'Matus István',
           'Mészáros Boglárka',
-          'Ócsai Imre',
           'Ócsai Sándor',
           'Szallós-Farkas Zoltán'
         ]

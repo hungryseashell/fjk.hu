@@ -109,7 +109,6 @@ module.exports = {
           'Orsolya Németh-Ambrus',
           'István Matus',
           'Boglárka Mészáros',
-          'Imre Ócsai',
           'Sándor Ócsai',
           'Zoltán Szallós-Farkas'
         ]
