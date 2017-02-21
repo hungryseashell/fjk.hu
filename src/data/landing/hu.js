@@ -17,10 +17,10 @@ module.exports = {
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: './assets',
     nav: {
-      mini: {
-        url: './mini',
-        text: 'Mini FJK'
-      },
+      // mini: {
+      //   url: './mini',
+      //   text: 'Mini FJK'
+      // },
       nextYear: {
         url: './conferences/2017',
         text: '2017-ben'

@@ -18,7 +18,7 @@ module.exports = [
   { templateFile: 'registration.pug', data: registration.en, destinationPath: 'en/registration/index.html' },
 
   { templateFile: 'live.pug', data: live.hu, destinationPath: 'live/index.html' },
-  { templateFile: 'live.pug', data: live.en, destinationPath: 'en/live/index.html' },
+  { templateFile: 'live.pug', data: live.en, destinationPath: 'en/live/index.html' }
 
-  { templateFile: 'mini.pug', data: mini.hu, destinationPath: 'mini/index.html' }
+  // { templateFile: 'mini.pug', data: mini.hu, destinationPath: 'mini/index.html' }
 ];
