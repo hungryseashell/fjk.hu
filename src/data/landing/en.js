@@ -23,10 +23,10 @@ module.exports = {
         url: '#spirit',
         text: 'Spirit'
       },
-      leadership: {
-        url: '#leadership',
-        text: 'Leadership'
-      },
+      // leadership: {
+      //   url: '#leadership',
+      //   text: 'Leadership'
+      // },
       changeLang: {
         url: '../',
         text: 'HU'

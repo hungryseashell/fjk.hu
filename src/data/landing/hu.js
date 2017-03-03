@@ -29,10 +29,10 @@ module.exports = {
         url: '#spirit',
         text: 'Alapelvek'
       },
-      leadership: {
-        url: '#leadership',
-        text: 'Vezetőség'
-      },
+      // leadership: {
+      //   url: '#leadership',
+      //   text: 'Vezetőség'
+      // },
       changeLang: {
         url: './en',
         text: 'EN'

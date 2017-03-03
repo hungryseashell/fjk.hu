@@ -46,28 +46,28 @@ html
                 dt #{ item.title }
                 dd #{ item.subtitle }
 
-      section#leadership
-        .leadership
-          h1 #{ content.leadership.title }
-          #executive-committee.animated.leadership-list(data-wow-delay='0.3s')
-            h2 #{ content.leadership.ecom.title }
-            ul
-              each member in content.leadership.ecom.members
-                li
-                  | !{ member }
-
-          #board-of-directors.animated.leadership-list(data-wow-delay='0.3s')
-            h2 #{ content.leadership.board.title }
-            ul
-              each member in content.leadership.board.members
-                li #{ member }
-
-          #departments.animated.leadership-list(data-wow-delay='0.3s')
-            h2 #{ content.leadership.departments.title }
-            ul
-              each member in content.leadership.departments.members
-                li
-                  | #{ member.dep }
-                  em #{ member.name }
+      //section#leadership
+      //  .leadership
+      //    h1 #{ content.leadership.title }
+      //    #executive-committee.animated.leadership-list(data-wow-delay='0.3s')
+      //      h2 #{ content.leadership.ecom.title }
+      //      ul
+      //        each member in content.leadership.ecom.members
+      //          li
+      //            | !{ member }
+      //
+      //    #board-of-directors.animated.leadership-list(data-wow-delay='0.3s')
+      //      h2 #{ content.leadership.board.title }
+      //      ul
+      //        each member in content.leadership.board.members
+      //          li #{ member }
+      //
+      //    #departments.animated.leadership-list(data-wow-delay='0.3s')
+      //      h2 #{ content.leadership.departments.title }
+      //      ul
+      //        each member in content.leadership.departments.members
+      //          li
+      //            | #{ member.dep }
+      //            em #{ member.name }
 
     include foot
