@@ -28,7 +28,6 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="./conferences/2017" title="2017-ben">2017-ben</a></li>
               <li><a href="#spirit" title="Alapelvek">Alapelvek</a></li>
-              <li><a href="#leadership" title="Vezetőség">Vezetőség</a></li>
               <li><a href="./en" title="EN">EN</a></li>
             </ul>
           </div>
@@ -103,50 +102,29 @@
           </dl>
         </div>
       </section>
-      <section id="leadership">
-        <div class="leadership">
-          <h1>Vezetőség</h1>
-          <div class="animated leadership-list" id="executive-committee" data-wow-delay="0.3s">
-            <h2>Bizottság</h2>
-            <ul>
-              <li>Szőllősi Enikő <em>elnök</em></li>
-              <li>Rajki János <em>titkár</em></li>
-              <li>Döbrei-Rakonczai Judit <em>pénztáros</em></li>
-              <li>Farkas Csilla</li>
-              <li>Rárósi Dávid</li>
-              <li>Tóth Eszter</li>
-            </ul>
-          </div>
-          <div class="animated leadership-list" id="board-of-directors" data-wow-delay="0.3s">
-            <h2>Igazgatótanács</h2>
-            <ul>
-              <li>Ambrus András</li>
-              <li>Ambrus Zoltán</li>
-              <li>Bácsi László</li>
-              <li>Csengei Károly</li>
-              <li>Csizmadia Róbert</li>
-              <li>Erdődi Péter</li>
-              <li>Farkas Kamill</li>
-              <li>Farkasné Rajki Melinda</li>
-              <li>Németh-Ambrus Orsolya</li>
-              <li>Matus István</li>
-              <li>Mészáros Boglárka</li>
-              <li>Ócsai Sándor</li>
-              <li>Szallós-Farkas Zoltán</li>
-            </ul>
-          </div>
-          <div class="animated leadership-list" id="departments" data-wow-delay="0.3s">
-            <h2>Munkacsoportok</h2>
-            <ul>
-              <li>Kommunikáció <em>Tóth Eszter</em></li>
-              <li>Logisztika <em>Döbrei-Rakonczai Judit</em></li>
-              <li>Média <em>Döbrei Gábor</em></li>
-              <li>Misszió <em>Rárósi Dávid</em></li>
-              <li>Program <em>Farkas Csilla</em></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <!--section#leadership-->
+      <!--  .leadership-->
+      <!--    h1 #{ content.leadership.title }-->
+      <!--    #executive-committee.animated.leadership-list(data-wow-delay='0.3s')-->
+      <!--      h2 #{ content.leadership.ecom.title }-->
+      <!--      ul-->
+      <!--        each member in content.leadership.ecom.members-->
+      <!--          li-->
+      <!--            | !{ member }-->
+      <!---->
+      <!--    #board-of-directors.animated.leadership-list(data-wow-delay='0.3s')-->
+      <!--      h2 #{ content.leadership.board.title }-->
+      <!--      ul-->
+      <!--        each member in content.leadership.board.members-->
+      <!--          li #{ member }-->
+      <!---->
+      <!--    #departments.animated.leadership-list(data-wow-delay='0.3s')-->
+      <!--      h2 #{ content.leadership.departments.title }-->
+      <!--      ul-->
+      <!--        each member in content.leadership.departments.members-->
+      <!--          li-->
+      <!--            | #{ member.dep }-->
+      <!--            em #{ member.name }-->
     </div>
     <footer>
       <div class="site-footer">

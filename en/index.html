@@ -28,7 +28,6 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="./conferences/2017" title="In 2017">In 2017</a></li>
               <li><a href="#spirit" title="Spirit">Spirit</a></li>
-              <li><a href="#leadership" title="Leadership">Leadership</a></li>
               <li><a href="../" title="HU">HU</a></li>
             </ul>
           </div>
@@ -103,50 +102,29 @@
           </dl>
         </div>
       </section>
-      <section id="leadership">
-        <div class="leadership">
-          <h1>Leadership</h1>
-          <div class="animated leadership-list" id="executive-committee" data-wow-delay="0.3s">
-            <h2>Executive Committee</h2>
-            <ul>
-              <li>Enikő Szőllősi <em>president</em></li>
-              <li>János Rajki <em>secretary</em></li>
-              <li>Judit Döbrei-Rakonczai <em>treasurer</em></li>
-              <li>Csilla Farkas</li>
-              <li>Dávid Rárósi</li>
-              <li>Eszter Tóth</li>
-            </ul>
-          </div>
-          <div class="animated leadership-list" id="board-of-directors" data-wow-delay="0.3s">
-            <h2>Board of Directors</h2>
-            <ul>
-              <li>András Ambrus</li>
-              <li>Zoltán Ambrus</li>
-              <li>László Bácsi</li>
-              <li>Károly Csengei</li>
-              <li>Róbert Csizmadia</li>
-              <li>Péter Erdődi</li>
-              <li>Kamill Farkas</li>
-              <li>Melinda Farkasné Rajki</li>
-              <li>Orsolya Németh-Ambrus</li>
-              <li>István Matus</li>
-              <li>Boglárka Mészáros</li>
-              <li>Sándor Ócsai</li>
-              <li>Zoltán Szallós-Farkas</li>
-            </ul>
-          </div>
-          <div class="animated leadership-list" id="departments" data-wow-delay="0.3s">
-            <h2>Departments</h2>
-            <ul>
-              <li>Communication <em>Eszter Tóth</em></li>
-              <li>Logistics <em>Judit Döbrei-Rakonczai</em></li>
-              <li>Media <em>Gábor Döbrei</em></li>
-              <li>Evangelism <em>Dávid Rárósi</em></li>
-              <li>Programming <em>Csilla Farkas</em></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <!--section#leadership-->
+      <!--  .leadership-->
+      <!--    h1 #{ content.leadership.title }-->
+      <!--    #executive-committee.animated.leadership-list(data-wow-delay='0.3s')-->
+      <!--      h2 #{ content.leadership.ecom.title }-->
+      <!--      ul-->
+      <!--        each member in content.leadership.ecom.members-->
+      <!--          li-->
+      <!--            | !{ member }-->
+      <!---->
+      <!--    #board-of-directors.animated.leadership-list(data-wow-delay='0.3s')-->
+      <!--      h2 #{ content.leadership.board.title }-->
+      <!--      ul-->
+      <!--        each member in content.leadership.board.members-->
+      <!--          li #{ member }-->
+      <!---->
+      <!--    #departments.animated.leadership-list(data-wow-delay='0.3s')-->
+      <!--      h2 #{ content.leadership.departments.title }-->
+      <!--      ul-->
+      <!--        each member in content.leadership.departments.members-->
+      <!--          li-->
+      <!--            | #{ member.dep }-->
+      <!--            em #{ member.name }-->
     </div>
     <footer>
       <div class="site-footer">
