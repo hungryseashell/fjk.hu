@@ -27,9 +27,9 @@ module.exports = {
     }
   },
   content: {
-    title: 'Növekedés Krisztusban',
-    dates: '2017. feb. 24–26.',
-    location: 'Szolnok',
+    title: 'Jelenések könyve reformációs üzenete',
+    dates: '2017. már. 31. – ápr. 2.',
+    location: 'Ráckeve',
     motto: '',
     speakers: {
       title: 'Előadók',
@@ -49,7 +49,7 @@ module.exports = {
       ]
     },
     registration: {
-      url: 'https://goo.gl/forms/G0wityrAe1Zvujgf2',
+      url: 'https://goo.gl/forms/FA39yI3atp6LvLU13',
       text: 'Regisztrálj még ma!'
     }
   }
