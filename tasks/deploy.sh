@@ -19,6 +19,7 @@ cp -R ./_site/* .
  rm package.json
  rm README.md
  rm npm-debug.log
+ rm package-lock.json
 
  git add -A
  git commit -am "$COMMIT_MSG"
