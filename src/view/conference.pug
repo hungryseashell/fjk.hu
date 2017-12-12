@@ -1,0 +1,88 @@
+doctype html
+html
+
+  include head
+
+  body.page-content(data-spy='scroll', data-target='#main-nav')
+
+    include nav
+
+    div
+      section#hero
+        div(class="conferences-hero conferences-" + page.year + "-hero")
+          .hero-content-wr
+            .hero-content
+              h1.conference-title #{ content.title }
+              h2.conference-dates #{ content.dates }
+              h2.conference-location #{ content.location }
+              p.conference-motto !{ content.motto }
+
+              if (page.regIsOn)
+                a.registrationButton(href=content.registration.url role='button') #{content.registration.text}
+
+      section#speakers
+        .speakers
+          h1 #{ content.speakers.title }
+          each speaker in content.speakers.speakers
+            .speaker
+              .photo-wr.animated
+                .photo
+                  if speaker.img
+                    img.img-responsive(src=page.assetsPath + speaker.img, alt=speaker.name)
+              .caption.animated
+                .name
+                  h3 #{ speaker.name }
+                  span.small #{ speaker.description }
+                .bio
+                  p !{ speaker.bio }
+
+      section#seminars.inverted
+        .seminars
+          h1 #{ content.seminars.title }
+          each seminar in content.seminars.seminars
+            .seminar.animated
+              .seminar-wr
+                .seminar-title
+                  h3 !{ seminar.title }
+                  span #{ seminar.speaker }
+                .description
+                  p !{ seminar.description }
+
+      include section-schedule
+
+      section#venue
+        h1 #{ content.venue.title }
+        .venue
+          .row
+            .veneu-desc
+              h2 #{ content.venue.name }
+              address #{ content.venue.address }
+              p
+                a(href=content.venue.description.showOnMap.url target='_blank' role='button') #{ content.venue.description.showOnMap.text }
+
+              p !{ content.venue.description.text }
+          .row
+            each pic in content.venue.pics
+              .col-md-4
+                img.img-responsive(src=page.assetsPath + pic, alt='FJK Venue')
+
+          if content.sabbathVenue
+            .row
+              .veneu-desc
+                h2 #{ content.sabbathVenue.name }
+                address #{ content.sabbathVenue.address }
+                p
+                  a(href=content.sabbathVenue.description.showOnMap.url target='_blank' role='button') #{ content.sabbathVenue.description.showOnMap.text }
+
+                p !{ content.sabbathVenue.description.text }
+            .row
+              each pic in content.sabbathVenue.pics
+                .col-md-4
+                  img.img-responsive(src=page.assetsPath + pic, alt='FJK Venue')
+
+
+      if (page.regIsOn)
+        section#registration
+          .registration
+            a.registrationButton(href=content.registration.url role='button') #{ content.registration.text }
+    include foot
