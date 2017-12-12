@@ -291,8 +291,8 @@ module.exports = {
       }
     },
     venue: {
-      title: 'Helyszín',
-      name: 'Terézvárosi Adventista Gyülekezet',
+      title: 'Venue',
+      name: 'Budapest Central SDA Church',
       address: '1062 Budapest, Székely Bertalan u. 13',
       description: {
         showOnMap: {
