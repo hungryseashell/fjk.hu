@@ -22,7 +22,7 @@ cp -R ./_site/* .
  rm package-lock.json
 
  git add -A
- git commit -am "$COMMIT_MSG"
+ git commit --allow-empty -am "$COMMIT_MSG"
  git push origin gh-pages
 
 git checkout simple-site
