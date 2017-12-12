@@ -3,3 +3,4 @@ _site
 bower_components
 _temp
 *.log
+package-lock.json
