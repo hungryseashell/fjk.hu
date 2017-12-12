@@ -125,7 +125,7 @@ module.exports = {
       }
     },
     registration: {
-      url: './en/registration',
+      url: './registration',
       text: 'Register to the Conference of 2018'
     }
   }
