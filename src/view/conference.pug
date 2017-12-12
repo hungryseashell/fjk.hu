@@ -37,16 +37,19 @@ html
                   p !{ speaker.bio }
 
       section#seminars.inverted
-        .seminars
-          h1 #{ content.seminars.title }
-          each seminar in content.seminars.seminars
-            .seminar.animated
-              .seminar-wr
-                .seminar-title
-                  h3 !{ seminar.title }
-                  span #{ seminar.speaker }
-                .description
-                  p !{ seminar.description }
+          .seminars
+            h1 #{ content.seminars.title }
+            if content.seminars.tba
+              h2 !{ content.seminars.tba }
+            else
+              each seminar in content.seminars.seminars
+                .seminar.animated
+                  .seminar-wr
+                    .seminar-title
+                      h3 !{ seminar.title }
+                      span #{ seminar.speaker }
+                    .description
+                      p !{ seminar.description }
 
       include section-schedule
 

@@ -12,8 +12,8 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2017/',
-        text: 'Prepare to meet your God'
+        url: '../conferences/2018/',
+        text: 'By faith'
       },
       changeLang: {
         url: '../../registration/',
@@ -73,7 +73,7 @@ module.exports = {
         },
         benczur: {
           subtitle: 'This accommodation is recommended for individual or double booking!',
-          text: 'The housing will be in hotel rooms with 1 or 2 beds, which are separable. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information. Check out the <a href="http://www.hotelbenczur.hu/en target="_blank">apartments</a> then <a href="' + assetsPath + '/forms/benczur-en.docx">the application form</a>.'
+          text: 'The housing will be in hotel rooms with 1 or 2 beds, which are separable. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information. Check out the <a href="http://www.hotelbenczur.hu/en" target="_blank">apartments</a> then <a href="' + assetsPath + '/forms/benczur-en.docx">the application form</a>.'
         }
       },
       program: {
@@ -90,8 +90,8 @@ module.exports = {
         subtitle: 'Support the Conference',
         label: 'Funding packages',
         description: 'Here you have the opportunity to donate by Funding Packages. Every package includes specially designed, FJK – marked products. Choose one and support us!',
-        '10000': '(Notebook + Fridge magnet + Laptop sticker + Cloth Bag + Natur cosmetics selection + 100-item-Glow package)',
-        '5000': '(Notebook + Fridge magnet + Laptop sticker + Cloth Bag + 50-item-Glow package)',
+        '10000': '(Notebook + Fridge magnet + Laptop sticker + Water bottle + Natur cosmetics selection + 100-item-Glow package)',
+        '5000': '(Notebook + Fridge magnet + Laptop sticker + Water bottle + 50-item-Glow package)',
         '3000': '(Notebook + Fridge magnet + Laptop sticker + 30-item-Glow package)',
         '1000': '(Notebook + 20-item-Glow package)',
         '0': 'I pray for the Conference!',

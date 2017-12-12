@@ -16,8 +16,8 @@ module.exports = {
     assetsPath: '../assets',
     nav: {
       nextYear: {
-        url: './conferences/2017',
-        text: 'In 2017'
+        url: './conferences/2018',
+        text: 'In 2018'
       },
       spirit: {
         url: '#spirit',
@@ -126,7 +126,7 @@ module.exports = {
     },
     registration: {
       url: './en/registration',
-      text: 'Register to the Conference of 2017'
+      text: 'Register to the Conference of 2018'
     }
   }
 };

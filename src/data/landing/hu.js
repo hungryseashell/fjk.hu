@@ -17,13 +17,13 @@ module.exports = {
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: './assets',
     nav: {
-      mini: {
-        url: './mini',
-        text: 'Mini FJK'
-      },
+      // mini: {
+      //   url: './mini',
+      //   text: 'Mini FJK'
+      // },
       nextYear: {
-        url: './conferences/2017',
-        text: '2017-ben'
+        url: './conferences/2018',
+        text: '2018-ban'
       },
       spirit: {
         url: '#spirit',
@@ -131,7 +131,7 @@ module.exports = {
     },
     registration: {
       url: './registration',
-      text: 'Regisztrálj a 2017-es Konferenciára'
+      text: 'Regisztrálj a 2018-as Konferenciára'
     }
   }
 };
