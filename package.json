@@ -17,7 +17,8 @@
     "start": "node src/generate",
     "postinstall": "npm run bower && npm run grunt",
     "deploy": "./tasks/deploy.sh",
-    "stream": "LIVE_IS_ON=1 npm run deploy"
+    "stream": "LIVE_IS_ON=1 npm run deploy",
+    "reg": "REG_IS_ON=1 npm start"
   },
   "homepage": "https://github.com/gabordobrei/fjk.hu#readme",
   "devDependencies": {
