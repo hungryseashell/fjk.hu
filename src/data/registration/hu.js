@@ -12,8 +12,8 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2017/',
-        text: 'Készülj Istened elé!'
+        url: '../conferences/2018/',
+        text: 'Hit által'
       },
       changeLang: {
         url: '../en/registration/',
@@ -73,7 +73,7 @@ module.exports = {
         },
         benczur: {
           subtitle: 'Ezt a szállást egyéni, vagy két fős foglalás esetén ajánljuk!',
-          text: 'A hotelben 1 illetve 2 ágyas szobák állnak rendelkezésre, felújított illetve standard minőségben. A két fős szobákba egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket a különálló két ágyas szobákban egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Nézd meg a <a href="http://www.hotelbenczur.hu/en" target="_blank">hotelszobákat</a> és töltsd le a <a href="' + assetsPath + '/forms/benczur-hu.docx">jelentkezési lapot</a>.'
+          text: 'A hotelben 1 illetve 2 ágyas szobák állnak rendelkezésre, felújított illetve standard minőségben. A két fős szobákba egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket a különálló két ágyas szobákban egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Nézd meg a <a href="http://www.hotelbenczur.hu" target="_blank">hotelszobákat</a> és töltsd le a <a href="' + assetsPath + '/forms/benczur-hu.docx">jelentkezési lapot</a>.'
         }
       },
       program: {
@@ -90,8 +90,8 @@ module.exports = {
         subtitle: 'Támogasd a Konferenciát',
         label: 'Támogatói csomagok',
         description: 'Most van lehetőséged Támogatói Csomagokon keresztül hozzájárulni a Konferencia szervezéséhez. Minden csomagban egyedileg tervezett, FJK logóval ellátott termékeket találhatsz. Válassz egyet, és támogass minket!',
-        '10000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vászontáska + Natúr kozmetikai csomag + 100 db-os Glow csomag)',
-        '5000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vászontáska + 50 db-os Glow csomag)',
+        '10000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vizes kulacs + Natúr kozmetikai csomag + 100 db-os Glow csomag)',
+        '5000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vizes kulacs + 50 db-os Glow csomag)',
         '3000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + 30 db-os Glow csomag)',
         '1000': '(Jegyzetfüzet + 20 db-os Glow csomag)',
         '0': 'Imádkozom a Konferenciáért!',

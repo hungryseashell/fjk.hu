@@ -14,6 +14,9 @@ module.exports = [
   { templateFile: 'conference.pug', data: conferences['2017'].hu, destinationPath: 'conferences/2017/index.html' },
   { templateFile: 'conference.pug', data: conferences['2017'].en, destinationPath: 'en/conferences/2017/index.html' },
 
+  { templateFile: 'conference.pug', data: conferences['2018'].hu, destinationPath: 'conferences/2018/index.html' },
+  { templateFile: 'conference.pug', data: conferences['2018'].en, destinationPath: 'en/conferences/2018/index.html' },
+
   { templateFile: 'registration.pug', data: registration.hu, destinationPath: 'registration/index.html' },
   { templateFile: 'registration.pug', data: registration.en, destinationPath: 'en/registration/index.html' },
 

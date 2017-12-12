@@ -1,0 +1,66 @@
+.leadership {
+  &:extend(.container);
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 80px;
+
+    @media (max-width: 350px) {
+      font-size: 30px;
+      color: @orange;
+      margin: 30px 0 20px 0;
+    }
+  }
+
+  .leadership-list {
+    .make-md-column(4);
+
+    text-align: center;
+
+    > ul {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        font-variant: small-caps;
+        font-size: 23px;
+
+        em {
+          font-style: normal;
+        }
+      }
+    }
+  }
+}
+
+#executive-committee {
+  .animated;
+  .fadeInLeft;
+
+  ul li em {
+    color: @orange;
+  }
+}
+
+#board-of-directors {
+  .animated;
+  .fadeInUp;
+}
+
+#departments {
+  .animated;
+  .fadeInRight;
+
+  ul li {
+    color: @orange;
+
+    em {
+      color: #333;
+
+      &::before {
+        content: "– "
+      }
+    }
+  }
+}

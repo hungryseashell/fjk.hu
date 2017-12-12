@@ -1,0 +1,21 @@
+header.site-header
+  nav#main-nav.navbar.navbar-custum.navbar-fixed-top
+    .container
+      .navbar-header.page-scroll
+        button#btn-nav.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a#nav-logo.pull-left(href=page.home)
+      #navbar.navbar-collapse.collapse
+        ul.nav.navbar-nav.navbar-right
+          each item in page.nav
+            if (item.url.indexOf('registration') > -1 && ['EN', 'HU'].indexOf(item.text) === -1)
+              if (page.regIsOn)
+                li
+                  a(href=item.url, title=item.text) #{ item.text }
+              else
+            else
+              li
+                a(href=item.url, title=item.text) #{ item.text }
