@@ -218,7 +218,7 @@ module.exports = {
           items: [
             {
               time: '08:30-09:30',
-              text: '<strong>Reggeli áhítat, imaalkalom (Cserpán Ádám)</strong>'
+              text: '<strong>Reggeli áhítat, imaalkalom (Palotás Kristóf)</strong>'
             },
             {
               time: '09:45-11:30',
