@@ -55,15 +55,82 @@ module.exports = {
         {
           img: '/img/ernst.jpg',
           name: 'Nelson Ernst',
-          description: 'GLOW director',
+          description: 'GLOW Director',
           bio: "After being converted to Christ by a Jehovah’s Witness, Nelson Ernst started a ministry when he was 22. That ministry has printed nearly 93 million tracts in 75 languages globally—it’s called GLOW.  Nelson is now the director of this ministry based in California at the Pacific Union. As part of his job he has organized and led several million-tract distribution efforts and shares exciting front line stories from these outreaches as well as tips on how to begin your own personal ministry to reach 1,000 people every year."
+        },
+        {
+          img: '/img/blanchard.png',
+          name: 'Gary Blanchard',
+          description: 'World Youth Director',
+          bio: 'Pastor Gary has served as a Bible teacher, chaplain, youth pastor, district pastor and most recently as the Texas Conference Youth Director. He loves seeing young people “rightly trained” and empowered to be God’s army of youth. Gary has traveled around the world preaching the Three Angels Message and inspiring young people to do the same. Pastor Gary’s gifts are encouragement, preaching and leadership and he daily seeks to “walk in the Spirit” so that he can be a contagious reflector of Christ. He enjoys long walks in the woods, reading the Bible, going on dates with his wife and talking with God. Pastor Gary and his wife Erica have three young adult children (Gary, Ben and Sierra)"'
+        },
+        {
+          img: '/img/musija.png',
+          name: 'Zlatko Musija',
+          description: 'Trans-European Division Youth Director',
+          bio: 'Zlatko Musija is a member of youth ministry team for the Trans-European Division of Seventh-Day Adventists. Zlatko grew up in Croatia where he served until recently as a pastor, teacher, youth director and president. He enjoys opening the Bible with youth and others, inspiring and equipping them to live a transformed life of mission and service. His passion is to help all generations in the Church grow and thrive, encouraged and supported by each other. Zlatko is husband and father of two, and loves spending time in nature – hiking and beholding the beauty of the created world.'
         }
+
       ]
     },
     seminars: {
       title: 'Seminars',
-      tba: 'Coming soon...',
       seminars: [
+        {
+          title: "Revelation's Sanctuary Theme",
+          speaker: 'Norman McNulty, MD',
+          description: ''
+        },
+        {
+          title: 'No Faith in Laodicea',
+          speaker: 'Norman McNulty, MD',
+          description: ''
+        },
+        {
+          title: 'The Purpose of Adventism',
+          speaker: 'Norman McNulty, MD',
+          description: ''
+        },
+        {
+          title: 'Three Angels, the Faith of Jesus, and the Loud Cry',
+          speaker: 'Norman McNulty, MD',
+          description: ''
+        },
+        {
+          title: 'Why Church can be Boring',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: 'How to Fit Doug Batchelor in Your Pocket',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: 'I Gave Out 1 Million Tracts. You Can Too.',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: 'How to Reach Out to Jehovah’s Witnesses',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: 'One year in mission challenge',
+          speaker: 'Gary Blanchard',
+          description: ''
+        },
+        {
+          title: 'Get lit!',
+          speaker: 'Gary Blanchard',
+          description: ''
+        },
+        {
+          title: 'The Journey of Faith – Steps to Extraordinary Faith',
+          speaker: 'Zlatko Musija',
+          description: 'Biblical story about faith development; about our wonderful God who is patiently helping us to develop extraordinary faith that will be a blessing to us and others!'
+        }
       ]
     },
     schedule: {

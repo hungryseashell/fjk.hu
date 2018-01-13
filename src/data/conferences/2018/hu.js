@@ -55,15 +55,81 @@ module.exports = {
         {
           img: '/img/ernst.jpg',
           name: 'Nelson Ernst',
-          description: 'GLOW igazgató',
+          description: 'GLOW vezető',
           bio: 'Nelsont fiatal korában először egy Jehova tanúja vezette Krisztushoz, ma az Adventista Egyház tagjaként szolgál.<br>22 évesen indította el a GLOW missziós szolgálatot, ami mára közel 93 millió füzetet nyomtatott ki világszerte 75 nyelven. A kaliforniai székhelyű szervezet igazgatójaként munkája során számos programot szervezett, amikor milliós példányszámban terjesztették a füzeteket. Lelkesítő tapasztalatainak megosztása mellett tanácsokkal segít bennünket, hogyan kezdhetjük el személyes szolgálatunkat, amelyen keresztül 1000 embert érhetünk el minden évben.'
+        },
+        {
+          img: '/img/blanchard.png',
+          name: 'Gary Blanchard',
+          description: 'Világszintű Ifjúsági vezető',
+          bio: 'Gary Blanchard szolgált már Bibliatanítóként, lelkészi pályafutása során több területen tevékenykedett, valamint ifjúsági vezető is volt már. Jelenleg a Texasi Egyházterület ifjúsági vezetője. Örömet okoz neki, ha „megfelelően kiképzett” fiatalokat láthat, akik Isten hadseregének tagjai lehetnek. Gary a világ sok táján járt már, hirdetve a hármas angyali üzenetet és arra lelkesítve a fiatalokat, hogy hasonlóképpen cselekedjenek. Gary lelkész lelki ajándékai közé tartozik a buzdítás, az Ige hirdetése, jó vezetői képességekkel rendelkezik és naponta törekszik arra, hogy „Lélekben járjon” és jó példa legyen Krisztus jellemének bemutatásában. Szabadidejében szívesen tesz hosszú sétákat az erdőben, olvassa a Bibliát, tölt időt a feleségével és beszélget Istennel. Feleségével, Ericával három felnőtt gyermekük van (Gary, Ben és Sierra).'
+        },
+        {
+          img: '/img/musija.png',
+          name: 'Zlatko Musija',
+          description: 'Transz-Európai Divízió Ifjúsági vezető',
+          bio: 'Zlatko Musija az ifjúsági szolgálatok osztályának tagja a Hetednapi Adventista Egyház Transzeurópai Divíziójában. Horvátországban nőtt fel, ahol mostanáig lelkészként, tanárként, ifjúsági szervezőként és vezetőként szolgált. Szívesen tanulmányozza a Bibliát fiatalokkal és idősebbekkel is, valamint ösztönzi és felkészíti őket arra, hogy életüket megújítva a missziónak és a szolgálatnak éljenek. Szenvedélye, hogy az egyház minden generációját segítse a fejlődésben, növekedésben és egymás bátorításában, támogatásában. Zlatko férj és két gyermek édesapja; szeret időt tölteni a természetben – túrázni és szemlélni a teremtett világ csodáit.'
         }
       ]
     },
     seminars: {
       title: 'Szemináriumok',
-      tba: 'Hamarosan...',
       seminars: [
+        {
+          title: 'Jelenések szentély témája',
+          speaker: 'Dr. Norman McNulty',
+          description: ''
+        },
+        {
+          title: 'A hit hiánya Laodiceában',
+          speaker: 'Dr. Norman McNulty',
+          description: ''
+        },
+        {
+          title: 'Az adventizmus célja',
+          speaker: 'Dr. Norman McNulty',
+          description: ''
+        },
+        {
+          title: 'Három anygal, jézus hite és a hangos kiáltás',
+          speaker: 'Dr. Norman McNulty',
+          description: ''
+        },
+        {
+          title: 'Miért lehet a gyülekezet unalmas?',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: 'Hogyan fér be Doug Batchelor a zsebedbe',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: '1 Millió füzetet osztottam ki. Te is megteheted.',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: 'Hogyan szólítsunk meg Jehova Tanúit',
+          speaker: 'Nelson Ernst',
+          description: ''
+        },
+        {
+          title: 'Egy év a misszióban kihívás',
+          speaker: 'Gary Blanchard',
+          description: ''
+        },
+        {
+          title: 'Világíts!',
+          speaker: 'Gary Blanchard',
+          description: ''
+        },
+        {
+          title: 'Hitbeli utazás – Lépések a rendkívüli hit felé',
+          speaker: 'Zlatko Musija',
+          description: 'A hit fejlődésének bibliai története csodálatos Istenünkről, aki türelmesen segít minket a rendkívüli hit elérésében, amely áldássá válik számunkra és mások számára is!'
+        }
       ]
     },
     schedule: {
