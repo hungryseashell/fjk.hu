@@ -61,7 +61,7 @@ module.exports = {
         {
           img: '/img/blanchard.png',
           name: 'Gary Blanchard',
-          description: 'Világszintű Ifjúsági vezető',
+          description: 'Generál Konferencia Ifjúsági vezető',
           bio: 'Gary Blanchard szolgált már Bibliatanítóként, lelkészi pályafutása során több területen tevékenykedett, valamint ifjúsági vezető is volt már. Jelenleg a Texasi Egyházterület ifjúsági vezetője. Örömet okoz neki, ha „megfelelően kiképzett” fiatalokat láthat, akik Isten hadseregének tagjai lehetnek. Gary a világ sok táján járt már, hirdetve a hármas angyali üzenetet és arra lelkesítve a fiatalokat, hogy hasonlóképpen cselekedjenek. Gary lelkész lelki ajándékai közé tartozik a buzdítás, az Ige hirdetése, jó vezetői képességekkel rendelkezik és naponta törekszik arra, hogy „Lélekben járjon” és jó példa legyen Krisztus jellemének bemutatásában. Szabadidejében szívesen tesz hosszú sétákat az erdőben, olvassa a Bibliát, tölt időt a feleségével és beszélget Istennel. Feleségével, Ericával három felnőtt gyermekük van (Gary, Ben és Sierra).'
         },
         {
