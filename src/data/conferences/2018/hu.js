@@ -91,7 +91,7 @@ module.exports = {
           description: ''
         },
         {
-          title: 'Három anygal, jézus hite és a hangos kiáltás',
+          title: 'Három angyal, Jézus hite és a hangos kiáltás',
           speaker: 'Dr. Norman McNulty',
           description: ''
         },
