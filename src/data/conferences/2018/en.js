@@ -148,7 +148,7 @@ module.exports = {
               text: 'Registration'
             },
             {
-              time: '18:00-19:30',
+              time: '19:15-20:30',
               text: '<strong>Opening Plenary (Norman McNulty)</strong>'
             },
             {

@@ -147,7 +147,7 @@ module.exports = {
               text: 'Regisztráció'
             },
             {
-              time: '18:30-20:00',
+              time: '19:15-20:30',
               text: '<strong>Megnyitó plenáris előadás (Norman McNulty)</strong>'
             },
             {
