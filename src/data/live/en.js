@@ -9,8 +9,8 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2017/',
-        text: 'Prepare to meet your God'
+        url: '../conferences/2018/',
+        text: 'By Faith'
       },
       changeLang: {
         url: '../../live/',

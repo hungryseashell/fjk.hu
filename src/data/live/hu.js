@@ -9,11 +9,11 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2017/',
-        text: 'Készülj Istened elé!'
+        url: '../conferences/2018/',
+        text: 'Hit által'
       },
       changeLang: {
-        url: '../en/registration/',
+        url: '../en/live/',
         text: 'EN'
       }
     }
