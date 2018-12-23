@@ -16,7 +16,6 @@ const write = function(file, content) {
   fs.writeFileSync(file, content);
 };
 
-
 pages.forEach(({ templateFile, data, destinationPath }) => {
   const template = path.resolve(viewPath, templateFile);
   const destination = path.resolve(sitePath, destinationPath);

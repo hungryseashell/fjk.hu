@@ -17,6 +17,10 @@ module.exports = {
     '2018': {
       hu: require('./conferences/2018/hu'),
       en: require('./conferences/2018/en')
+    },
+    '2019': {
+      hu: require('./conferences/2019/hu'),
+      en: require('./conferences/2019/en')
     }
   },
   registration: {

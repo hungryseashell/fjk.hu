@@ -22,8 +22,8 @@ module.exports = {
       //   text: 'Mini FJK'
       // },
       nextYear: {
-        url: './conferences/2018',
-        text: '2018-ban'
+        url: './conferences/2019',
+        text: '2019-ben'
       },
       spirit: {
         url: '#spirit',
@@ -131,7 +131,7 @@ module.exports = {
     },
     registration: {
       url: './registration',
-      text: 'Regisztrálj a 2018-as Konferenciára'
+      text: 'Regisztrálj a 2019-es Konferenciára'
     }
   }
 };
