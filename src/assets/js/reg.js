@@ -68,13 +68,10 @@ $('#registrationForm').on('submit', function (e) {
 
   form.push({ name: 'lang', value: (window.location.pathname.indexOf('/en/') > -1) });
 
-  console.log(form);
-
   $('#submitNext').trigger('click', { duration: 1 });
 
   request
-    .post('http://localhost:3000/register')
-    // .post('https://reg-fjk-staging.herokuapp.com/register')
+    .post('https://reg-fjk-staging.herokuapp.com/register')
     .send(form)
     .end(function (err, res) {
       if (err) {
