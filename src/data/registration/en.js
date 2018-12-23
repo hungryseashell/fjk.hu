@@ -66,14 +66,25 @@ module.exports = {
       },
       housing: {
         title: 'Housing',
-        broadway: {
-          subtitle: 'This accommodation is recommended for group reservations!',
-          text: 'The housing will be in apartments for 4 people, which include <strong>2 non-seperable double beds</strong>. A kitchen and a bathroom belong to every apartment. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the double beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information. <a href="' + assetsPath + '/forms/broadway-en.docx">Download</a> the application form.'
-        },
-        benczur: {
-          subtitle: 'This accommodation is recommended for individual or double booking!',
-          text: 'The housing will be in hotel rooms with 1 or 2 beds, which are separable. Separate application is also possible, but in this case the conference organisers will house the applicants on one of the beds, along with a participant, who applied similarly. Please download the accommodation booking form for more information. Check out the <a href="http://www.hotelbenczur.hu/en" target="_blank">apartments</a> then <a href="' + assetsPath + '/forms/benczur-en.docx">the application form</a>.'
-        }
+        subtitle: 'We would also like to help you find accommodation easily for the time of the conference. We found the following possibilites that you can look up and arrange accomodation:',
+        options: [
+          {
+            title: 'Opera Hostel:<br><small>1066 Budapest, Ó u. 13.</small>',
+            subtitle: '<strong>3.840 HUF/person/1 night</strong>, multiple beds room (8 person), male or female'
+          },
+          {
+            title: 'Avenue Hostel<br><small>1067 Budapest, Oktogon tér 4.</small>',
+            subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room (4-, 6-, 8 person), male or female'
+          },
+          {
+            title: 'Broadway City Panzió<br><small>1066 Budapest, Nagymező u. 4.</small>',
+            subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room'
+          },
+          {
+            title: 'Baraka Hostel<br><small>1073 Budapest, Erzsébet krt 1-3.</small>',
+            subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room'
+          }
+        ]
       },
       program: {
         title: 'Program',

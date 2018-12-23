@@ -66,14 +66,25 @@ module.exports = {
       },
       housing: {
         title: 'Szállás',
-        broadway: {
-          subtitle: 'Ezt a szállást csoportos foglalás esetén ajánljuk!',
-          text: 'A szálláson 4 fős apartmanokban lehet elhelyezkedni, ahol <strong>2 db (nem szétválasztható) duplaágy</strong> áll rendelkezésre. Az apartmanokhoz különálló konyha- és fürdőszobarész tartozik. Egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket, a duplaágyak valamelyikén, egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Jelentkezési lap <a href="' + assetsPath + '/forms/broadway-hu.docx">letöltése</a>.'
-        },
-        benczur: {
-          subtitle: 'Ezt a szállást egyéni, vagy két fős foglalás esetén ajánljuk!',
-          text: 'A hotelben 1 illetve 2 ágyas szobák állnak rendelkezésre, felújított illetve standard minőségben. A két fős szobákba egyéni jelentkezés is lehetséges, azonban ebben az esetben a Konferencia szervezői fogják elhelyezni az így résztvevőket a különálló két ágyas szobákban egy másik, azonos módon jelentkező résztvevővel együtt. További részletek a szállás foglalási nyomtatványban találhatóak. Nézd meg a <a href="http://www.hotelbenczur.hu" target="_blank">hotelszobákat</a> és töltsd le a <a href="' + assetsPath + '/forms/benczur-hu.docx">jelentkezési lapot</a>.'
-        }
+        subtitle: 'Szeretnénk segítségetekre lenni, hogy minél egyszerűbben tudjatok szállást találni magatoknak konferencia időtartamára. Az alábbi lehetőségeket találtuk, melyeket fel tudtok keresni, és egyeztetni tudtok velük:',
+        options: [
+          {
+            title: 'Opera Hostel:<br><small>1066 Budapest, Ó u. 13.</small>',
+            subtitle: '<strong>3.840 Ft/fő/éj</strong>, sok ágyas szoba (8 fő), női vagy férfi'
+          },
+          {
+            title: 'Avenue Hostel<br><small>1067 Budapest, Oktogon tér 4.</small>',
+            subtitle: '<strong>3.000-4.000 Ft/fő/éj</strong>, sok ágyas szoba (4 fő, 6 fő, 8 fő), női vagy férfi'
+          },
+          {
+            title: 'Broadway City Panzió<br><small>1066 Budapest, Nagymező u. 4.</small>',
+            subtitle: '<strong>3.000-4.000 Ft/fő/éj</strong>, sok ágyas szoba'
+          },
+          {
+            title: 'Baraka Hostel<br><small>1073 Budapest, Erzsébet krt 1-3.</small>',
+            subtitle: '<strong>3.000-4.000 Ft/fő/éj</strong>, sok ágyas szoba'
+          }
+        ]
       },
       program: {
         title: 'Program',

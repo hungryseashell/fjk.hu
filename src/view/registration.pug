@@ -80,15 +80,19 @@ html
 
                 .tab
                   .housing-tab
-                    div
-                      h2.fs-section-title Broadway Apartments
-                      h3.fs-subtitle !{ content.tabs.housing.broadway.subtitle }
-                      | !{ content.tabs.housing.broadway.text }
-                      hr
-                      h2.fs-section-title Hotel Benczúr
-                      h3.fs-subtitle !{ content.tabs.housing.benczur.subtitle }
-                      | !{ content.tabs.housing.benczur.text }
+                    h2.fs-section-title #{ content.tabs.housing.title }
+                    h3.fs-subtitle !{ content.tabs.housing.subtitle }
 
+                    h2.fs-section-title(style='margin: auto') !{ content.tabs.housing.options[0].title }
+                    h3.fs-subtitle !{ content.tabs.housing.options[0].subtitle }
+                    | !{ content.tabs.housing.options[0].text }
+
+                    div
+                      each option in content.tabs.housing.options
+                        hr
+                        h2.fs-section-title(style='margin: auto') !{ option.title }
+                        h3.fs-subtitle !{ option.subtitle }
+                        | !{ option.text }
 
                   input.previous.action-button(type='button', name='previous', value=content.prev)
                   input.next.action-button(type='button', name='next', value=content.next)
