@@ -18,7 +18,7 @@ function changeSwagCalculator() {
 
 $('#swag').change(changeSwagCalculator);
 
-$('#calculator').on('updateFullPrice', function(e) {
+$('#calculator').on('updateFullPrice', function (e) {
   var swagPrice = parseInt($('#swagCalculator').text(), 10);
   var regPrice = parseInt($('#regCalculator').text(), 10);
   var price = swagPrice + regPrice;
@@ -37,8 +37,10 @@ function calculatePrice() {
   var regCalculator = $('#regCalculator');
   var orignalVal = parseInt(regCalculator.text(), 10);
   var price = 0;
-  prices.each(function() {
-    price += $(this).data().price;
+  prices.each(function () {
+    if (!$(this).data().swag) {
+      price += $(this).data().price;
+    }
   });
 
   if (orignalVal === price) {
@@ -48,12 +50,13 @@ function calculatePrice() {
   regCalculator.text(price);
   $('#calculator').trigger('updateFullPrice');
 }
+
 calculatePrice();
 
 $('#registrationForm').on('change', '[data-price], [data-price].shirtOrder', calculatePrice);
 
 var submitted = false;
-$('#registrationForm').on('submit', function(e) {
+$('#registrationForm').on('submit', function (e) {
   e.preventDefault();
 
   if (submitted) {
@@ -70,7 +73,7 @@ $('#registrationForm').on('submit', function(e) {
   request
     .post('https://reg-fjk-staging.herokuapp.com/register')
     .send(form)
-    .end(function(err, res) {
+    .end(function (err, res) {
       if (err) {
         submitted = false;
         $('#server-error').fadeIn();

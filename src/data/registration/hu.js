@@ -89,23 +89,29 @@ module.exports = {
         title: 'Támogatás',
         subtitle: 'Támogasd a Konferenciát',
         label: 'Támogatói csomagok',
-        description: 'Most van lehetőséged Támogatói Csomagokon keresztül hozzájárulni a Konferencia szervezéséhez. Minden csomagban egyedileg tervezett, FJK logóval ellátott termékeket találhatsz. Válassz egyet, és támogass minket!',
-        '10000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vizes kulacs + Natúr kozmetikai csomag + 100 db-os Glow csomag)',
-        '5000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + Vizes kulacs + 50 db-os Glow csomag)',
-        '3000': '(Jegyzetfüzet + Hűtőmágnes + Laptop matrica + 30 db-os Glow csomag)',
-        '1000': '(Jegyzetfüzet + 20 db-os Glow csomag)',
+        description: 'Most van lehetőséged Támogatói Csomagokon keresztül hozzájárulni a Konferencia szervezéséhez. Minden csomagban egyedileg tervezett, FJK logóval ellátott termékeket, jegyzetfüzetet és Glow csomagot találhatsz. Válassz egyet, és támogass minket!<br>Csomagod tárgyainak a színe (válassz egy színt, mely hozzád a legközelebb áll):',
+        small: 'Apró: választható füzet + matrica + Glow füzet',
+        normal_1: 'Normál I: bögre kanállal + tornazsák + hűtőmágnes',
+        normal_2: 'Normál II: bögre kanállal + tornazsák + matrica',
+        extra_1: 'Bővített I: kulacs + tornazsák + hűtőmágnes',
+        extra_2: 'Bővített II: bögre kanállal + vászontáska + hűtőmágnes',
+        extra_3: 'Bővített III: bögre kanállal + tornazsák + power bank + hűtőmágnes',
         '0': 'Imádkozom a Konferenciáért!',
+        colors: {
+          red: 'piros (tűz, megtisztítás, erő)',
+          green: 'zöld (növekedés, újrakezdés, megújulás)',
+          blue: 'kék (tisztaság)'
+        },
         hoodies: {
-          title: 'A pulóvereket itt nézheted meg: <a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>, <a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>, <a id="popover-kid" rel="popover" data-content="" title="Gyerek méretek">gyerek</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Férfi pulóverek méretek">Férfi pulóverek</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Női pulóverek méretek">női pulóverek</a>.',
+          title: 'A pulóvereket itt nézheted meg: <a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>, <a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Férfi pulóverek méretek">Férfi pulóverek</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Női pulóverek méretek">női pulóverek</a>.',
           type: 'Típus',
           size: 'Méret',
           quantity: 'Mennyiség',
           shirts: {
-            men: 'Férfi póló (1500 Ft)',
-            women: 'Női póló (1500 Ft)',
-            kid: 'Gyerek póló (1900 Ft)',
+            men: 'Férfi póló (1250 Ft)',
+            women: 'Női póló (1250 Ft)',
             menHoody: 'Férfi pulóver (4000 Ft)',
-            womenHoody: 'Női pulóver (4000 Ft)'
+            womenHoody: 'Női pulóver (4500 Ft)'
           }
         }
       },

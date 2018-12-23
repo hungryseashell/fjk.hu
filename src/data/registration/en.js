@@ -42,7 +42,7 @@ module.exports = {
     fullPriceHelp: 'The accommodation fee is not included!',
     success: {
       title: 'Your application was successful!',
-      subtitle: "We'll send you an email with the details!"
+      subtitle: 'We\'ll send you an email with the details!'
     },
     info: {
       title: 'Information',
@@ -89,23 +89,29 @@ module.exports = {
         title: 'Support',
         subtitle: 'Support the Conference',
         label: 'Funding packages',
-        description: 'Here you have the opportunity to donate by Funding Packages. Every package includes specially designed, FJK – marked products. Choose one and support us!',
-        '10000': '(Notebook + Fridge magnet + Laptop sticker + Water bottle + Natur cosmetics selection + 100-item-Glow package)',
-        '5000': '(Notebook + Fridge magnet + Laptop sticker + Water bottle + 50-item-Glow package)',
-        '3000': '(Notebook + Fridge magnet + Laptop sticker + 30-item-Glow package)',
-        '1000': '(Notebook + 20-item-Glow package)',
+        description: 'Here you have the opportunity to donate by Funding Packages. Every package includes specially designed, FJK – marked products, pocket-book (more options) and Glow tracts. Choose one and support us!<br>Color of the items of your bundle (pick a color that you like):',
+        small: 'Small: pocket-book (more options) + stickers + Glow tracts',
+        normal_1: 'Normal I: mug with spoon + drawstring bag + fridge magnet',
+        normal_2: 'Normal II: mug with spoon + drawstring bag + stickers',
+        extra_1: 'Expanded I: water bottle + drawstring bag + fridge magnet',
+        extra_2: 'Expanded II: mug with spoon + shopping bag + fridge magnet',
+        extra_3: 'Expanded III: pocket-book (more options) + mug with spoon + drawstring bag + power bank + fridge magnet',
         '0': 'I pray for the Conference!',
+        colors: {
+          red: 'red (fire, purificiation, power)',
+          green: 'green (growth, restart, renewal)',
+          blue: 'blue (purity)'
+        },
         hoodies: {
-          title: 'You can check out the hoodies here: <a id="popover-menHoody" rel="popover" data-content="" title="Men\'s hoodies">men</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Women\'s hoodies">women</a>. Size: <a id="popover-men" rel="popover" data-content="" title="Men">men</a>, <a id="popover-women" rel="popover" data-content="" title="Women">women</a>, <a id="popover-kid" rel="popover" data-content="" title="Kid">kid</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Men\'s hoodies">men\'s hoodies</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Women\'s hoodies">women\'s hoodies</a>.',
+          title: 'You can check out the hoodies here: <a id="popover-menHoody" rel="popover" data-content="" title="Men\'s hoodies">men</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Women\'s hoodies">women</a>. Size: <a id="popover-men" rel="popover" data-content="" title="Men">men</a>, <a id="popover-women" rel="popover" data-content="" title="Women">women</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Men\'s hoodies">men\'s hoodies</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Women\'s hoodies">women\'s hoodies</a>.',
           type: 'Type',
           size: 'Size',
           quantity: 'Quantity',
           shirts: {
-            men: "Men's T-Shirts (1500 Ft)",
-            women: "Women's T-Shirts (1500 Ft)",
-            kid: "Child (1900 Ft)",
-            menHoody: "Men's hoody (4000 Ft)",
-            womenHoody: "Women's hoody (4000 Ft)"
+            men: 'Men\'s T-Shirts (1250 Ft)',
+            women: 'Women\'s T-Shirts (1250 Ft)',
+            menHoody: 'Men\'s hoody (4000 Ft)',
+            womenHoody: 'Women\'s hoody (4500 Ft)'
           }
         }
       },

@@ -126,34 +126,55 @@ html
                   .support-tab
                     h2.fs-section-title
                     | #{ content.tabs.support.label }
-                    h3.fs-subtitle
-                    | #{ content.tabs.support.description }
+                    h3.fs-subtitle !{ content.tabs.support.description }
+                    .radio
+                      label
+                        input(type='radio', name='swag-color', value='red', checked)
+                        span.small  #{ content.tabs.support.colors.red }
+                    .radio
+                      label
+                        input(type='radio', name='swag-color', value='green')
+                        span.small  #{ content.tabs.support.colors.green }
+                    .radio
+                      label
+                        input(type='radio', name='swag-color', value='blue')
+                        span.small  #{ content.tabs.support.colors.blue }
+
                     #swag
                       .radio
                         label
-                          input(type='radio', name='swag', value='10000', data-swag='10000')
-                          | 10000 Ft
-                          span.small  #{ content.tabs.support['10000'] }
+                          input(type='radio', name='swag', value='4000', data-swag='extra_3', data-price='4000')
+                          | 4000 Ft
+                          span.small  #{ content.tabs.support['extra_3'] }
                       .radio
                         label
-                          input(type='radio', name='swag', value='5000', data-swag='5000')
-                          | 5000 Ft
-                          span.small  #{ content.tabs.support['5000'] }
+                          input(type='radio', name='swag', value='4000', data-swag='extra_2', data-price='4000')
+                          | 4000 Ft
+                          span.small  #{ content.tabs.support['extra_2'] }
                       .radio
                         label
-                          input(type='radio', name='swag', value='3000', data-swag='3000')
+                          input(type='radio', name='swag', value='4000', data-swag='extra_1', data-price='4000')
+                          | 4000 Ft
+                          span.small  #{ content.tabs.support['extra_1'] }
+                      .radio
+                        label
+                          input(type='radio', name='swag', value='3000', data-swag='normal_2', data-price='3000')
                           | 3000 Ft
-                          span.small  #{ content.tabs.support['3000'] }
+                          span.small  #{ content.tabs.support['normal_2'] }
                       .radio
                         label
-                          input(type='radio', name='swag', value='1000', data-swag='1000')
+                          input(type='radio', name='swag', value='3000', data-swag='normal_1', data-price='3000')
+                          | 3000 Ft
+                          span.small  #{ content.tabs.support['normal_1'] }
+                      .radio
+                        label
+                          input(type='radio', name='swag', value='1000', data-swag='small', data-price='1000')
                           | 1000 Ft
-                          span.small  #{ content.tabs.support['1000'] }
+                          span.small  #{ content.tabs.support['small'] }
                       .radio
                         label
                           input(type='radio', name='swag', value='0', data-swag='0')
                           |  #{ content.tabs.support['0'] }
-                    //
                       hr
                       h2.fs-section-title !{ content.tabs.support.hoodies.title }
                       #shirtOrders.form-group
@@ -161,25 +182,18 @@ html
                           input.shirtOrder(type='hidden', data-price='0')
                           select(name='shirtType-1')
                             option(value='', data-single-price='0') #{ content.tabs.support.hoodies.type }
-                            option(value='men', data-single-price='1500') #{ content.tabs.support.hoodies.shirts.men }
-                            option(value='women', data-single-price='1500') #{ content.tabs.support.hoodies.shirts.women }
-                            option(value='kid', data-single-price='1900') #{ content.tabs.support.hoodies.shirts.kid }
+                            option(value='men', data-single-price='1250') #{ content.tabs.support.hoodies.shirts.men }
+                            option(value='women', data-single-price='1250') #{ content.tabs.support.hoodies.shirts.women }
                             option(value='menHoody', data-single-price='4000') #{ content.tabs.support.hoodies.shirts.menHoody }
-                            option(value='womenHoody', data-single-price='4000') #{ content.tabs.support.hoodies.shirts.womenHoody }
+                            option(value='womenHoody', data-single-price='4500') #{ content.tabs.support.hoodies.shirts.womenHoody }
                           select(name='shirtSize-1')
-                            option.menHoody.womenHoody.men.women.kid(value='', data-single-price='0') #{ content.tabs.support.hoodies.size }
+                            option.menHoody.womenHoody.men.women(value='', data-single-price='0') #{ content.tabs.support.hoodies.size }
                             option.menHoody.womenHoody.men.women(value='S', data-single-price='1') S
                             option.menHoody.womenHoody.men.women(value='M', data-single-price='1') M
                             option.menHoody.womenHoody.men.women(value='L', data-single-price='1') L
                             option.menHoody.womenHoody.men.women(value='XL', data-single-price='1') XL
                             option.menHoody.womenHoody.men.women(value='2XL', data-single-price='1') 2XL
                             option.men(value='3XL', data-single-price='1') 3XL
-                            option.kid(value='2A', data-single-price='1') 2A
-                            option.kid(value='4A', data-single-price='1') 4A
-                            option.kid(value='6A', data-single-price='1') 6A
-                            option.kid(value='8A', data-single-price='1') 8A
-                            option.kid(value='10A', data-single-price='1') 10A
-                            option.kid(value='12A', data-single-price='1') 12A
                           select.shirtColor(name='shirtColor-1')
                             option.menHoody.womenHoody(value='Navy', data-single-price='1') Navy
                             option.womenHoody(value='Sport Grey', data-single-price='1') Sport Grey
