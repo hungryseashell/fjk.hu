@@ -105,7 +105,7 @@ module.exports = {
         normal_2: 'Normal II: mug with spoon + drawstring bag + stickers',
         extra_1: 'Expanded I: water bottle + drawstring bag + fridge magnet',
         extra_2: 'Expanded II: mug with spoon + shopping bag + fridge magnet',
-        extra_3: 'Expanded III: pocket-book (more options) + mug with spoon + drawstring bag + power bank + fridge magnet',
+        extra_3: 'Expanded III: mug with spoon + drawstring bag + power bank + fridge magnet',
         '0': 'I pray for the Conference!',
         colors: {
           red: 'red (fire, purificiation, power)',
