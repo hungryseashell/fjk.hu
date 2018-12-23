@@ -9,7 +9,7 @@ require('./reg/bindings');
 function changeSwagCalculator() {
   var swagCalculator = $('#swagCalculator');
   var selectedSwag = $('[data-swag]:checked');
-  var swagPrice = selectedSwag.val();
+  var swagPrice = selectedSwag.data().price;
 
   swagCalculator.text(swagPrice);
 
@@ -68,10 +68,13 @@ $('#registrationForm').on('submit', function (e) {
 
   form.push({ name: 'lang', value: (window.location.pathname.indexOf('/en/') > -1) });
 
+  console.log(form);
+
   $('#submitNext').trigger('click', { duration: 1 });
 
   request
-    .post('https://reg-fjk-staging.herokuapp.com/register')
+    .post('http://localhost:3000/register')
+    // .post('https://reg-fjk-staging.herokuapp.com/register')
     .send(form)
     .end(function (err, res) {
       if (err) {
