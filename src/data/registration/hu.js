@@ -57,8 +57,7 @@ module.exports = {
           friday: 'Péntek',
           sabbath: 'Szombat',
           lunch: 'Ebéd',
-          dinner: 'Vacsora',
-          info: 'Reggelit a szállással együtt biztosítunk'
+          dinner: 'Vacsora'
         },
         attendance: {
           full: 'Részt veszek az egész konferencián',

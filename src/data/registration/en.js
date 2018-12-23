@@ -57,8 +57,7 @@ module.exports = {
           friday: 'Friday',
           sabbath: 'Sabbath',
           lunch: 'Lunch',
-          dinner: 'Dinner',
-          info: 'Breakfast is included in the accommodation prices'
+          dinner: 'Dinner'
         },
         attendance: {
           full: 'Participating in the whole conference',
