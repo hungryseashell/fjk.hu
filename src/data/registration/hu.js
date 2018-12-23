@@ -12,8 +12,8 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2018/',
-        text: 'Hit által'
+        url: '../conferences/2019/',
+        text: 'A helyreállított képmás - Igazi nevelés'
       },
       changeLang: {
         url: '../en/registration/',
