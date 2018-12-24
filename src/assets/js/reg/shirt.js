@@ -9,23 +9,14 @@ module.exports = function(calculatePrice) {
 
     var shirtSizeOptions = self
       .parent()
-      .children('select[name^="shirtSize"], select[name^="shirtColor"]')
+      .children('select[name^="shirtSize"]')
       .children('option');
 
     shirtSizeOptions.show();
 
     if (val) {
-      var shirtColorSelector = self.parent().children('.shirtColor');
-
-      if (val.indexOf('Hoody') > -1) {
-        self.parent().children('select[name^="shirtColor"]').val('');
-        shirtColorSelector.show();
-      } else {
-        shirtColorSelector.hide();
-      }
-
       self.parent()
-        .children('select[name^="shirtSize"], select[name^="shirtColor"], select[name^="shirtQuantity"]')
+        .children('select[name^="shirtSize"], select[name^="shirtQuantity"]')
         .prop('selectedIndex', 0);
 
       shirtSizeOptions
@@ -86,13 +77,6 @@ module.exports = function(calculatePrice) {
       '<option class="menHoody womenHoody men women" value="XL" data-single-price=1>XL</option>' +
       '<option class="menHoody womenHoody men women" value="2XL" data-single-price=1>2XL</option>' +
       '<option class="men" value="3XL" data-single-price=1>3XL</option>' +
-      '</select>' +
-      '<select class="shirtColor" name="shirtColor-' + count + '">' +
-      '<option class="menHoody womenHoody" value="Navy" data-single-price=1>Navy</option>' +
-      '<option class="womenHoody" value="Sport Grey" data-single-price=1>Sport Grey</option>' +
-      '<option class="menHoody" value="Forest green" data-single-price=1>Forest green</option>' +
-      '<option class="menHoody" value="Maroon" data-single-price=1>Maroon</option>' +
-      '<option class="menHoody" value="Dark Chocolate" data-single-price=1>Dark Chocolate</option>' +
       '</select>' +
       '<select name="shirtQuantity-' + count + '">' +
       '<option value="" data-single-price=0>' + quantityTexts.label + '</option>' +
