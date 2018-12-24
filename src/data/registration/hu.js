@@ -38,7 +38,7 @@ module.exports = {
     price: 'Regisztráció díja',
     attendancePrice: 'Résztvételi díj <b><span id="regCalculator" class="price-calculator"></span> Ft</b>',
     swagPrice: 'Támogatói csomag <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>',
-    fullPrice: 'Fizetendő összeg* <b><span id="fullCalculator"></span> Ft</b>',
+    fullPrice: 'Fizetendő összeg <b><span id="fullCalculator"></span> Ft</b>',
     fullPriceHelp: 'A szállás költségét ezen felül kell rendezni!',
     success: {
       title: 'A regisztrációd sikeres!',

@@ -38,7 +38,7 @@ module.exports = {
     price: 'Registration fee',
     attendancePrice: 'Participation fee <b><span id="regCalculator" class="price-calculator"></span> Ft</b>',
     swagPrice: 'Funding packages <b><span id="swagCalculator" class="price-calculator">0</span> Ft</b>',
-    fullPrice: 'Fee to be transferred* <b><span id="fullCalculator"></span> Ft</b>',
+    fullPrice: 'Fee to be transferred <b><span id="fullCalculator"></span> Ft</b>',
     fullPriceHelp: 'The accommodation fee is not included!',
     success: {
       title: 'Your application was successful!',
