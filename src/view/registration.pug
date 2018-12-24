@@ -89,7 +89,7 @@ html
                     | !{ content.tabs.housing.options[0].text }
 
                     div
-                      each option in content.tabs.housing.options
+                      each option in content.tabs.housing.options.slice(1)
                         hr
                         h2.fs-section-title(style='margin: auto') !{ option.title }
                         h3.fs-subtitle !{ option.subtitle }
