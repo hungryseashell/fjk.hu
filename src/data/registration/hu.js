@@ -113,7 +113,7 @@ module.exports = {
           blue: 'kék (tisztaság)'
         },
         hoodies: {
-          title: 'A pulóvereket itt nézheted meg: <a id="popover-menHoody" rel="popover" data-content="" title="Férfi pulóver">férfi</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Női pulóver">női</a>. A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi méretek">férfi</a>, <a id="popover-women" rel="popover" data-content="" title="Női méretek">női</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Férfi pulóverek méretek">Férfi pulóverek</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Női pulóverek méretek">női pulóverek</a>.',
+          title: 'A méretek: <a id="popover-men" rel="popover" data-content="" title="Férfi póló méretek">férfi póló</a>, <a id="popover-women" rel="popover" data-content="" title="Női póló méretek">női póló</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Férfi pulóverek méretek">Férfi pulóverek</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Női pulóverek méretek">női pulóverek</a>.',
           type: 'Típus',
           size: 'Méret',
           quantity: 'Mennyiség',

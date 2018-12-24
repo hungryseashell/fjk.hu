@@ -113,7 +113,7 @@ module.exports = {
           blue: 'blue (purity)'
         },
         hoodies: {
-          title: 'You can check out the hoodies here: <a id="popover-menHoody" rel="popover" data-content="" title="Men\'s hoodies">men</a> és <a id="popover-womenHoody" rel="popover" data-content="" title="Women\'s hoodies">women</a>. Size: <a id="popover-men" rel="popover" data-content="" title="Men">men</a>, <a id="popover-women" rel="popover" data-content="" title="Women">women</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Men\'s hoodies">men\'s hoodies</a> és <a id="popover-womenHoodySize" rel="popover" data-content="" title="Women\'s hoodies">women\'s hoodies</a>.',
+          title: 'Size: <a id="popover-men" rel="popover" data-content="" title="Men\'s t-shirt">men\'s t-shirt</a>, <a id="popover-women" rel="popover" data-content="" title="Women\'s t-shirt">women\'s t-shirt</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Men\'s hoodies">men\'s hoodies</a> and <a id="popover-womenHoodySize" rel="popover" data-content="" title="Women\'s hoodies">women\'s hoodies</a>.',
           type: 'Type',
           size: 'Size',
           quantity: 'Quantity',
