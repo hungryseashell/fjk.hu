@@ -53,16 +53,126 @@ module.exports = {
           bio: 'Israel Ramos lelkész, a Michigani Egyházterület egyetemistákért végzett szolgálatának igazgatója és a Lake Union koordinátora. Továbbá vezeti még a Michigan State Universitynek otthont adó East Lansingben az egyetemistákért végzett szolgálati központot is (CAMPUS). 2002-ben megalapította a GYC-t, mely fiatal adventista felnőttek számára jött létre, ennek később az elnöke is lett. Közel 20 éve végez szolgálatot az egyetemistákért misszionáriusként, lelkészként és gyülekezeti adminisztrátorként. Feleségével, Judyval három gyermekük van: Imanuel, Micah és Titus.'
         },
         {
+          img: '/img/osz-farkas-erno.jpg',
+          name: 'Ősz-Farkas Ernő',
+          description: 'Dunamelléki Egyházterület elnöke',
+          bio: '1966-ban születtem Marosvásárhelyen. A gimnáziumba kémia-biológia szakra jártam. Kolozsváron, az Orvostudományi Egyetem Gyógyszerészeti Karán szereztem diplomát. Az Adventista Teológiai Főiskola (Budapest) elvégzése után lelkészként szolgáltam. 1998-ban\ négy hónapot Kaliforniában töltöttem, ahol táplálkozástudományt, közegészségügyet és mentálhigiénét tanultam, valamint a Weimar Intézetben életmód terápiára épülő klinikai\ gyakorlaton és képzésen vettem részt. 1994-től vagyok a Hetednapi Adventista Egyház Egészségügyi Szolgálatok Osztályának országos vezetője, 1999-től az Adventista Teológiai\ Főiskola óraadó tanára. A főiskola életmódtanácsadó és lelkigondozói szakirányú továbbképzésén bioetikát, Biblia és Egészség valamit Keresztény életmód tantárgyakat\ tanítom. 2000-2005 között a Boldog Élet magazin főszerkesztője voltam, ezután a lap kommunikációs vezetője lettem. 2004-2008 között a Magyar Unió főtitkáraként szolgáltam,\ 2008-tól pedig a Dunamelléki Egyházterület elnöke vagyok.<br>Az Angliai Newbold College és a Wales-i Egytemen (UWTSD) teológia és vezetéstudomány témakörben folytattam egyetemi tanulmányokat, amelyet 2018.december 31-én zártam le. Kutatási területem a 2015-ös csatlakozás (700 fős KERAK tagság és a Hetednapi Adventista Egyház között)<br>Feleségem Krisztina, zongoratanárnő. 3 gyermekünk van, Ábel, Kincső és Mátyás.'
+        },
+        {
+          img: '/img/milan-moskala.jpg',
+          name: 'Milan Moskala',
+          description: '',
+          bio: 'Milan Moskala cseh származású fogorvos-misszionárius. A Generál Konferencia alkalmazottjaként 17 évig dolgozott Bangladesben, ahol fogorvosi munkája mellett gyülekezeteket és iskolákat alapított. Megújulási összejöveteleket tartott Dhakában,  Mianmarban, Kambodzsában, Zimbabwéban, Kenyában. Jelenleg friss nyugdíjas, viszont lelkesedése Isten műve iránt nem hagyott alább. Előadóként számtalan meghívást kap gyülekezetekbe és életmódklubokba Csehországban, Szlovákiában és más országokban. Hazánkban Miskolcon is megfordult, ahol nagy hatást gyakorolt a testvérekre.<br>„Gyerekkorom óta misszionárius akartam lenni, hogy szegény embereken segíthessek külföldön, ahol egyedül Jézus van velem, Akivel együtt megyek, és együtt hirdetjük az örökkévaló evangéliumot, valamint a hármas angyali üzenetet. Imádkozás alatt jött a banán-  projekt ötlete. Ez Isten egyik nagyon sikeres projektje. Minden gyermek, fiatal és felnőtt hatalmas fizikai és lelki áldásokat nyer a banánokból. Erejük növekszik, tanulási képességeik növekednek. A banán jó vitamin- és ásványianyag-forrás. Látom, mekkora áldást jelent a gyermekeknek az, ha naponta legalább egy banánt kapnak. Egészségük sokat fejlődik, és rövid idő alatt látni lehet a különbséget megjelenésükben és fizikai állapotukban. Nagyon hálás vagyok az Úrnak, Aki azt az ötletet adta, hogy banánt adjunk a nyomornegyedekben élő gyermekeknek, és látom, hogy ez nagyon jó tápanyagforrás, amelyre a kisgyermekeknek igen nagy szükségük van.”<br>A banán projektről a Konferencián hallhattok majd többet. :)'
+        },
+        {
+          img: '/img/jonathan-ostrowski.jpg',
+          name: 'Jonathan Ostrowski',
+          description: '',
+          bio: 'Dolgozott már különböző adventista egészségügyi központokban Norvégiában és az Egyesült Államokban is, valamint a vendéglátás menedzsment területén. Jelenleg Lengyelországban tanul, de Ausztráliában született és nevelkedett. A Hyvecamp egyik képviselője. Szenvedélye olyan új és innovatív dolgokat látni, amelyek segítségével a vállalkozók valódi változást hozhatnak a világba az evangélium hirdetése közben. Szeret futni, szaunázni és jókat enni barátaival.'
+        },
+        {
           img: '/img/horvath-gabor.jpg',
           name: 'Horváth Gábor',
           description: 'Lelkész, zenepedagógus',
-          bio: 'A nevem Horváth Gábor, egy Somogy megyei kis faluban, Nágocson élek feleségemmel és két kisfiammal. Az alapszakmám zenepedagógus (ütőhangszertanárként diplomáztam Debrecenben és végeztem mesterképzést Pécsett), de Isten arra vezetett, hogy az ütőhangszerek szeretetén túl többet is tehetnék másokért, így 1999-ben elhívást kaptam a Sola scriptura Lelkészképző iskola nappali szakára. 2002 óta dolgozom segédlelkészként és lelkészként, valamint 8 évre ifjúságvezetői szolgálatra is elhívást kaptam. Szolgálatom közben elvégeztem a SOTE addiktológiai konzultáns képzését és 2006 óta rendszeresen dolgozom alkohol- drog- és gyógyszerfüggők között. 2010-ben indult bentlakásos rehabilitációs programunk, ahol szakmai vezetőként igyekszem összefogni az itt folyó munkát (részletesen: www.alkoholbeteg.hu). Az elmúlt 10 évben számos általános és középiskolában, illetve táborban megfordultam és sok fiatalhoz kapcsolódhattam, hogy együtt gondolkodhassunk a függőség és a szabadulás kérdéséről. Szeptembertől nyertem felvételt az Hetednapi Adventista Egyház soraiba és folytathatom szolgálatomat a balatonlellei körzet lelkészeként.'
+          bio: 'A legfontosabb szerepeim és feladataim: férj, apa, Isten gyermeke :)<br>Végzettségeim: lelkész, pedagógus, addiktológiai konzultáns, a Reménység Rehabilitációs Ház szakmai vezetője. Az ifjúsági munka volt szolgálatom fókuszában 2002 és 2010 között. E mellett tizenharmadik éve szolgálok a szenvedélybetegek és családtagjaik között.<br>Feleségemmel, két fiammal és kislányommal Nágocson élünk, ahol munkám fókuszában az alkohol-, gyógyszer- és játékfüggőség áll. Egyéb területek, ahol képződöm, illetve józanodok: társfüggőség, munkamánia, képernyő- és szexfüggőség. A legfrissebb tanulmányaim: családterapeuta alapképzés (2 év).'
         }
       ]
     },
     seminars: {
       title: 'Szemináriumok',
       seminars: [
+        {
+          title: 'Hogyan tanulmányozzuk a Bibliát?',
+          speaker: 'Israel Ramos',
+          description: `<p><ol>
+            <li>Megfigyelések: Egy bibliaértelmezési gyakorlat</li>
+            <li>A megértés útján: A Bibliatanulmányozás négy lépése</li>
+            <li>A szöveg áttekintése</li>
+            <li>Hogyan végezzünk hatékony szótanulmányokat?</li>
+          </ol></p>`
+        },
+        {
+          title: 'Jézus téged misszionáriussá tesz (Jn 15:16-17)',
+          speaker: 'Milan Moskala',
+          description: `<p><ol>
+            <li>Kelj fel általam! (Ézs 60,1)</li>
+            <li>Maradj bennem! (Jn 15,1-17)</li>
+            <li>Ragyogj Lelkem által! (Csel 1,8)</li>
+            <li>Örülj velem örökké! (Jn 16,20-24)</li>
+          </ol></p>`
+        },
+        {
+          title: 'A csatlakozás egy kutatás fényében',
+          speaker: 'Ősz-Farkas Ernő',
+          description: `
+<p>
+  Szakadások, széthúzások, konfliktusok a kereszténység történelmének állandósult tapasztalatai.
+  Sokan kutatták a különféle szakadások okait, de egyesülésről, csatlakozásról, megbékélésről szinte
+  nem létezik szakirodalom az Adventista Egyházban. Ritka tapasztalat átélője lehetett a Magyar Unió
+  2015-ben, amikor 40 év után 700 fő csatlakozott a Hetednapi Adventista Egyház világszéles
+  családjához.
+</p>
+<p>
+A kutató (egy teológiai disszertáció keretében) a csatlakozás motivációit vizsgálta a kultúra-váltás
+meglévő tudományos elméleteivel összevetve, 3 fókusz csoport bevonásával.
+</p>
+
+<p>Kérdések, amire választ keresünk 4 szemináriumi előadás alatt:</p>
+<ul>
+  <li>A magyar tapasztalat mennyiben adhat pozitív mintát egyházunkat ma is sújtó virtuális
+szakadások megoldására?</li>
+  <li>A csatlakozás lélektanának jobb megértése mennyiben segítheti az aggodalmak eloszlását, az
+integráció megélését, a vezetői támogatás hatékonyságát?</li>
+  <li>A változás szakaszainak megértése és tudatosítása mennyiben segítheti az élet más
+területein tapasztalt váltások megélését?</li>
+</ul>
+
+<br>
+
+<p>A szemináriumi előadások:</p>
+<p>
+<ol>
+  <li><div>
+  <p><strong>A magyar adventista szakadások és a sikertelen csatlakozási kísérletek anatómiája</strong></p>
+  <p>A kommunista diktatúra hátterén három nagyobb szakadás sajátos mintázatot követett. Melyek az
+ismétlődő motívumok? Más politikai háttéren is elképzelhetők hasonló jelenségek? Mit tanulhatunk
+a múltból?</p>
+</div></li> 
+  
+  <li><div>
+  <p><strong>A csatlakozás lélektana</strong></p>
+  <p>A kutatás módszertanának megértése megalapozza az eredmények hitelességét. Hogyan lehet 30 fős
+minta véleményét kiterjeszteni a csatlakozók népes táborára? Nyolc sikertelen kísérlet után, milyen
+körülmények segítették a 2015-ös folyamatot? A csatlakozás motívumai a három fókusz csoport
+elemzése alapján.</p>
+</div></li>  
+
+  <li><div>
+  <p><strong>William Bridges átmenet-elmélete és az integráció folyamata</strong></p>
+  <p>A kutatás eredményei és tanulságai. Van-e meglepetés ahhoz képest, amit kívülről látunk vagy
+belülről átéltünk? Hogyan hasznosíthatók a tanulságok?</p>
+</div></li>  
+
+  <li><div>
+  <p><strong>Teológia reflexiók a csatlakozás bibliai alapjairól</strong></p>
+  <p>Nem mi írjuk a történelmet. 2000 évvel ezelőtt zsidók és pogányok évezredes válaszfala dőlt le. Mi
+történt akkor? Hogyan alkalmazzuk ma? Mi történne, ha a biblikus vonalat követnénk? Melyek a mai
+válaszfalak egyházon belül? Van-e remény a valóságos egységre, vagy csak illúziót kergetünk?</p>
+</div></li>  
+</ol>
+</p>
+
+<p>Melyek a csatlakozás vezetői kihívásai? A kutatás összefoglaló, mai tanulságai.</p>
+
+<p><strong>Megjegyzés:</strong> Az előadások egymásra épülnek. Azoknak ajánljuk, akik mind a 4 előadást meg tudják
+hallgatni.</p>
+`
+        },
+        {
+          title: 'Innováció a misszióban',
+          speaker: 'Jonathan Ostrowski',
+          description: ''
+        },
         {
           title: 'Függök tőle vagy szeretem? Mi a különbség?',
           speaker: 'Horváth Gábor',
@@ -258,7 +368,7 @@ module.exports = {
             },
             {
               time: '08:30-09:30',
-              text: '<strong>Reggeli áhítat, imaalkalom (Kóczián Ági)</strong>'
+              text: '<strong>Reggeli áhítat, imaalkalom (Szallós-Farkas Konrád)</strong>'
             },
             {
               time: '09:45-11:30',
