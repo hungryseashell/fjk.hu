@@ -53,7 +53,7 @@ module.exports = {
         title: 'Attendance',
         meal: {
           title: 'Meal',
-          subtitle: 'From now on we would like to put greater emphasis on environmental protection. So, the plates on which you get your meals will be made from rapidly degradable material.',
+          subtitle: 'Thursday lunch: Vegetable soup, Pasta with tomato sauce, Apple pie<br>Thursday dinner: Sandwich<br>Friday lunch: Minestrone soup, Potato casserole, Carrot cake<br>Friday dinner: Sandwich<br>Saturday lunch: Sandwhich<br>Saturday dinner: Seitan roast a la Brasov<br><br>From now on we would like to put greater emphasis on environmental protection. So, the plates on which you get your meals will be made from rapidly degradable material.',
           thursday: 'Thursday',
           friday: 'Friday',
           sabbath: 'Sabbath',

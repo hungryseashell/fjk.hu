@@ -53,7 +53,7 @@ module.exports = {
         title: 'Részvétel',
         meal: {
           title: 'Étkezés',
-          subtitle: 'Szeretnénk idéntől nagyobb hangsúlyt fektetni a környezetvédelemre, így amiben megkapjátok majd az ételeteket, azokat gyorsan lebomló anyagból készítették.',
+          subtitle: 'Csütörtök ebéd: zöldségleves, paradicsomos tészta, almás pite<br>Csütörtök vacsora: szendvics<br>Péntek ebéd: minestrone leves, rakott krumpli, répatorta <br>Péntek vacsora: szendvics<br>Szombat ebéd: szendvics<br>Szombat vacsora: szejtános brassói.<br><br>Szeretnénk idéntől nagyobb hangsúlyt fektetni a környezetvédelemre, így amiben megkapjátok majd az ételeteket, azokat gyorsan lebomló anyagból készítették.',
           thursday: 'Csütörtök',
           friday: 'Péntek',
           sabbath: 'Szombat',
