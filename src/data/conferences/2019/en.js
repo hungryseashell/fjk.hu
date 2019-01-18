@@ -332,7 +332,7 @@ to all sessions.</p>
             },
             {
               time: '09:30-10:40',
-              text: '<strong>Morning plenary</strong>'
+              text: '<strong>Morning plenary (Ernő Ősz-Farkas)</strong>'
             },
             {
               time: '11:00-12:30',

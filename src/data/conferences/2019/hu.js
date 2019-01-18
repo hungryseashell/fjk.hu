@@ -331,7 +331,7 @@ hallgatni.</p>
             },
             {
               time: '09:30-10:40',
-              text: '<strong>Reggeli plenáris előadás</strong>'
+              text: '<strong>Reggeli plenáris előadás (Ősz-Farkas Ernő)</strong>'
             },
             {
               time: '11:00-12:30',
