@@ -23,9 +23,8 @@ module.exports = {
     "assets/img/sda-logo.png",
     "booklet/2019/index.html",
     "en/booklet/2019/index.html"
-
   ],
-  "swDest": "_site\\sw.js",
+  "swDest": "_site/sw.js",
   "skipWaiting": true,
   "clientsClaim": true
 };
