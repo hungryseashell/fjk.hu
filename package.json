@@ -15,7 +15,7 @@
     "bower": "bower install",
     "grunt": "grunt",
     "start": "node src/generate && workbox generateSW",
-    "postinstall": "npm run bower && npm run grunt",
+    "postinstall": "npm run bower && npm run grunt && npm start",
     "deploy": "./tasks/deploy.sh",
     "registration": "REG_IS_ON=1 npm run deploy",
     "stream": "LIVE_IS_ON=1 npm run deploy",
