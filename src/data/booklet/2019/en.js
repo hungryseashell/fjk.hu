@@ -38,7 +38,7 @@ module.exports = {
         text: 'Registration'
       },
       changeLang: {
-        url: '../../../booklet/2019',
+        url: '../../../booklet/2019/',
         text: 'HUNGARIAN'
       }
     }
