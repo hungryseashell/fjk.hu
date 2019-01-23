@@ -230,7 +230,7 @@ to all sessions.</p>
             },
             {
               time: '18:00-19:40',
-              text: '<strong>Opening Plenary (Israel Ramos)</strong>'
+              text: 'Opening Plenary, Testimony (Milan Moskala)'
             },
             {
               time: '19:30-20:30',
@@ -263,7 +263,7 @@ to all sessions.</p>
             },
             {
               time: '13:30-14:30',
-              text: 'Testimony (Milan Moskala)'
+              text: '<strong>Testimony (Jonathan Ostrowski)</strong>'
             },
             {
               time: '14:30-15:00',
@@ -300,7 +300,8 @@ to all sessions.</p>
             },
             {
               time: '09:45-10:45',
-              text: '<strong>Testimony (Jonathan Ostrowski)</strong>'
+              
+              text: '<strong>Opening Plenary (Israel Ramos)</strong>'
             },
             {
               time: '11:00-13:00',
@@ -391,27 +392,30 @@ to all sessions.</p>
           name: 'Thursday - 10:00-12:00',
           items: [
             {
-              speaker: 'Israel Ramos',
-              text: `1. Observations: An Exercise on Biblical Interpretation</br> 
-              2. The Interpretative Journey: Four Steps for Bible Study`,
-              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
-            },
-            {
               speaker: 'Milan Moskala',
               text: '1. Arise with Me - Is 60:1</br> 2. Abide in Me - John 15:1-17',
-              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>',
+              place: 'Room 1 - Main Hall'
             },
             {
               speaker: 'Ernő Ősz-Farkas',
               text: `1. The anatomy of the hungarian adventist schisms and the abortive attempts of reconnection</br> 
                      2. The psychology of reunion`,
-              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>',
+              place: 'Room 2 - 1st floor'
             },
             {
               speaker: 'Gábor Horváth',
               text: `1. Codependency and healthy relationships in the light of the Bible. Basic relationships </br>
                      2. Two extremities of codependency and their characteristics. Where are my boundaries? How can I see others’ boundaries?`,
-              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>',
+              place: 'Room 3 - 1st floor'
+            },
+            {
+              speaker: 'Jonathan Ostrowski',
+              text: 'Innovation in mission',
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>',
+              place: 'Room 4  - ground level'
             }
           ]
         },
@@ -419,27 +423,30 @@ to all sessions.</p>
           name: 'Thursday - 15:00-17:00',
           items: [
             {
-              speaker: 'Israel Ramos',
-              text: `3. Outlining the Text</br> 
-                     4. How to Do Effective Word Studies`,
-              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
-            },
-            {
               speaker: 'Milan Moskala',
               text: '3. Shine by My Spirit - Acts 1:8</br> 4. Rejoice with Me forever - John 16:20-24',
-              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>',
+              place: 'Room 1 - Main Hall'
             },
             {
               speaker: 'Ernő Ősz-Farkas',
               text: `3. William Bridges’ Transition Model and the process of integration</br> 
                      4. Theological reflections on the biblical bases of reunion`,
-              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>',
+              place: 'Room 2 - 1st floor'
             },
             {
               speaker: 'Gábor Horváth',
               text: `3. Characteristics of a healthy relationship.  Basics of a lifelong relationship</br>
                      4. How does God want to relate to me? Solid foundations, solid relationships`,
-              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'                    
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>',
+              place: 'Room 3 - 1st floor'                   
+            },
+            {
+              speaker: 'Jonathan Ostrowski',
+              text: 'Innovation in mission',
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>',
+              place: 'Room 4  - ground level'
             }
           ]
         },

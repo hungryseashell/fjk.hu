@@ -229,7 +229,7 @@ to all sessions.</p>
             },
             {
               time: '18:00-19:40',
-              text: '<strong>Opening Plenary (Israel Ramos)</strong>'
+              text: 'Opening Plenary, Testimony (Milan Moskala)'
             },
             {
               time: '19:30-20:30',
@@ -262,7 +262,7 @@ to all sessions.</p>
             },
             {
               time: '13:30-14:30',
-              text: 'Testimony (Milan Moskala)'
+              text: '<strong>Testimony (Jonathan Ostrowski)</strong>'
             },
             {
               time: '14:30-15:00',
@@ -298,8 +298,8 @@ to all sessions.</p>
               text: '<strong>Morning devotional (Zsolt Járai)</strong>'
             },
             {
-              time: '09:45-10:45',
-              text: '<strong>Testimony (Jonathan Ostrowski)</strong>'
+              time: '09:45-10:45',              
+              text: '<strong>Opening Plenary (Israel Ramos)</strong>'
             },
             {
               time: '11:00-13:00',

@@ -227,8 +227,8 @@ hallgatni.</p>
               text: 'Regisztráció'
             },
             {
-              time: '18:00-19:40',
-              text: '<strong>Megnyitó plenáris előadás (Israel Ramos)</strong>'
+              time: '18:00-19:40',              
+              text: '<strong>Nyitóalkalom, Bizonyságtétel (Milan Moskala)</strong>'
             },
             {
               time: '19:30-21:00',
@@ -261,7 +261,7 @@ hallgatni.</p>
             },
             {
               time: '13:30-14:30',
-              text: '<strong>Bizonyságtétel (Milan Moskala)</strong>'
+              text: '<strong>Bizonyságtétel (Jonathan Ostrowski)</strong>'
             },
             {
               time: '14:30-15:00',
@@ -298,7 +298,7 @@ hallgatni.</p>
             },
             {
               time: '09:45-10:45',
-              text: '<strong>Bizonyságtétel (Jonathan Ostrowski)</strong>'
+              text: '<strong>Délelőtti plenáris előadás (Israel Ramos)</strong>'
             },
             {
               time: '11:00-13:00',

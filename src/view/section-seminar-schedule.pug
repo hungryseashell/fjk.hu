@@ -12,6 +12,8 @@ section#seminar-schedule
                     tr
                       th #{ item.speaker }
                       td !{ item.text } </br> !{ item.translation }
+                        if item.place
+                          </br> <small> #{item.place}</small>
 
 
 

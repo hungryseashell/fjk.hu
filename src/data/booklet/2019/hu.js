@@ -229,7 +229,7 @@ hallgatni.</p>
             },
             {
               time: '18:00-19:40',
-              text: '<strong>Megnyitó plenáris előadás (Israel Ramos)</strong>'
+              text: '<strong>Nyitóalkalom, Bizonyságtétel (Milan Moskala)</strong>'
             },
             {
               time: '19:30-21:00',
@@ -262,7 +262,7 @@ hallgatni.</p>
             },
             {
               time: '13:30-14:30',
-              text: '<strong>Bizonyságtétel (Milan Moskala)</strong>'
+              text: '<strong>Bizonyságtétel (Jonathan Ostrowski)</strong>'
             },
             {
               time: '14:30-15:00',
@@ -299,7 +299,7 @@ hallgatni.</p>
             },
             {
               time: '09:45-10:45',
-              text: '<strong>Bizonyságtétel (Jonathan Ostrowski)</strong>'
+              text: '<strong>Délelőtti plenáris előadás (Israel Ramos)</strong>'
             },
             {
               time: '11:00-13:00',
@@ -390,27 +390,24 @@ hallgatni.</p>
           name: 'Csütörtök - 10:00-12:00',
           items: [
             {
-              speaker: 'Israel Ramos',
-              text: `1. Megfigyelések: Egy bibliaértelmezési gyakorlat</br> 
-              2. A megértés útján: A Bibliatanulmányozás négy lépése`,
-              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
-            },
-            {
               speaker: 'Milan Moskala',
               text: '1. Kelj fel általam! (Ézs 60,1)</br> 2. Maradj bennem! (Jn 15,1-17)',
-              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>',
+              place: '1. terem - Nagyterem'
             },
             {
               speaker: 'Dr. Ősz-Farkas Ernő',
               text: `1. A magyar adventista szakadások és a sikertelen csatlakozási kísérletek anatómiája</br> 
                      2. A csatlakozás lélektana`,
-              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>',
+              place: '2. terem -emeleti tárgyaló'
             },
             {
               speaker: 'Horváth Gábor',
               text: `1. Hogyan lesz valakiből társfüggő? Mi van akkor, ha én is az vagyok? Alapkapcsolódásaim számbavétele </br>
                      2. A társfüggőség két szélsősége és megjelenési formái. Hol vannak a határaim, mennyire látom a másik határait?`,
-              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>',
+              place: '3. terem - emeleti terem'
             }
           ]
         },
@@ -418,27 +415,30 @@ hallgatni.</p>
           name: 'Csütörtök - 15:00-17:00',
           items: [
             {
-              speaker: 'Israel Ramos',
-              text: `3. A szöveg áttekintése</br> 
-                     4. Hogyan végezzünk hatékony szótanulmányokat?`,
-              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
-            },
-            {
               speaker: 'Milan Moskala',
               text: '3. Ragyogj Lelkem által! (Csel 1,8)</br> 4. Örülj velem örökké! (Jn 16,20-24)',
-              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>',
+              place: '1. terem - Nagyterem'
             },
             {
               speaker: 'Dr. Ősz-Farkas Ernő',
               text: `3. William Bridges átmenet-elmélete és az integráció folyamata</br> 
                      4. Teológia reflexiók a csatlakozás bibliai alapjairól`,
-              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>',
+              place: '2. terem -emeleti tárgyaló'
             },
             {
               speaker: 'Horváth Gábor',
               text: `3. Az egészséges párkapcsolat jellemzői. Alapozás egy életre szóló kapcsolathoz</br>
                      4. Hogyan szeretne Isten kapcsolódni hozzám? Stabil alapozás, stabil kapcsolatok`,
-              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'                    
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>',
+              place: '3. terem - emeleti terem'                    
+            },
+            {
+              speaker: 'Jonathan Ostrowski',
+              text: 'Innováció a misszióban',
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>',
+              place: '4. terem - Duna Ifjúsági Központ'
             }
           ]
         },
