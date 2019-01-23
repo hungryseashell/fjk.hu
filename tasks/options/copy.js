@@ -49,6 +49,23 @@ files.push({
   dest: '_site'
 });
 
+files.push({
+  expand: true,
+  cwd: 'src/assets/icons/',
+  src: ['*'],
+  dest: '_site/assets/icons/'
+});
+
+files.push({
+  src: 'src/assets/en-booklet-manifest.json',
+  dest: '_site/en/booklet/2019/booklet.webmanifest'
+});
+
+files.push({
+  src: 'src/assets/hu-booklet-manifest.json',
+  dest: '_site/booklet/2019/booklet.webmanifest'
+});
+
 module.exports = {
   copy: {
     main: {

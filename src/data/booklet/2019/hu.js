@@ -2,19 +2,20 @@
 
 module.exports = {
   page: {
-    regIsOn: Boolean(process.env.REG_IS_ON),
+    regIsOn: false,
     year: 2019,
     home: 'https://fjk.hu',
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: '../../assets',
+    needManifest: true,
     nav: {
-      booklet: {
-        url: '../../booklet/2019',
-        text: 'Programfüzet'
+      schedule: {
+        url: '#schedule',
+        text: 'Program'
       },
-      hero: {
-        url: '#hero',
-        text: 'Téma'
+      seminarSchedule: {
+        url: '#seminar-schedule',
+        text: 'Szemináriumok beosztása, nyelv'
       },
       speakers: {
         url: '#speakers',
@@ -24,9 +25,9 @@ module.exports = {
         url: '#seminars',
         text: 'Szemináriumok'
       },
-      schedule: {
-        url: '#schedule',
-        text: 'Program'
+      meals: {
+        url: '#meals',
+        text: 'Menü'
       },
       venue: {
         url: '#venue',
@@ -37,8 +38,8 @@ module.exports = {
         text: 'Regisztráció'
       },
       changeLang: {
-        url: '../../en/conferences/2019',
-        text: 'EN'
+        url: '../../en/booklet/2019',
+        text: 'ENGLISH'
       }
     }
   },
@@ -382,6 +383,138 @@ hallgatni.</p>
         }
       }
     },
+    seminarSchedule: {
+      title: 'Szemináriumok beosztása, nyelv',
+      slots: [
+        {
+          name: 'Csütörtök - 10:00-12:00',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `1. Megfigyelések: Egy bibliaértelmezési gyakorlat</br> 
+              2. A megértés útján: A Bibliatanulmányozás négy lépése`,
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '1. Kelj fel általam! (Ézs 60,1)</br> 2. Maradj bennem! (Jn 15,1-17)',
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Dr. Ősz-Farkas Ernő',
+              text: `1. A magyar adventista szakadások és a sikertelen csatlakozási kísérletek anatómiája</br> 
+                     2. A csatlakozás lélektana`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+            },
+            {
+              speaker: 'Horváth Gábor',
+              text: `1. Hogyan lesz valakiből társfüggő? Mi van akkor, ha én is az vagyok? Alapkapcsolódásaim számbavétele </br>
+                     2. A társfüggőség két szélsősége és megjelenési formái. Hol vannak a határaim, mennyire látom a másik határait?`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+            }
+          ]
+        },
+        {
+          name: 'Csütörtök - 15:00-17:00',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `3. A szöveg áttekintése</br> 
+                     4. Hogyan végezzünk hatékony szótanulmányokat?`,
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '3. Ragyogj Lelkem által! (Csel 1,8)</br> 4. Örülj velem örökké! (Jn 16,20-24)',
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Dr. Ősz-Farkas Ernő',
+              text: `3. William Bridges átmenet-elmélete és az integráció folyamata</br> 
+                     4. Teológia reflexiók a csatlakozás bibliai alapjairól`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+            },
+            {
+              speaker: 'Horváth Gábor',
+              text: `3. Az egészséges párkapcsolat jellemzői. Alapozás egy életre szóló kapcsolathoz</br>
+                     4. Hogyan szeretne Isten kapcsolódni hozzám? Stabil alapozás, stabil kapcsolatok`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'                    
+            }
+          ]
+        },
+        {
+          name: 'Péntek - 11:00-13:00',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `1. Megfigyelések: Egy bibliaértelmezési gyakorlat</br> 
+                     2. A megértés útján: A Bibliatanulmányozás négy lépése`,
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '1. Kelj fel általam! (Ézs 60,1)</br> 2. Maradj bennem! (Jn 15,1-17)',
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Dr. Ősz-Farkas Ernő',
+              text: `1. A magyar adventista szakadások és a sikertelen csatlakozási kísérletek anatómiája</br> 
+                     2. A csatlakozás lélektana`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+              
+            },
+            {
+              speaker: 'Horváth Gábor',
+              text: `1. Hogyan lesz valakiből társfüggő? Mi van akkor, ha én is az vagyok? Alapkapcsolódásaim számbavétele </br>
+                     2. A társfüggőség két szélsősége és megjelenési formái. Hol vannak a határaim, mennyire látom a másik határait?`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+            }
+          ]
+        },
+        {
+          name: 'Szombat - 14:30-16:30',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `3. A szöveg áttekintése</br> 
+                     4. Hogyan végezzünk hatékony szótanulmányokat?`,
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '3. Ragyogj Lelkem által! (Csel 1,8)</br> 4. Örülj velem örökké! (Jn 16,20-24)',
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            },
+            {
+              speaker: 'Dr. Ősz-Farkas Ernő',
+              text: `3. William Bridges átmenet-elmélete és az integráció folyamata</br> 
+                     4. Teológia reflexiók a csatlakozás bibliai alapjairól`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+            },
+            {
+              speaker: 'Horváth Gábor',
+              text: `3. Az egészséges párkapcsolat jellemzői. Alapozás egy életre szóló kapcsolathoz</br>
+                     4. Hogyan szeretne Isten kapcsolódni hozzám? Stabil alapozás, stabil kapcsolatok`,
+              translation: '<small><strong>Nyelv:</strong> <i>magyar, háttérben angol</i></small>'
+            },
+            {
+              speaker: 'Jonathan Ostrowski',
+              text: 'Innováció a misszióban',
+              translation: '<small><strong>Nyelv:</strong> <i>angol - magyar</i></small>'
+            }
+          ]
+        },
+      ]
+    },
+    meals: {
+      title: 'Menü',
+      description:`<strong>Csütörtök ebéd:</strong> zöldségleves, paradicsomos tészta, almás pite</br>
+      <strong>Csütörtök vacsora:</strong> szendvics</br>
+      <strong>Péntek ebéd:</strong> minestrone leves, rakott krumpli, répatorta </br>
+      <strong>Péntek vacsora:</strong> szendvics</br>
+      <strong>Szombat ebéd:</strong> szendvics</br>
+      <strong>Szombat vacsora:</strong> szejtános brassói.`
+    },
     venue: {
       title: 'Helyszín',
       name: 'Terézvárosi Adventista Gyülekezet',
@@ -408,7 +541,7 @@ hallgatni.</p>
           url: 'https://goo.gl/maps/LSvEFgh2sQ32',
           text: 'Mutasd térképen'
         },
-        text: 'A Konferencia szombati helyszíne idén először a <a href="http://rhemacenter.hu/" target="_blank">Golgota utcai gyülekezet</a> lesz, amely már számos egyházi rendezvényünknek adott otthont.'
+        text: 'A Konferencia szombati helyszíne idén a <a href="http://rhemacenter.hu/" target="_blank">Golgota utcai gyülekezet</a> lesz, amely már számos egyházi rendezvényünknek adott otthont.'
       },
       pics: [
         '/img/rhema_1.jpg',

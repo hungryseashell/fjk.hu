@@ -14,7 +14,7 @@
   "scripts": {
     "bower": "bower install",
     "grunt": "grunt",
-    "start": "node src/generate",
+    "start": "node src/generate && workbox generateSW",
     "postinstall": "npm run bower && npm run grunt",
     "deploy": "./tasks/deploy.sh",
     "registration": "REG_IS_ON=1 npm run deploy",
@@ -40,7 +40,8 @@
     "load-grunt-tasks": "3.2.0",
     "lodash": "3.10.1",
     "pug": "2.0.0-beta6",
-    "time-grunt": "0.4.0"
+    "time-grunt": "0.4.0",
+    "workbox-cli": "3.6.3"
   },
   "dependencies": {
     "moment": "2.11.1",

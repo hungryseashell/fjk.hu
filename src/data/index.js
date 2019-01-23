@@ -33,5 +33,11 @@ module.exports = {
   },
   mini: {
     hu: require('./mini/hu')
-  }
+  },
+  booklet: {
+    '2019': {
+      hu: require('./booklet/2019/hu'),
+      en: require('./booklet/2019/en')
+    }
+  },
 };

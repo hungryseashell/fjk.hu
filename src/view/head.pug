@@ -14,3 +14,5 @@ head
   link(rel='shortcut icon', type='image/png', href=page.assetsPath + '/img/favicon.ico')
   link(rel='stylesheet', href=page.assetsPath + '/css/fjk.min.css')
   link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+  if(page.needManifest)
+    link(rel='manifest' href='booklet.webmanifest')

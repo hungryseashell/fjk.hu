@@ -2,19 +2,20 @@
 
 module.exports = {
   page: {
-    regIsOn: Boolean(process.env.REG_IS_ON),
+    regIsOn: false,
     year: 2019,
     home: 'https://fjk.hu/en',
     title: 'Fiatalok Jézusért Konferencia',
     assetsPath: '../../../assets',
+    needManifest: true,
     nav: {
-      booklet: {
-        url: '../../booklet/2019',
-        text: 'Booklet'
+      schedule: {
+        url: '#schedule',
+        text: 'Schedule'
       },
-      hero: {
-        url: '#hero',
-        text: 'Theme'
+      seminarSchedule: {
+        url: '#seminar-schedule',
+        text: 'Seminar schedule, languages'
       },
       speakers: {
         url: '#speakers',
@@ -24,9 +25,9 @@ module.exports = {
         url: '#seminars',
         text: 'Seminars'
       },
-      schedule: {
-        url: '#schedule',
-        text: 'Schedule'
+      meals: {
+        url: '#meals',
+        text: 'Menu'
       },
       venue: {
         url: '#venue',
@@ -37,8 +38,8 @@ module.exports = {
         text: 'Registration'
       },
       changeLang: {
-        url: '../../../conferences/2019',
-        text: 'HU'
+        url: '../../../booklet/2019',
+        text: 'HUNGARIAN'
       }
     }
   },
@@ -382,6 +383,137 @@ to all sessions.</p>
           ]
         }
       }
+    },
+    seminarSchedule: {
+      title: 'Seminar schedule, language',
+      slots: [
+        {
+          name: 'Thursday - 10:00-12:00',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `1. Observations: An Exercise on Biblical Interpretation</br> 
+              2. The Interpretative Journey: Four Steps for Bible Study`,
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '1. Arise with Me - Is 60:1</br> 2. Abide in Me - John 15:1-17',
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Ernő Ősz-Farkas',
+              text: `1. The anatomy of the hungarian adventist schisms and the abortive attempts of reconnection</br> 
+                     2. The psychology of reunion`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+            },
+            {
+              speaker: 'Gábor Horváth',
+              text: `1. Codependency and healthy relationships in the light of the Bible. Basic relationships </br>
+                     2. Two extremities of codependency and their characteristics. Where are my boundaries? How can I see others’ boundaries?`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+            }
+          ]
+        },
+        {
+          name: 'Thursday - 15:00-17:00',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `3. Outlining the Text</br> 
+                     4. How to Do Effective Word Studies`,
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '3. Shine by My Spirit - Acts 1:8</br> 4. Rejoice with Me forever - John 16:20-24',
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Ernő Ősz-Farkas',
+              text: `3. William Bridges’ Transition Model and the process of integration</br> 
+                     4. Theological reflections on the biblical bases of reunion`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+            },
+            {
+              speaker: 'Gábor Horváth',
+              text: `3. Characteristics of a healthy relationship.  Basics of a lifelong relationship</br>
+                     4. How does God want to relate to me? Solid foundations, solid relationships`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'                    
+            }
+          ]
+        },
+        {
+          name: 'Friday - 11:00-13:00',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `1. Observations: An Exercise on Biblical Interpretation</br> 
+              2. The Interpretative Journey: Four Steps for Bible Study`,
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '1. Arise with Me - Is 60:1</br> 2. Abide in Me - John 15:1-17',
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Ernő Ősz-Farkas',
+              text: `1. The anatomy of the hungarian adventist schisms and the abortive attempts of reconnection</br> 
+                     2. The psychology of reunion`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+            },
+            {
+              speaker: 'Gábor Horváth',
+              text: `1. Codependency and healthy relationships in the light of the Bible. Basic relationships </br>
+                     2. Two extremities of codependency and their characteristics. Where are my boundaries? How can I see others’ boundaries?`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+            }
+          ]
+        },
+        {
+          name: 'Sabbath - 14:30-16:30',
+          items: [
+            {
+              speaker: 'Israel Ramos',
+              text: `3. Outlining the Text</br> 
+                     4. How to Do Effective Word Studies`,
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Milan Moskala',
+              text: '3. Shine by My Spirit - Acts 1:8</br> 4. Rejoice with Me forever - John 16:20-24',
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            },
+            {
+              speaker: 'Ernő Ősz-Farkas',
+              text: `3. William Bridges’ Transition Model and the process of integration</br> 
+                     4. Theological reflections on the biblical bases of reunion`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'
+            },
+            {
+              speaker: 'Gábor Horváth',
+              text: `3. Characteristics of a healthy relationship.  Basics of a lifelong relationship</br>
+                     4. How does God want to relate to me? Solid foundations, solid relationships`,
+              translation: '<small><strong>Language:</strong> <i>Hungarian, English in the backgorund</i></small>'                    
+            },
+            {
+              speaker: 'Jonathan Ostrowski',
+              text: 'Innovation in mission',
+              translation: '<small><strong>Language:</strong> <i>English - Hungarian</i></small>'
+            }
+          ]
+        }
+      ]
+    },
+    meals: {
+      title: 'Menu',
+      description:`<strong>Thurshday lunch:</strong> Vegetable soup, Pasta with tomato sauce, Apple pie</br>
+      <strong>Thurshday dinner:</strong> Sandwich</br>
+      <strong>Friday lunch:</strong> Minestrone soup, Potato casserole, Carrot cake</br>
+      <strong>Friday dinner:</strong> Sandwich</br>
+      <strong>Saturday lunch:</strong> Sandwich</br>
+      <strong>Saturday dinner:</strong> Seitan roast a la Brasov`
     },
     venue: {
       title: 'Venue',

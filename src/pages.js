@@ -1,6 +1,6 @@
 'use strict';
 
-const { landing, conferences, registration, live, mini } = require('./data');
+const { landing, conferences, registration, live, mini, booklet } = require('./data');
 
 module.exports = [
   { templateFile: '404.pug', data: {}, destinationPath: '404.html' },
@@ -26,5 +26,8 @@ module.exports = [
   { templateFile: 'live.pug', data: live.hu, destinationPath: 'live/index.html' },
   { templateFile: 'live.pug', data: live.en, destinationPath: 'en/live/index.html' },
 
-  { templateFile: 'mini.pug', data: mini.hu, destinationPath: 'mini/index.html' }
+  { templateFile: 'mini.pug', data: mini.hu, destinationPath: 'mini/index.html' },
+
+  { templateFile: 'booklet.pug', data: booklet['2019'].hu, destinationPath: 'booklet/2019/index.html' },
+  { templateFile: 'booklet.pug', data: booklet['2019'].en, destinationPath: 'en/booklet/2019/index.html' }
 ];
