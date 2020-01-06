@@ -79,49 +79,82 @@ html
                   input.previous.action-button(type='button', name='previous', value=content.prev)
                   input.next.action-button(type='button', name='next', value=content.next)
 
+                //- .tab
+                //-   .housing-tab
+                //-     h2.fs-section-title #{ content.tabs.housing.title }
+                //-     h3.fs-subtitle !{ content.tabs.housing.subtitle }
+
+                //-     h2.fs-section-title(style='margin: auto') !{ content.tabs.housing.options[0].title }
+                //-     h3.fs-subtitle !{ content.tabs.housing.options[0].subtitle }
+                //-     | !{ content.tabs.housing.options[0].text }
+
+                //-     div
+                //-       each option in content.tabs.housing.options.slice(1)
+                //-         hr
+                //-         h2.fs-section-title(style='margin: auto') !{ option.title }
+                //-         h3.fs-subtitle !{ option.subtitle }
+                //-         | !{ option.text }
+
+                //-   input.previous.action-button(type='button', name='previous', value=content.prev)
+                //-   input.next.action-button(type='button', name='next', value=content.next)
+
                 .tab
-                  .housing-tab
-                    h2.fs-section-title #{ content.tabs.housing.title }
-                    h3.fs-subtitle !{ content.tabs.housing.subtitle }
-
-                    h2.fs-section-title(style='margin: auto') !{ content.tabs.housing.options[0].title }
-                    h3.fs-subtitle !{ content.tabs.housing.options[0].subtitle }
-                    | !{ content.tabs.housing.options[0].text }
-
-                    div
-                      each option in content.tabs.housing.options.slice(1)
-                        hr
-                        h2.fs-section-title(style='margin: auto') !{ option.title }
-                        h3.fs-subtitle !{ option.subtitle }
-                        | !{ option.text }
+                  h2.fs-title #{ content.tabs.program.title }
+                  h3.fs-subtitle #{ content.tabs.program.subtitle }
+                  .program-tab
+                    .form-group
+                      label
+                      | #{ content.tabs.program.label }
+                      .checkbox
+                        label
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.translate)
+                          | #{ content.tabs.program.translate }
+                      //.checkbox
+                        label
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.smallGroups)
+                          | #{ content.tabs.program.smallGroups }
+                      .checkbox
+                        label
+                          input(type='checkbox', name='voluntary', value=content.tabs.program.diaconia)
+                          | #{ content.tabs.program.diaconia }
+                      .checkbox
+                        label
+                          input#otherVoluntaryChB(type='checkbox', name='voluntary', value='other')
+                          | #{ content.tabs.program.other }
+                          input#otherVoluntaryText.form-control(type='text', name='voluntary-text', placeholder=content.tabs.program.other)
 
                   input.previous.action-button(type='button', name='previous', value=content.prev)
                   input.next.action-button(type='button', name='next', value=content.next)
 
                 .tab
-                  h2.fs-title #{ content.tabs.program.title }
-                  h3.fs-subtitle #{ content.tabs.program.subtitle }
-                    .program-tab
-                      .form-group
+                  h2.fs-title #{ content.tabs.outreach.title }
+                  h3.fs-subtitle #{ content.tabs.outreach.subtitle }
+                  .program-tab
+                    label #{ content.tabs.outreach.label }
+                    |
+                    .form-group
+                      label #{ content.tabs.outreach.thursday.label }
+                      .checkbox
                         label
-                        | #{ content.tabs.program.label }
-                        .checkbox
-                          label
-                            input(type='checkbox', name='voluntary', value=content.tabs.program.translate)
-                            | #{ content.tabs.program.translate }
-                        //.checkbox
-                          label
-                            input(type='checkbox', name='voluntary', value=content.tabs.program.smallGroups)
-                            | #{ content.tabs.program.smallGroups }
-                        .checkbox
-                          label
-                            input(type='checkbox', name='voluntary', value=content.tabs.program.diaconia)
-                            | #{ content.tabs.program.diaconia }
-                        .checkbox
-                          label
-                            input#otherVoluntaryChB(type='checkbox', name='voluntary', value='other')
-                            | #{ content.tabs.program.other }
-                            input#otherVoluntaryText.form-control(type='text', name='voluntary-text', placeholder=content.tabs.program.other)
+                          input(type='checkbox', name='outreach', value="childrens_home")
+                          | !{ content.tabs.outreach.thursday.childrensHome }
+                      label #{ content.tabs.outreach.friday.label }
+                      .radio
+                        label
+                          input#attendanceFull(type='radio', name='outreach', value="nothing", checked='')
+                          | !{ content.tabs.outreach.friday.noOutreach }
+                      .radio
+                        label
+                          input(type='radio', name='outreach', value="nursing_home")
+                          | !{ content.tabs.outreach.friday.nursingHome }
+                      .radio
+                        label
+                          input(type='radio', name='outreach', value="letters")
+                          | !{ content.tabs.outreach.friday.letters }
+                      .radio
+                        label
+                          input(type='radio', name='outreach', value="pebbles")
+                          | !{ content.tabs.outreach.friday.pebbles }
 
                   input.previous.action-button(type='button', name='previous', value=content.prev)
                   input.next.action-button(type='button', name='next', value=content.next)
@@ -131,78 +164,78 @@ html
                     h2.fs-section-title
                     | #{ content.tabs.support.label }
                     h3.fs-subtitle !{ content.tabs.support.description }
-                    .radio
-                      label
-                        input(type='radio', name='swag-color', value='red', checked)
-                        span.small  #{ content.tabs.support.colors.red }
-                    .radio
-                      label
-                        input(type='radio', name='swag-color', value='green')
-                        span.small  #{ content.tabs.support.colors.green }
-                    .radio
-                      label
-                        input(type='radio', name='swag-color', value='blue')
-                        span.small  #{ content.tabs.support.colors.blue }
+                    //- .radio
+                    //-   label
+                    //-     input(type='radio', name='swag-color', value='red', checked)
+                    //-     span.small  #{ content.tabs.support.colors.red }
+                    //- .radio
+                    //-   label
+                    //-     input(type='radio', name='swag-color', value='green')
+                    //-     span.small  #{ content.tabs.support.colors.green }
+                    //- .radio
+                    //-   label
+                    //-     input(type='radio', name='swag-color', value='blue')
+                    //-     span.small  #{ content.tabs.support.colors.blue }
 
-                    #swag
-                      .radio
-                        label
-                          input(type='radio', name='swag', value='extra_3', data-swag='extra_3', data-price='4000')
-                          | 4000 Ft
-                          span.small  #{ content.tabs.support['extra_3'] }
-                      .radio
-                        label
-                          input(type='radio', name='swag', value='extra_2', data-swag='extra_2', data-price='4000')
-                          | 4000 Ft
-                          span.small  #{ content.tabs.support['extra_2'] }
-                      .radio
-                        label
-                          input(type='radio', name='swag', value='extra_1', data-swag='extra_1', data-price='4000')
-                          | 4000 Ft
-                          span.small  #{ content.tabs.support['extra_1'] }
-                      .radio
-                        label
-                          input(type='radio', name='swag', value='normal_1', data-swag='normal_1', data-price='3000')
-                          | 3000 Ft
-                          span.small  #{ content.tabs.support['normal_1'] }
-                      .radio
-                        label
-                          input(type='radio', name='swag', value='small', data-swag='small', data-price='1000')
-                          | 1000 Ft
-                          span.small  #{ content.tabs.support['small'] }
-                      .radio
-                        label
-                          input(type='radio', name='swag', value='0', data-swag='0', data-price='0')
-                          |  #{ content.tabs.support['0'] }
-                    //
-                      hr
-                      h2.fs-section-title !{ content.tabs.support.hoodies.title }
-                      #shirtOrders.form-group
-                        .shirt-order.form-inline.row(data-count='1')
-                          input.shirtOrder(type='hidden', data-price='0')
-                          select(name='shirtType-1')
-                            option(value='', data-single-price='0') #{ content.tabs.support.hoodies.type }
-                            option(value='men', data-single-price='1250') #{ content.tabs.support.hoodies.shirts.men }
-                            option(value='women', data-single-price='1250') #{ content.tabs.support.hoodies.shirts.women }
-                            option(value='menHoody', data-single-price='4000') #{ content.tabs.support.hoodies.shirts.menHoody }
-                            option(value='womenHoody', data-single-price='4500') #{ content.tabs.support.hoodies.shirts.womenHoody }
-                          select(name='shirtSize-1')
-                            option.menHoody.womenHoody.men.women(value='', data-single-price='0') #{ content.tabs.support.hoodies.size }
-                            option.menHoody.womenHoody.men.women(value='S', data-single-price='1') S
-                            option.menHoody.womenHoody.men.women(value='M', data-single-price='1') M
-                            option.menHoody.womenHoody.men.women(value='L', data-single-price='1') L
-                            option.menHoody.womenHoody.men.women(value='XL', data-single-price='1') XL
-                            option.menHoody.womenHoody.men.women(value='2XL', data-single-price='1') 2XL
-                            option.men(value='3XL', data-single-price='1') 3XL
-                          select(name='shirtQuantity-1')
-                            option(value='', data-single-price='0') #{ content.tabs.support.hoodies.quantity }
-                            option(value='1', data-single-price='1') 1
-                            option(value='2', data-single-price='2') 2
-                            option(value='3', data-single-price='3') 3
-                            option(value='4', data-single-price='4') 4
-                            option(value='5', data-single-price='5') 5
-                          a.minusOne.plusOne(type='button') -
-                      a#shirtPlusOne.plusOne(type='button') +
+                    //- #swag
+                    //-   .radio
+                    //-     label
+                    //-       input(type='radio', name='swag', value='extra_3', data-swag='extra_3', data-price='4000')
+                    //-       | 4000 Ft
+                    //-       span.small  #{ content.tabs.support['extra_3'] }
+                    //-   .radio
+                    //-     label
+                    //-       input(type='radio', name='swag', value='extra_2', data-swag='extra_2', data-price='4000')
+                    //-       | 4000 Ft
+                    //-       span.small  #{ content.tabs.support['extra_2'] }
+                    //-   .radio
+                    //-     label
+                    //-       input(type='radio', name='swag', value='extra_1', data-swag='extra_1', data-price='4000')
+                    //-       | 4000 Ft
+                    //-       span.small  #{ content.tabs.support['extra_1'] }
+                    //-   .radio
+                    //-     label
+                    //-       input(type='radio', name='swag', value='normal_1', data-swag='normal_1', data-price='3000')
+                    //-       | 3000 Ft
+                    //-       span.small  #{ content.tabs.support['normal_1'] }
+                    //-   .radio
+                    //-     label
+                    //-       input(type='radio', name='swag', value='small', data-swag='small', data-price='1000')
+                    //-       | 1000 Ft
+                    //-       span.small  #{ content.tabs.support['small'] }
+                    //-   .radio
+                    //-     label
+                    //-       input(type='radio', name='swag', value='0', data-swag='0', data-price='0')
+                    //-       |  #{ content.tabs.support['0'] }
+                    //- //
+                    //-   hr
+                    //-   h2.fs-section-title !{ content.tabs.support.hoodies.title }
+                    //-   #shirtOrders.form-group
+                    //-     .shirt-order.form-inline.row(data-count='1')
+                    //-       input.shirtOrder(type='hidden', data-price='0')
+                    //-       select(name='shirtType-1')
+                    //-         option(value='', data-single-price='0') #{ content.tabs.support.hoodies.type }
+                    //-         option(value='men', data-single-price='1250') #{ content.tabs.support.hoodies.shirts.men }
+                    //-         option(value='women', data-single-price='1250') #{ content.tabs.support.hoodies.shirts.women }
+                    //-         option(value='menHoody', data-single-price='4000') #{ content.tabs.support.hoodies.shirts.menHoody }
+                    //-         option(value='womenHoody', data-single-price='4500') #{ content.tabs.support.hoodies.shirts.womenHoody }
+                    //-       select(name='shirtSize-1')
+                    //-         option.menHoody.womenHoody.men.women(value='', data-single-price='0') #{ content.tabs.support.hoodies.size }
+                    //-         option.menHoody.womenHoody.men.women(value='S', data-single-price='1') S
+                    //-         option.menHoody.womenHoody.men.women(value='M', data-single-price='1') M
+                    //-         option.menHoody.womenHoody.men.women(value='L', data-single-price='1') L
+                    //-         option.menHoody.womenHoody.men.women(value='XL', data-single-price='1') XL
+                    //-         option.menHoody.womenHoody.men.women(value='2XL', data-single-price='1') 2XL
+                    //-         option.men(value='3XL', data-single-price='1') 3XL
+                    //-       select(name='shirtQuantity-1')
+                    //-         option(value='', data-single-price='0') #{ content.tabs.support.hoodies.quantity }
+                    //-         option(value='1', data-single-price='1') 1
+                    //-         option(value='2', data-single-price='2') 2
+                    //-         option(value='3', data-single-price='3') 3
+                    //-         option(value='4', data-single-price='4') 4
+                    //-         option(value='5', data-single-price='5') 5
+                    //-       a.minusOne.plusOne(type='button') -
+                    //-   a#shirtPlusOne.plusOne(type='button') +
 
                   input.previous.action-button(type='button', name='previous', value=content.prev)
                   input.next.action-button(type='button', name='next', value=content.next)

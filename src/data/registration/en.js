@@ -12,8 +12,8 @@ module.exports = {
     assetsPath: assetsPath,
     nav: {
       conference: {
-        url: '../conferences/2019/',
-        text: 'The image restored - True education'
+        url: '../conferences/2020/',
+        text: 'Jesus in the past and TODAY - the most effecient missionary method'
       },
       changeLang: {
         url: '../../registration/',
@@ -53,7 +53,7 @@ module.exports = {
         title: 'Attendance',
         meal: {
           title: 'Meal',
-          subtitle: 'Thursday lunch: Vegetable soup, Pasta with tomato sauce, Apple pie<br>Thursday dinner: Sandwich<br>Friday lunch: Minestrone soup, Potato casserole, Carrot cake<br>Friday dinner: Sandwich<br>Saturday lunch: Sandwhich<br>Saturday dinner: Seitan roast a la Brasov<br><br>From now on we would like to put greater emphasis on environmental protection. So, the plates on which you get your meals will be made from rapidly degradable material.',
+          subtitle: '<b>Thursday lunch:</b> Mediterranean chickpea vegetable stew and "Bounty" coconut rice pudding with chocolate sauce<br><b>Thursday dinner:</b> Vegetable patties with apple & beetroot veganaise salad<br><b>Friday lunch:</b> Vegan Spaghetti Bolognese with vegan cheese & Tapioca pudding with blueberries<br><b>Friday dinner:</b> Tortilla roll filled with chili beans with fried potatoes<br><b>Saturday lunch:</b> 2 sandwich and fruits<br><b>Saturday dinner:</b> Nasi Goreng Indonesian baked rice<br>',
           thursday: 'Thursday',
           friday: 'Friday',
           sabbath: 'Sabbath',
@@ -65,28 +65,28 @@ module.exports = {
           sabbath: 'Visiting only on Sabbath and/or on workdays after 17:00'
         }
       },
-      housing: {
-        title: 'Housing',
-        subtitle: 'We would also like to help you find accommodation easily for the time of the conference. We found the following possibilites that you can look up and arrange accomodation:',
-        options: [
-          {
-            title: 'Opera Hostel:<br><small>1066 Budapest, Ó u. 13.</small>',
-            subtitle: '<strong>3.840 HUF/person/1 night</strong>, multiple beds room (8 person), male or female'
-          },
-          {
-            title: 'Avenue Hostel<br><small>1067 Budapest, Oktogon tér 4.</small>',
-            subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room (4-, 6-, 8 person), male or female'
-          },
-          {
-            title: 'Broadway City Panzió<br><small>1066 Budapest, Nagymező u. 4.</small>',
-            subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room'
-          },
-          {
-            title: 'Baraka Hostel<br><small>1073 Budapest, Erzsébet krt 1-3.</small>',
-            subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room'
-          }
-        ]
-      },
+      // housing: {
+      //   title: 'Housing',
+      //   subtitle: 'We would also like to help you find accommodation easily for the time of the conference. We found the following possibilites that you can look up and arrange accomodation:',
+      //   options: [
+      //     {
+      //       title: 'Opera Hostel:<br><small>1066 Budapest, Ó u. 13.</small>',
+      //       subtitle: '<strong>3.840 HUF/person/1 night</strong>, multiple beds room (8 person), male or female'
+      //     },
+      //     {
+      //       title: 'Avenue Hostel<br><small>1067 Budapest, Oktogon tér 4.</small>',
+      //       subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room (4-, 6-, 8 person), male or female'
+      //     },
+      //     {
+      //       title: 'Broadway City Panzió<br><small>1066 Budapest, Nagymező u. 4.</small>',
+      //       subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room'
+      //     },
+      //     {
+      //       title: 'Baraka Hostel<br><small>1073 Budapest, Erzsébet krt 1-3.</small>',
+      //       subtitle: '<strong>3.000-4.000 HUF/person/1 night</strong>, multiple beds room'
+      //     }
+      //   ]
+      // },
       program: {
         title: 'Program',
         subtitle: 'Help us',
@@ -96,34 +96,28 @@ module.exports = {
         diaconia: 'Diaconia',
         other: 'Other services'
       },
+      outreach: {
+        title: 'Outreach',
+        subtitle: 'Join the outreach programs during the conference',
+        label: 'Please mark the checkboxes for the programs you would like to participate!',
+        thursday: {
+          label: 'Thursday afternoon',
+          childrensHome: '<b>Visiting a children\'s home</b>'
+          
+        },
+        friday: {
+          label: 'Friday afternoon',
+          letters: '<b>Leaving letters in the city</b>',
+          pebbles: '<b>Leaving pebbles in the city</b>',
+          nursingHome: '<b>Singing in a nursing home</b>',
+          noOutreach: '<b>I cannot participate / I will choose at the conference</b>'
+        }
+      },
       support: {
         title: 'Support',
         subtitle: 'Support the Conference',
         label: 'Funding packages',
-        description: 'Here you have the opportunity to donate by Funding Packages. Every package includes specially designed, FJK – marked products, pocket-book (more options) and Glow tracts. Choose one and support us!<br>Color of the items of your bundle (pick a color that you like):',
-        small: 'Small: pocket-book (more options) + stickers/fridge magnet + Glow tracts',
-        normal_1: 'Normal: pocket-book (more options) + stickers/fridge magnet + mug with spoon + drawstring bag',
-        extra_1: 'Expanded I: pocket-book (more options) + stickers/fridge magnet + water bottle + drawstring bag\n',
-        extra_2: 'Expanded II: pocket-book (more options) + stickers/fridge magnet + mug with spoon + shopping bag',
-        extra_3: 'Expanded III: pocket-book (more options) + stickers/fridge magnet + mug with spoon + drawstring bag + power bank\n',
-        '0': 'I pray for the Conference!',
-        colors: {
-          red: 'red (fire, purification, power)',
-          green: 'green (growth, restart, renewal)',
-          blue: 'blue (purity)'
-        },
-        hoodies: {
-          title: 'Size: <a id="popover-men" rel="popover" data-content="" title="Men\'s t-shirt">men\'s t-shirt</a>, <a id="popover-women" rel="popover" data-content="" title="Women\'s t-shirt">women\'s t-shirt</a>, <a id="popover-menHoodySize" rel="popover" data-content="" title="Men\'s hoodies">men\'s hoodies</a> and <a id="popover-womenHoodySize" rel="popover" data-content="" title="Women\'s hoodies">women\'s hoodies</a>.',
-          type: 'Type',
-          size: 'Size',
-          quantity: 'Quantity',
-          shirts: {
-            men: 'Men\'s T-Shirts (1250 Ft)',
-            women: 'Women\'s T-Shirts (1250 Ft)',
-            menHoody: 'Men\'s hoody (4000 Ft)',
-            womenHoody: 'Women\'s hoody (4500 Ft)'
-          }
-        }
+        description: 'You will have the opportunity to donate for the conference by purchasing Funding Packages at the Conference. Every package includes specially designed, FJK – marked products, pocket-book (more options) and Glow tracts.',
       },
       personal: {
         title: 'Personal details',

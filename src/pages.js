@@ -20,6 +20,9 @@ module.exports = [
   { templateFile: 'conference.pug', data: conferences['2019'].hu, destinationPath: 'conferences/2019/index.html' },
   { templateFile: 'conference.pug', data: conferences['2019'].en, destinationPath: 'en/conferences/2019/index.html' },
 
+  { templateFile: 'conference.pug', data: conferences['2020'].hu, destinationPath: 'conferences/2020/index.html' },
+  { templateFile: 'conference.pug', data: conferences['2020'].en, destinationPath: 'en/conferences/2020/index.html' },
+
   { templateFile: 'registration.pug', data: registration.hu, destinationPath: 'registration/index.html' },
   { templateFile: 'registration.pug', data: registration.en, destinationPath: 'en/registration/index.html' },
 
